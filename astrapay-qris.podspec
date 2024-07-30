@@ -13,7 +13,7 @@ AstraPay Qris SDK simplifies the integration of QRIS payments and top-up functio
 
 
   spec.author       = { "Astrapay" => "devops@astrapay.com" }
-  spec.source       = { :git => "https://https://github.com/astrapay/qris-pod-ios.git", :tag => 'v0.1.0' }
+  spec.source       = { :git => "https://github.com/astrapay/qris-pod-ios.git", :tag => 'v0.1.0' }
 
   spec.dependency 'lottie-ios'
   spec.dependency 'SnapKit'
