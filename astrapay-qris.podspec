@@ -10,6 +10,8 @@ AstraPay Qris SDK simplifies the integration of QRIS payments and top-up functio
 
   spec.homepage			= "https://github.com/astrapay/qris-pod-ios"
   spec.license      		= { :type => 'MIT', :file => 'LICENSE' }
+  spec.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64', 'GENERATE_INFOPLIST_FILE' => 'YES' }
+  spec.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64',  	'GENERATE_INFOPLIST_FILE' => 'YES'}
 
 
   spec.author       = { "Astrapay" => "devops@astrapay.com" }
