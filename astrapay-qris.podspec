@@ -8,7 +8,7 @@ Pod::Spec.new do |spec|
 AstraPay Qris SDK simplifies the integration of QRIS payments and top-up functionality into mobile and web applications.
                    DESC
 
-  spec.homepage			= "https://github.com/ap-arnold-j-hayadi/AstraPay-Qris-Framework"
+  spec.homepage			= "https://github.com/astrapay/qris-pod-ios"
   spec.license      		= { :type => 'MIT', :file => 'LICENSE' }
 
 
