@@ -130,7 +130,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "WeakStorage",
-                "printedName": "AstraPayQrisSdk.QrisProtocol?"
+                "printedName": "(any AstraPayQrisSdk.QrisProtocol)?"
               }
             ],
             "declKind": "Var",
@@ -138,9 +138,9 @@
             "mangledName": "$s15AstraPayQrisSdk0C9ComponentC8delegateAA0C8Protocol_pSgvp",
             "moduleName": "AstraPayQrisSdk",
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
               "HasStorage",
+              "Custom",
               "ReferenceOwnership",
               "AccessControl"
             ],
@@ -155,12 +155,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "AstraPayQrisSdk.QrisProtocol?",
+                    "printedName": "(any AstraPayQrisSdk.QrisProtocol)?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "QrisProtocol",
-                        "printedName": "AstraPayQrisSdk.QrisProtocol",
+                        "printedName": "any AstraPayQrisSdk.QrisProtocol",
                         "usr": "s:15AstraPayQrisSdk0C8ProtocolP"
                       }
                     ],
@@ -187,12 +187,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "AstraPayQrisSdk.QrisProtocol?",
+                    "printedName": "(any AstraPayQrisSdk.QrisProtocol)?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "QrisProtocol",
-                        "printedName": "AstraPayQrisSdk.QrisProtocol",
+                        "printedName": "any AstraPayQrisSdk.QrisProtocol",
                         "usr": "s:15AstraPayQrisSdk0C8ProtocolP"
                       }
                     ],
@@ -751,539 +751,168 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/g2academy\/Documents\/qris-sdk-ios\/AstraPayQrisSdk\/Classes\/QrisScannerView.swift",
+      "filePath": "\/Users\/ahmadnabil\/Documents\/astrapay\/qris-sdk-ios\/AstraPayQrisSdk\/Classes\/QrisScannerView.swift",
       "kind": "StringLiteral",
       "offset": 718,
       "length": 6,
       "value": "\"scan\""
     },
     {
-      "filePath": "\/Users\/g2academy\/Documents\/qris-sdk-ios\/AstraPayQrisSdk\/Classes\/QrisScannerView.swift",
+      "filePath": "\/Users\/ahmadnabil\/Documents\/astrapay\/qris-sdk-ios\/AstraPayQrisSdk\/Classes\/QrisScannerView.swift",
       "kind": "FloatLiteral",
       "offset": 865,
       "length": 3,
       "value": "0.7"
     },
     {
-      "filePath": "\/Users\/g2academy\/Documents\/qris-sdk-ios\/AstraPayQrisSdk\/Classes\/QrisScannerView.swift",
+      "filePath": "\/Users\/ahmadnabil\/Documents\/astrapay\/qris-sdk-ios\/AstraPayQrisSdk\/Classes\/QrisScannerView.swift",
       "kind": "StringLiteral",
       "offset": 1174,
       "length": 11,
       "value": "\"ic_folder\""
     },
     {
-      "filePath": "\/Users\/g2academy\/Documents\/qris-sdk-ios\/AstraPayQrisSdk\/Classes\/QrisScannerView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2560,
-      "length": 2,
-      "value": "40"
-    },
-    {
-      "filePath": "\/Users\/g2academy\/Documents\/qris-sdk-ios\/AstraPayQrisSdk\/Classes\/QrisScannerView.swift",
-      "kind": "StringLiteral",
-      "offset": 3839,
-      "length": 28,
-      "value": "\"QR text on view: \""
-    },
-    {
-      "filePath": "\/Users\/g2academy\/Documents\/qris-sdk-ios\/AstraPayQrisSdk\/Classes\/QrisScannerView.swift",
-      "kind": "StringLiteral",
-      "offset": 3866,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/g2academy\/Documents\/qris-sdk-ios\/AstraPayQrisSdk\/Classes\/QrisScannerView.swift",
+      "filePath": "\/Users\/ahmadnabil\/Documents\/astrapay\/qris-sdk-ios\/AstraPayQrisSdk\/Classes\/QrisScannerView.swift",
       "kind": "StringLiteral",
       "offset": 4794,
       "length": 44,
       "value": "\"MediaViewerAssociatedObjectKey_mediaViewer\""
     },
     {
-      "filePath": "\/Users\/g2academy\/Documents\/qris-sdk-ios\/AstraPayQrisSdk\/Classes\/QrisScannerView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 5629,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/g2academy\/Documents\/qris-sdk-ios\/AstraPayQrisSdk\/Classes\/QrisScannerView.swift",
-      "kind": "StringLiteral",
-      "offset": 6401,
-      "length": 11,
-      "value": "\"no action\""
-    },
-    {
-      "filePath": "\/Users\/g2academy\/Documents\/qris-sdk-ios\/AstraPayQrisSdk\/Classes\/QrisGalleryPicker.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1670,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/g2academy\/Documents\/qris-sdk-ios\/AstraPayQrisSdk\/Classes\/QrisGalleryPicker.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1892,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/g2academy\/Documents\/qris-sdk-ios\/AstraPayQrisSdk\/Classes\/QrisReader.swift",
-      "kind": "IntegerLiteral",
-      "offset": 808,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/g2academy\/Documents\/qris-sdk-ios\/AstraPayQrisSdk\/Classes\/QrisReader.swift",
-      "kind": "StringLiteral",
-      "offset": 818,
-      "length": 50,
-      "value": "\"----> test image:\""
-    },
-    {
-      "filePath": "\/Users\/g2academy\/Documents\/qris-sdk-ios\/AstraPayQrisSdk\/Classes\/QrisReader.swift",
-      "kind": "StringLiteral",
-      "offset": 846,
-      "length": 8,
-      "value": "\" detector:\""
-    },
-    {
-      "filePath": "\/Users\/g2academy\/Documents\/qris-sdk-ios\/AstraPayQrisSdk\/Classes\/QrisReader.swift",
-      "kind": "StringLiteral",
-      "offset": 867,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/g2academy\/Documents\/qris-sdk-ios\/AstraPayQrisSdk\/Classes\/QrisReader.swift",
-      "kind": "Array",
-      "offset": 954,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/g2academy\/Documents\/qris-sdk-ios\/AstraPayQrisSdk\/Classes\/QrisReader.swift",
-      "kind": "StringLiteral",
-      "offset": 964,
-      "length": 26,
-      "value": "\"----> test 2 \""
-    },
-    {
-      "filePath": "\/Users\/g2academy\/Documents\/qris-sdk-ios\/AstraPayQrisSdk\/Classes\/QrisReader.swift",
-      "kind": "StringLiteral",
-      "offset": 989,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/g2academy\/Documents\/qris-sdk-ios\/AstraPayQrisSdk\/Classes\/QrisReader.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1022,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/g2academy\/Documents\/qris-sdk-ios\/AstraPayQrisSdk\/Classes\/QrisReader.swift",
-      "kind": "StringLiteral",
-      "offset": 1168,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/g2academy\/Documents\/qris-sdk-ios\/AstraPayQrisSdk\/Classes\/QrCameraBase.swift",
-      "kind": "StringLiteral",
-      "offset": 1391,
-      "length": 33,
-      "value": "\"Failed to get the camera device\""
-    },
-    {
-      "filePath": "\/Users\/g2academy\/Documents\/qris-sdk-ios\/AstraPayQrisSdk\/Classes\/QrCameraBase.swift",
-      "kind": "StringLiteral",
-      "offset": 1755,
-      "length": 31,
-      "value": "\"error: can't get device input\""
-    },
-    {
-      "filePath": "\/Users\/g2academy\/Documents\/qris-sdk-ios\/AstraPayQrisSdk\/Classes\/QrCameraBase.swift",
-      "kind": "StringLiteral",
-      "offset": 2380,
-      "length": 19,
-      "value": "\"QrisCameraCapture\""
-    },
-    {
-      "filePath": "\/Users\/g2academy\/Documents\/qris-sdk-ios\/AstraPayQrisSdk\/Classes\/QrCameraBase.swift",
-      "kind": "Array",
-      "offset": 2434,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/g2academy\/Documents\/qris-sdk-ios\/AstraPayQrisSdk\/Classes\/QrCameraBase.swift",
-      "kind": "StringLiteral",
-      "offset": 2666,
-      "length": 38,
-      "value": "\"error: \""
-    },
-    {
-      "filePath": "\/Users\/g2academy\/Documents\/qris-sdk-ios\/AstraPayQrisSdk\/Classes\/QrCameraBase.swift",
-      "kind": "StringLiteral",
-      "offset": 2703,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/g2academy\/Documents\/qris-sdk-ios\/AstraPayQrisSdk\/Classes\/QrCameraBase.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3481,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/g2academy\/Documents\/qris-sdk-ios\/AstraPayQrisSdk\/Classes\/QrCameraBase.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3487,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/g2academy\/Documents\/qris-sdk-ios\/AstraPayQrisSdk\/Classes\/QrCameraBase.swift",
-      "kind": "FloatLiteral",
-      "offset": 5949,
-      "length": 3,
-      "value": "1.0"
-    },
-    {
-      "filePath": "\/Users\/g2academy\/Documents\/qris-sdk-ios\/AstraPayQrisSdk\/Classes\/QrCameraBase.swift",
-      "kind": "IntegerLiteral",
-      "offset": 6444,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/g2academy\/Documents\/qris-sdk-ios\/AstraPayQrisSdk\/Classes\/QrCameraBase.swift",
-      "kind": "StringLiteral",
-      "offset": 6466,
-      "length": 16,
-      "value": "\"No QR Detected\""
-    },
-    {
-      "filePath": "\/Users\/g2academy\/Documents\/qris-sdk-ios\/AstraPayQrisSdk\/Classes\/QrCameraBase.swift",
-      "kind": "BooleanLiteral",
-      "offset": 6535,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/g2academy\/Documents\/qris-sdk-ios\/AstraPayQrisSdk\/Classes\/QrCameraBase.swift",
-      "kind": "StringLiteral",
-      "offset": 6549,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/g2academy\/Documents\/qris-sdk-ios\/AstraPayQrisSdk\/Classes\/QrCameraBase.swift",
-      "kind": "IntegerLiteral",
-      "offset": 6624,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/g2academy\/Documents\/qris-sdk-ios\/AstraPayQrisSdk\/Classes\/QrCameraBase.swift",
-      "kind": "StringLiteral",
-      "offset": 6801,
-      "length": 13,
-      "value": "\"QR Detected\""
-    },
-    {
-      "filePath": "\/Users\/g2academy\/Documents\/qris-sdk-ios\/AstraPayQrisSdk\/Classes\/QrCameraBase.swift",
-      "kind": "BooleanLiteral",
-      "offset": 6871,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/g2academy\/Documents\/qris-sdk-ios\/AstraPayQrisSdk\/Classes\/QrCameraBase.swift",
-      "kind": "StringLiteral",
-      "offset": 6912,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/g2academy\/Documents\/qris-sdk-ios\/AstraPayQrisSdk\/Classes\/QrCameraBase.swift",
-      "kind": "FloatLiteral",
-      "offset": 7224,
-      "length": 3,
-      "value": "1.0"
-    },
-    {
-      "filePath": "\/Users\/g2academy\/Documents\/qris-sdk-ios\/AstraPayQrisSdk\/Classes\/QrCameraBase.swift",
-      "kind": "BooleanLiteral",
-      "offset": 7734,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/g2academy\/Documents\/qris-sdk-ios\/AstraPayQrisSdk\/Classes\/QrCameraBase.swift",
-      "kind": "BooleanLiteral",
-      "offset": 8132,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/g2academy\/Documents\/qris-sdk-ios\/AstraPayQrisSdk\/Classes\/QrisComponent.swift",
+      "filePath": "\/Users\/ahmadnabil\/Documents\/astrapay\/qris-sdk-ios\/AstraPayQrisSdk\/Classes\/QrisComponent.swift",
       "kind": "StringLiteral",
       "offset": 199,
       "length": 21,
       "value": "\"illustration_failed\""
     },
     {
-      "filePath": "\/Users\/g2academy\/Documents\/qris-sdk-ios\/AstraPayQrisSdk\/Classes\/QrisComponent.swift",
+      "filePath": "\/Users\/ahmadnabil\/Documents\/astrapay\/qris-sdk-ios\/AstraPayQrisSdk\/Classes\/QrisComponent.swift",
       "kind": "StringLiteral",
       "offset": 255,
       "length": 30,
       "value": "\"illustration_unauthenticated\""
     },
     {
-      "filePath": "\/Users\/g2academy\/Documents\/qris-sdk-ios\/AstraPayQrisSdk\/Classes\/QrisComponent.swift",
+      "filePath": "\/Users\/ahmadnabil\/Documents\/astrapay\/qris-sdk-ios\/AstraPayQrisSdk\/Classes\/QrisComponent.swift",
       "kind": "StringLiteral",
       "offset": 320,
       "length": 26,
       "value": "\"illustration_limitAmount\""
     },
     {
-      "filePath": "\/Users\/g2academy\/Documents\/qris-sdk-ios\/AstraPayQrisSdk\/Classes\/QrisComponent.swift",
+      "filePath": "\/Users\/ahmadnabil\/Documents\/astrapay\/qris-sdk-ios\/AstraPayQrisSdk\/Classes\/QrisComponent.swift",
       "kind": "StringLiteral",
       "offset": 384,
       "length": 22,
       "value": "\"Secure payment with \""
     },
     {
-      "filePath": "\/Users\/g2academy\/Documents\/qris-sdk-ios\/AstraPayQrisSdk\/Classes\/QrisComponent.swift",
+      "filePath": "\/Users\/ahmadnabil\/Documents\/astrapay\/qris-sdk-ios\/AstraPayQrisSdk\/Classes\/QrisComponent.swift",
       "kind": "StringLiteral",
       "offset": 449,
       "length": 18,
       "value": "\"horizontal_white\""
     },
     {
-      "filePath": "\/Users\/g2academy\/Documents\/qris-sdk-ios\/AstraPayQrisSdk\/Classes\/QrisComponent.swift",
+      "filePath": "\/Users\/ahmadnabil\/Documents\/astrapay\/qris-sdk-ios\/AstraPayQrisSdk\/Classes\/QrisComponent.swift",
       "kind": "StringLiteral",
       "offset": 510,
       "length": 19,
       "value": "\"dark_blue_element\""
     },
     {
-      "filePath": "\/Users\/g2academy\/Documents\/qris-sdk-ios\/AstraPayQrisSdk\/Classes\/QrisComponent.swift",
+      "filePath": "\/Users\/ahmadnabil\/Documents\/astrapay\/qris-sdk-ios\/AstraPayQrisSdk\/Classes\/QrisComponent.swift",
       "kind": "StringLiteral",
       "offset": 568,
       "length": 14,
       "value": "\"QRStoryBoard\""
     },
     {
-      "filePath": "\/Users\/g2academy\/Documents\/qris-sdk-ios\/AstraPayQrisSdk\/Classes\/QrisComponent.swift",
+      "filePath": "\/Users\/ahmadnabil\/Documents\/astrapay\/qris-sdk-ios\/AstraPayQrisSdk\/Classes\/QrisComponent.swift",
       "kind": "StringLiteral",
       "offset": 626,
       "length": 20,
       "value": "\"AstraPay mendukung\""
     },
     {
-      "filePath": "\/Users\/g2academy\/Documents\/qris-sdk-ios\/AstraPayQrisSdk\/Classes\/QrisComponent.swift",
+      "filePath": "\/Users\/ahmadnabil\/Documents\/astrapay\/qris-sdk-ios\/AstraPayQrisSdk\/Classes\/QrisComponent.swift",
       "kind": "StringLiteral",
       "offset": 692,
       "length": 26,
       "value": "\"Scan di dalam area kotak\""
     },
     {
-      "filePath": "\/Users\/g2academy\/Documents\/qris-sdk-ios\/AstraPayQrisSdk\/Classes\/QrisComponent.swift",
+      "filePath": "\/Users\/ahmadnabil\/Documents\/astrapay\/qris-sdk-ios\/AstraPayQrisSdk\/Classes\/QrisComponent.swift",
       "kind": "StringLiteral",
       "offset": 776,
       "length": 12,
       "value": "\"qris_white\""
     },
     {
-      "filePath": "\/Users\/g2academy\/Documents\/qris-sdk-ios\/AstraPayQrisSdk\/Classes\/QrisComponent.swift",
+      "filePath": "\/Users\/ahmadnabil\/Documents\/astrapay\/qris-sdk-ios\/AstraPayQrisSdk\/Classes\/QrisComponent.swift",
       "kind": "StringLiteral",
       "offset": 857,
       "length": 22,
       "value": "\"Secure payment with \""
     },
     {
-      "filePath": "\/Users\/g2academy\/Documents\/qris-sdk-ios\/AstraPayQrisSdk\/Classes\/QrisComponent.swift",
+      "filePath": "\/Users\/ahmadnabil\/Documents\/astrapay\/qris-sdk-ios\/AstraPayQrisSdk\/Classes\/QrisComponent.swift",
       "kind": "StringLiteral",
       "offset": 929,
       "length": 52,
       "value": "\"Terjadi masalah\n Silahkan coba beberapa saat lagi\""
     },
     {
-      "filePath": "\/Users\/g2academy\/Documents\/qris-sdk-ios\/AstraPayQrisSdk\/Classes\/QrisComponent.swift",
+      "filePath": "\/Users\/ahmadnabil\/Documents\/astrapay\/qris-sdk-ios\/AstraPayQrisSdk\/Classes\/QrisComponent.swift",
       "kind": "StringLiteral",
       "offset": 1027,
       "length": 11,
       "value": "\"Perhatian\""
     },
     {
-      "filePath": "\/Users\/g2academy\/Documents\/qris-sdk-ios\/AstraPayQrisSdk\/Classes\/QrisComponent.swift",
+      "filePath": "\/Users\/ahmadnabil\/Documents\/astrapay\/qris-sdk-ios\/AstraPayQrisSdk\/Classes\/QrisComponent.swift",
       "kind": "StringLiteral",
       "offset": 1092,
       "length": 54,
       "value": "\"Berikan akses Kamera di Pengaturan untuk melanjutkan\""
     },
     {
-      "filePath": "\/Users\/g2academy\/Documents\/qris-sdk-ios\/AstraPayQrisSdk\/Classes\/QrisComponent.swift",
+      "filePath": "\/Users\/ahmadnabil\/Documents\/astrapay\/qris-sdk-ios\/AstraPayQrisSdk\/Classes\/QrisComponent.swift",
       "kind": "StringLiteral",
       "offset": 1201,
       "length": 54,
       "value": "\"Berikan akses Photos di Pengaturan untuk melanjutkan\""
     },
     {
-      "filePath": "\/Users\/g2academy\/Documents\/qris-sdk-ios\/AstraPayQrisSdk\/Classes\/QrisComponent.swift",
+      "filePath": "\/Users\/ahmadnabil\/Documents\/astrapay\/qris-sdk-ios\/AstraPayQrisSdk\/Classes\/QrisComponent.swift",
       "kind": "StringLiteral",
       "offset": 1306,
       "length": 10,
       "value": "\"Batalkan\""
     },
     {
-      "filePath": "\/Users\/g2academy\/Documents\/qris-sdk-ios\/AstraPayQrisSdk\/Classes\/QrisComponent.swift",
+      "filePath": "\/Users\/ahmadnabil\/Documents\/astrapay\/qris-sdk-ios\/AstraPayQrisSdk\/Classes\/QrisComponent.swift",
       "kind": "StringLiteral",
       "offset": 1369,
       "length": 12,
       "value": "\"Pengaturan\""
     },
     {
-      "filePath": "\/Users\/g2academy\/Documents\/qris-sdk-ios\/AstraPayQrisSdk\/Classes\/QrisComponent.swift",
+      "filePath": "\/Users\/ahmadnabil\/Documents\/astrapay\/qris-sdk-ios\/AstraPayQrisSdk\/Classes\/QrisComponent.swift",
       "kind": "IntegerLiteral",
       "offset": 1428,
       "length": 3,
       "value": "129"
     },
     {
-      "filePath": "\/Users\/g2academy\/Documents\/qris-sdk-ios\/AstraPayQrisSdk\/Classes\/QrisComponent.swift",
+      "filePath": "\/Users\/ahmadnabil\/Documents\/astrapay\/qris-sdk-ios\/AstraPayQrisSdk\/Classes\/QrisComponent.swift",
       "kind": "StringLiteral",
       "offset": 1472,
       "length": 21,
       "value": "\"illustration_failed\""
     },
     {
-      "filePath": "\/Users\/g2academy\/Documents\/qris-sdk-ios\/AstraPayQrisSdk\/Classes\/QrisComponent.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1769,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/g2academy\/Documents\/qris-sdk-ios\/AstraPayQrisSdk\/Classes\/QrisComponent.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1876,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/g2academy\/Documents\/qris-sdk-ios\/AstraPayQrisSdk\/Classes\/QrisComponent.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1962,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/g2academy\/Documents\/qris-sdk-ios\/AstraPayQrisSdk\/Classes\/QrisComponent.swift",
-      "kind": "StringLiteral",
-      "offset": 1988,
-      "length": 50,
-      "value": "\"AstraPayQrisSdk v\""
-    },
-    {
-      "filePath": "\/Users\/g2academy\/Documents\/qris-sdk-ios\/AstraPayQrisSdk\/Classes\/QrisComponent.swift",
-      "kind": "StringLiteral",
-      "offset": 2037,
-      "length": 1,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/g2academy\/Documents\/qris-sdk-ios\/AstraPayQrisSdk\/Classes\/QrisComponent.swift",
-      "kind": "StringLiteral",
-      "offset": 2125,
-      "length": 11,
-      "value": "\"ic_folder\""
-    },
-    {
-      "filePath": "\/Users\/g2academy\/Documents\/qris-sdk-ios\/AstraPayQrisSdk\/Classes\/QrisComponent.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2307,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/g2academy\/Documents\/qris-sdk-ios\/AstraPayQrisSdk\/Classes\/QrisComponent.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2489,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/g2academy\/Documents\/qris-sdk-ios\/AstraPayQrisSdk\/Classes\/QrisComponent.swift",
-      "kind": "StringLiteral",
-      "offset": 3747,
-      "length": 29,
-      "value": "\"Settings opened: \""
-    },
-    {
-      "filePath": "\/Users\/g2academy\/Documents\/qris-sdk-ios\/AstraPayQrisSdk\/Classes\/QrisComponent.swift",
-      "kind": "StringLiteral",
-      "offset": 3775,
-      "length": 17,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/g2academy\/Documents\/qris-sdk-ios\/AstraPayQrisSdk\/Classes\/QrisComponent.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3955,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/g2academy\/Documents\/qris-sdk-ios\/AstraPayQrisSdk\/Classes\/QrisComponent.swift",
-      "kind": "StringLiteral",
-      "offset": 4191,
-      "length": 31,
-      "value": "\"onQrisDataReceived -> \""
-    },
-    {
-      "filePath": "\/Users\/g2academy\/Documents\/qris-sdk-ios\/AstraPayQrisSdk\/Classes\/QrisComponent.swift",
-      "kind": "StringLiteral",
-      "offset": 4221,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/g2academy\/Documents\/qris-sdk-ios\/AstraPayQrisSdk\/Classes\/QrisComponent.swift",
-      "kind": "StringLiteral",
-      "offset": 4861,
-      "length": 31,
-      "value": "\"use gallery qr string \""
-    },
-    {
-      "filePath": "\/Users\/g2academy\/Documents\/qris-sdk-ios\/AstraPayQrisSdk\/Classes\/QrisComponent.swift",
-      "kind": "StringLiteral",
-      "offset": 4891,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/g2academy\/Documents\/qris-sdk-ios\/AstraPayQrisSdk\/Classes\/QrisComponent.swift",
-      "kind": "StringLiteral",
-      "offset": 4994,
-      "length": 21,
-      "value": "\"failed QRIS gallery\""
-    },
-    {
-      "filePath": "\/Users\/g2academy\/Documents\/qris-sdk-ios\/AstraPayQrisSdk\/Classes\/QrisComponent.swift",
-      "kind": "StringLiteral",
-      "offset": 5061,
-      "length": 8,
-      "value": "\"FAILED\""
-    },
-    {
-      "filePath": "\/Users\/g2academy\/Library\/Developer\/Xcode\/DerivedData\/AstraPayQrisSdk-btkwnfwggyxwzpbrupbgawcpnlyt\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AstraPayQrisSdk\/IntermediateBuildFilesPath\/AstraPayQrisSdk.build\/Release-iphoneos\/AstraPayQrisSdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/ahmadnabil\/Library\/Developer\/Xcode\/DerivedData\/AstraPayQrisSdk-gesmdeagezzdpccmhxmikfbxicdf\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AstraPayQrisSdk\/IntermediateBuildFilesPath\/AstraPayQrisSdk.build\/Release-iphoneos\/AstraPayQrisSdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 730,
       "length": 11,
