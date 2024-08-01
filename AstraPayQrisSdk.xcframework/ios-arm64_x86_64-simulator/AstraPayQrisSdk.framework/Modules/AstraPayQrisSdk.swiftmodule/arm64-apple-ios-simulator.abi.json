@@ -19,14 +19,20 @@
         "name": "SnapKit",
         "printedName": "SnapKit",
         "declKind": "Import",
-        "moduleName": "AstraPayQrisSdk"
+        "moduleName": "AstraPayQrisSdk",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
       },
       {
         "kind": "Import",
         "name": "Lottie",
         "printedName": "Lottie",
         "declKind": "Import",
-        "moduleName": "AstraPayQrisSdk"
+        "moduleName": "AstraPayQrisSdk",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
       },
       {
         "kind": "Import",
@@ -753,28 +759,28 @@
     {
       "filePath": "\/Users\/ahmadnabil\/Documents\/astrapay\/qris-sdk-ios\/AstraPayQrisSdk\/Classes\/QrisScannerView.swift",
       "kind": "StringLiteral",
-      "offset": 718,
+      "offset": 760,
       "length": 6,
       "value": "\"scan\""
     },
     {
       "filePath": "\/Users\/ahmadnabil\/Documents\/astrapay\/qris-sdk-ios\/AstraPayQrisSdk\/Classes\/QrisScannerView.swift",
       "kind": "FloatLiteral",
-      "offset": 865,
+      "offset": 907,
       "length": 3,
       "value": "0.7"
     },
     {
       "filePath": "\/Users\/ahmadnabil\/Documents\/astrapay\/qris-sdk-ios\/AstraPayQrisSdk\/Classes\/QrisScannerView.swift",
       "kind": "StringLiteral",
-      "offset": 1174,
+      "offset": 1216,
       "length": 11,
       "value": "\"ic_folder\""
     },
     {
       "filePath": "\/Users\/ahmadnabil\/Documents\/astrapay\/qris-sdk-ios\/AstraPayQrisSdk\/Classes\/QrisScannerView.swift",
       "kind": "StringLiteral",
-      "offset": 4794,
+      "offset": 4836,
       "length": 44,
       "value": "\"MediaViewerAssociatedObjectKey_mediaViewer\""
     },
@@ -914,7 +920,7 @@
     {
       "filePath": "\/Users\/ahmadnabil\/Library\/Developer\/Xcode\/DerivedData\/AstraPayQrisSdk-gesmdeagezzdpccmhxmikfbxicdf\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AstraPayQrisSdk\/IntermediateBuildFilesPath\/AstraPayQrisSdk.build\/Release-iphonesimulator\/AstraPayQrisSdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 823,
+      "offset": 730,
       "length": 11,
       "value": "\"ic_folder\""
     }
