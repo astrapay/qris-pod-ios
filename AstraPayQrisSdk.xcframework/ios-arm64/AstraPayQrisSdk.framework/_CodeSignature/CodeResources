@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		2KsGTxHNuVhC82S2pe2eHf6ZiYU=
+		olmQwn7atSdqFI989M4NARyWFpg=
 		</data>
 		<key>Headers/AstraPayQrisSdk-Swift.h</key>
 		<data>
@@ -18,7 +18,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		uah7UlIPbYgPblAqcbhY/P8qEz0=
+		ffDLWga9WA8hnElZ0x685/iuOAc=
 		</data>
 		<key>LottiePrivacyInfo.bundle/Info.plist</key>
 		<data>
@@ -34,19 +34,19 @@
 		</data>
 		<key>Modules/AstraPayQrisSdk.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		36yE1GX34SfeVd26cC6OWIRonTs=
+		Pt7kyQy2GsuOvtzE9K21XO/Q+G8=
 		</data>
 		<key>Modules/AstraPayQrisSdk.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		vpjA/GnqE0KGwNwgEV0h4BDuxzA=
+		JVwlR+mFKMOXDGG6AHtgcdqmZ/w=
 		</data>
 		<key>Modules/AstraPayQrisSdk.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		36yE1GX34SfeVd26cC6OWIRonTs=
+		Pt7kyQy2GsuOvtzE9K21XO/Q+G8=
 		</data>
 		<key>Modules/AstraPayQrisSdk.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		KqKkdKXKmLhz+2q5IIZNSmR9OUg=
+		Lo5dZjfCYMPpCdZJ4azUYaNeRAs=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -71,7 +71,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			bm7N1qhCunhMISyLWu+leQfvnsNjdVCx4us6tVrCAVk=
+			wh70n/p040XD8Amg0Uur4orqzmNmkJG9VJDCbGHFdtc=
 			</data>
 		</dict>
 		<key>Headers/AstraPayQrisSdk-Swift.h</key>
@@ -113,28 +113,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ZJOI7nxNQ39xKSSzObr6vg64x+YP5tQzM+Tt8JahMoc=
+			SleSJuV8+A7fSeavDNfeB3JPQLV9nQaD73FxNEk3Hco=
 			</data>
 		</dict>
 		<key>Modules/AstraPayQrisSdk.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			fr5wd1igwNGApYqpSNsqO+JHiXNrTwsAtlMgyYevxXE=
+			49vYRoOXGdj8owFI/7fs5shAr+oFeGMigYfuOaQ57lc=
 			</data>
 		</dict>
 		<key>Modules/AstraPayQrisSdk.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ZJOI7nxNQ39xKSSzObr6vg64x+YP5tQzM+Tt8JahMoc=
+			SleSJuV8+A7fSeavDNfeB3JPQLV9nQaD73FxNEk3Hco=
 			</data>
 		</dict>
 		<key>Modules/AstraPayQrisSdk.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			MxJeLGB1Qk6pCcRGjD6olzNb1NOSwp9BltkL3s55tFY=
+			SCR9oqOWKw+DWh33ASbRsmMbaIOIihJJhfu8FqHVKEU=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
