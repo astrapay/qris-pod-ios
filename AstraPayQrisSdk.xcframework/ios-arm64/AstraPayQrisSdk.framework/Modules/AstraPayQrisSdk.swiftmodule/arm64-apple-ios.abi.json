@@ -1609,7 +1609,10 @@
         "name": "Alamofire",
         "printedName": "Alamofire",
         "declKind": "Import",
-        "moduleName": "AstraPayQrisSdk"
+        "moduleName": "AstraPayQrisSdk",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
       },
       {
         "kind": "Import",
@@ -1934,6 +1937,7 @@
         "declKind": "Import",
         "moduleName": "AstraPayQrisSdk",
         "declAttributes": [
+          "ImplementationOnly",
           "RawDocComment"
         ]
       },
@@ -3535,6 +3539,7 @@
         "declKind": "Import",
         "moduleName": "AstraPayQrisSdk",
         "declAttributes": [
+          "ImplementationOnly",
           "RawDocComment"
         ]
       },
@@ -3748,7 +3753,10 @@
         "name": "Alamofire",
         "printedName": "Alamofire",
         "declKind": "Import",
-        "moduleName": "AstraPayQrisSdk"
+        "moduleName": "AstraPayQrisSdk",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
       },
       {
         "kind": "Import",
@@ -4084,7 +4092,10 @@
         "name": "Alamofire",
         "printedName": "Alamofire",
         "declKind": "Import",
-        "moduleName": "AstraPayQrisSdk"
+        "moduleName": "AstraPayQrisSdk",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
       },
       {
         "kind": "Import",
@@ -4286,6 +4297,7 @@
         "declKind": "Import",
         "moduleName": "AstraPayQrisSdk",
         "declAttributes": [
+          "ImplementationOnly",
           "RawDocComment"
         ]
       },
@@ -4610,7 +4622,10 @@
         "name": "Alamofire",
         "printedName": "Alamofire",
         "declKind": "Import",
-        "moduleName": "AstraPayQrisSdk"
+        "moduleName": "AstraPayQrisSdk",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
       },
       {
         "kind": "Import",
@@ -4718,7 +4733,10 @@
         "name": "Alamofire",
         "printedName": "Alamofire",
         "declKind": "Import",
-        "moduleName": "AstraPayQrisSdk"
+        "moduleName": "AstraPayQrisSdk",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
       },
       {
         "kind": "Import",
@@ -5916,7 +5934,10 @@
         "name": "Alamofire",
         "printedName": "Alamofire",
         "declKind": "Import",
-        "moduleName": "AstraPayQrisSdk"
+        "moduleName": "AstraPayQrisSdk",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
       },
       {
         "kind": "Import",
@@ -6021,7 +6042,10 @@
         "name": "Alamofire",
         "printedName": "Alamofire",
         "declKind": "Import",
-        "moduleName": "AstraPayQrisSdk"
+        "moduleName": "AstraPayQrisSdk",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
       },
       {
         "kind": "Import",
@@ -6086,7 +6110,10 @@
         "name": "Alamofire",
         "printedName": "Alamofire",
         "declKind": "Import",
-        "moduleName": "AstraPayQrisSdk"
+        "moduleName": "AstraPayQrisSdk",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
       },
       {
         "kind": "Import",
@@ -6130,7 +6157,10 @@
         "name": "Alamofire",
         "printedName": "Alamofire",
         "declKind": "Import",
-        "moduleName": "AstraPayQrisSdk"
+        "moduleName": "AstraPayQrisSdk",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
       },
       {
         "kind": "Import",
@@ -6157,7 +6187,10 @@
         "name": "Alamofire",
         "printedName": "Alamofire",
         "declKind": "Import",
-        "moduleName": "AstraPayQrisSdk"
+        "moduleName": "AstraPayQrisSdk",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
       },
       {
         "kind": "Import",
@@ -6382,7 +6415,10 @@
         "name": "Alamofire",
         "printedName": "Alamofire",
         "declKind": "Import",
-        "moduleName": "AstraPayQrisSdk"
+        "moduleName": "AstraPayQrisSdk",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
       },
       {
         "kind": "Import",
@@ -10181,98 +10217,98 @@
     {
       "filePath": "\/Users\/g2academy\/Documents\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/Data\/Clients\/ApiClient.swift",
       "kind": "IntegerLiteral",
-      "offset": 924,
+      "offset": 945,
       "length": 2,
       "value": "60"
     },
     {
       "filePath": "\/Users\/g2academy\/Documents\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/Data\/Clients\/ApiClient.swift",
       "kind": "IntegerLiteral",
-      "offset": 1318,
+      "offset": 1339,
       "length": 2,
       "value": "60"
     },
     {
       "filePath": "\/Users\/g2academy\/Documents\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/Data\/Clients\/ApiClient.swift",
       "kind": "IntegerLiteral",
-      "offset": 1756,
+      "offset": 1777,
       "length": 2,
       "value": "60"
     },
     {
       "filePath": "\/Users\/g2academy\/Documents\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/Data\/Clients\/ApiClient.swift",
       "kind": "IntegerLiteral",
-      "offset": 2131,
+      "offset": 2152,
       "length": 2,
       "value": "60"
     },
     {
       "filePath": "\/Users\/g2academy\/Documents\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/Data\/Clients\/ApiClient.swift",
       "kind": "IntegerLiteral",
-      "offset": 2480,
+      "offset": 2501,
       "length": 2,
       "value": "60"
     },
     {
       "filePath": "\/Users\/g2academy\/Documents\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/Data\/Clients\/ApiClient.swift",
       "kind": "IntegerLiteral",
-      "offset": 2843,
+      "offset": 2864,
       "length": 2,
       "value": "60"
     },
     {
       "filePath": "\/Users\/g2academy\/Documents\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/Data\/Clients\/ApiClient.swift",
       "kind": "IntegerLiteral",
-      "offset": 3259,
+      "offset": 3280,
       "length": 2,
       "value": "60"
     },
     {
       "filePath": "\/Users\/g2academy\/Documents\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/Data\/Clients\/ApiClient.swift",
       "kind": "IntegerLiteral",
-      "offset": 3628,
+      "offset": 3649,
       "length": 2,
       "value": "60"
     },
     {
       "filePath": "\/Users\/g2academy\/Documents\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/Data\/Clients\/ApiClient.swift",
       "kind": "IntegerLiteral",
-      "offset": 3965,
+      "offset": 3986,
       "length": 2,
       "value": "60"
     },
     {
       "filePath": "\/Users\/g2academy\/Documents\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/Data\/Clients\/ApiClient.swift",
       "kind": "IntegerLiteral",
-      "offset": 4286,
+      "offset": 4307,
       "length": 2,
       "value": "60"
     },
     {
       "filePath": "\/Users\/g2academy\/Documents\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/Data\/Clients\/ApiClient.swift",
       "kind": "IntegerLiteral",
-      "offset": 5107,
+      "offset": 5128,
       "length": 2,
       "value": "60"
     },
     {
       "filePath": "\/Users\/g2academy\/Documents\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/Data\/Clients\/ApiClient.swift",
       "kind": "IntegerLiteral",
-      "offset": 5941,
+      "offset": 5962,
       "length": 2,
       "value": "60"
     },
     {
       "filePath": "\/Users\/g2academy\/Documents\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/Data\/Clients\/ApiClient.swift",
       "kind": "IntegerLiteral",
-      "offset": 6838,
+      "offset": 6859,
       "length": 2,
       "value": "60"
     },
     {
       "filePath": "\/Users\/g2academy\/Documents\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/Data\/Clients\/ApiClient.swift",
       "kind": "IntegerLiteral",
-      "offset": 11838,
+      "offset": 11859,
       "length": 2,
       "value": "60"
     },
@@ -10517,63 +10553,63 @@
     {
       "filePath": "\/Users\/g2academy\/Documents\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/Confirmation\/ConfirmationVm.swift",
       "kind": "StringLiteral",
-      "offset": 542,
+      "offset": 563,
       "length": 30,
       "value": "\"PIN yang kamu masukkan salah\""
     },
     {
       "filePath": "\/Users\/g2academy\/Documents\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/Confirmation\/ConfirmationVm.swift",
       "kind": "StringLiteral",
-      "offset": 623,
+      "offset": 644,
       "length": 47,
       "value": "\"PIN salah, kamu punya kesempatan 1 kali lagi!\""
     },
     {
       "filePath": "\/Users\/g2academy\/Documents\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/Confirmation\/ConfirmationVm.swift",
       "kind": "StringLiteral",
-      "offset": 728,
+      "offset": 749,
       "length": 59,
       "value": "\"Kamu sudah 3 kali salah PIN.\nCoba kembali setelah 1 jam.\""
     },
     {
       "filePath": "\/Users\/g2academy\/Documents\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/Confirmation\/ConfirmationVm.swift",
       "kind": "StringLiteral",
-      "offset": 833,
+      "offset": 854,
       "length": 76,
       "value": "\"Kamu sudah melebihi batas memasukan PIN.\nHubungi CS untuk pemulihan akun.\""
     },
     {
       "filePath": "\/Users\/g2academy\/Documents\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/Confirmation\/ConfirmationVm.swift",
       "kind": "StringLiteral",
-      "offset": 958,
+      "offset": 979,
       "length": 80,
       "value": "\"Kamu melewatkan verifikasi kode OTP sebelumnya, coba lagi dalam beberapa saat.\""
     },
     {
       "filePath": "\/Users\/g2academy\/Documents\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/Confirmation\/ConfirmationVm.swift",
       "kind": "StringLiteral",
-      "offset": 1071,
+      "offset": 1092,
       "length": 6,
       "value": "\"VOID\""
     },
     {
       "filePath": "\/Users\/g2academy\/Documents\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/Confirmation\/ConfirmationVm.swift",
       "kind": "StringLiteral",
-      "offset": 1113,
+      "offset": 1134,
       "length": 9,
       "value": "\"SUCCESS\""
     },
     {
       "filePath": "\/Users\/g2academy\/Documents\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/Confirmation\/ConfirmationVm.swift",
       "kind": "StringLiteral",
-      "offset": 1165,
+      "offset": 1186,
       "length": 9,
       "value": "\"BALANCE\""
     },
     {
       "filePath": "\/Users\/g2academy\/Documents\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/Confirmation\/ConfirmationVm.swift",
       "kind": "StringLiteral",
-      "offset": 1218,
+      "offset": 1239,
       "length": 10,
       "value": "\"PAYLATER\""
     },
@@ -11854,28 +11890,28 @@
     {
       "filePath": "\/Users\/g2academy\/Documents\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/Data\/Models\/HTTPClientTypes.swift",
       "kind": "StringLiteral",
-      "offset": 166,
+      "offset": 187,
       "length": 18,
       "value": "\"application\/qris\""
     },
     {
       "filePath": "\/Users\/g2academy\/Documents\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/Data\/Models\/HTTPClientTypes.swift",
       "kind": "StringLiteral",
-      "offset": 204,
+      "offset": 225,
       "length": 18,
       "value": "\"application\/json\""
     },
     {
       "filePath": "\/Users\/g2academy\/Documents\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/Data\/Models\/HTTPClientTypes.swift",
       "kind": "StringLiteral",
-      "offset": 166,
+      "offset": 187,
       "length": 18,
       "value": "\"application\/qris\""
     },
     {
       "filePath": "\/Users\/g2academy\/Documents\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/Data\/Models\/HTTPClientTypes.swift",
       "kind": "StringLiteral",
-      "offset": 204,
+      "offset": 225,
       "length": 18,
       "value": "\"application\/json\""
     },
@@ -14451,21 +14487,21 @@
     {
       "filePath": "\/Users\/g2academy\/Documents\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/TransactionResult\/QrisTransactionResultVc.swift",
       "kind": "StringLiteral",
-      "offset": 650,
+      "offset": 671,
       "length": 6,
       "value": "\"QRIS\""
     },
     {
       "filePath": "\/Users\/g2academy\/Documents\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/TransactionResult\/QrisTransactionResultVc.swift",
       "kind": "StringLiteral",
-      "offset": 694,
+      "offset": 715,
       "length": 14,
       "value": "\"merchantName\""
     },
     {
       "filePath": "\/Users\/g2academy\/Documents\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/TransactionResult\/QrisTransactionResultVc.swift",
       "kind": "StringLiteral",
-      "offset": 742,
+      "offset": 763,
       "length": 10,
       "value": "\"Paylater\""
     },
