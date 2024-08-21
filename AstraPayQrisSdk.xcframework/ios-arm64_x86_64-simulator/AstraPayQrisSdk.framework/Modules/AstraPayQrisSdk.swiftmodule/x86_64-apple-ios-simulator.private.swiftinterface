@@ -9,12 +9,14 @@ import ContactsUI
 import CoreGraphics
 import CoreImage
 import DeveloperToolsSupport
+import Factory
 import Foundation
 import Lottie
 import MoEngageGeofence
 import MoEngageSDK
 import Photos
 import RxSwift
+import SkeletonView
 import SnapKit
 import Swift
 import SwiftUI
@@ -48,7 +50,6 @@ public enum BuildMode {
   @objc deinit
 }
 @_hasMissingDesignatedInitializers public class QRNewRouter {
-  public var astraPayAppDelegate: (any AstraPayQrisSdk.AstraPayAppSdkProtocol)?
   public static let sharedInstance: AstraPayQrisSdk.QRNewRouter
   public var delegate: (any AstraPayQrisSdk.QRProtocolSdk)?
   public func navigateToQrScan(from vc: UIKit.UIViewController)
@@ -104,15 +105,12 @@ public enum OtpMechanism : Swift.String, Swift.Codable {
   @objc deinit
 }
 public protocol QRProtocolSdk {
-  func onForbidden(viewControler: UIKit.UIViewController)
+  func onForbidden(viewController: UIKit.UIViewController)
   func onComplete(viewController: UIKit.UIViewController)
   func onFailed(viewController: UIKit.UIViewController)
   func onShowHistory(viewController: UIKit.UIViewController)
   func onProcessing(viewController: UIKit.UIViewController)
   func onCancel(viewController: UIKit.UIViewController)
-}
-public protocol AstraPayAppSdkProtocol {
-  func onPaylaterActivate(viewController: UIKit.UIViewController)
 }
 extension AstraPayQrisSdk.BuildMode : Swift.Equatable {}
 extension AstraPayQrisSdk.BuildMode : Swift.Hashable {}
