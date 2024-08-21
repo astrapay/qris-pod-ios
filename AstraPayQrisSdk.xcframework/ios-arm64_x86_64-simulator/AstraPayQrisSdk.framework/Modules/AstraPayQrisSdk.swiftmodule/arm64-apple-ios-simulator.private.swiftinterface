@@ -8,15 +8,8 @@ import ContactsUI
 import CoreGraphics
 import CoreImage
 import DeveloperToolsSupport
-import Factory
 import Foundation
-import Lottie
-import MoEngageGeofence
-import MoEngageSDK
 import Photos
-import RxSwift
-import SkeletonView
-import SnapKit
 import Swift
 import SwiftUI
 import UIKit

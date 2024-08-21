@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "astrapay-qris"
-  spec.version = "0.3.3"
+  spec.version = "0.3.4"
   spec.summary      = "AstraPay Qris SDK"
 
   spec.description  = <<-DESC
@@ -10,8 +10,6 @@ AstraPay Qris SDK simplifies the integration of QRIS payments and top-up functio
 
   spec.homepage      = "https://github.com/astrapay/qris-pod-ios"
   spec.license          = { :type => 'MIT', :file => 'LICENSE' }
-
-  spec.platform         = :ios, '11.0'
   
   # Xcode configurations for user targets and the pod target
   spec.user_target_xcconfig = {
