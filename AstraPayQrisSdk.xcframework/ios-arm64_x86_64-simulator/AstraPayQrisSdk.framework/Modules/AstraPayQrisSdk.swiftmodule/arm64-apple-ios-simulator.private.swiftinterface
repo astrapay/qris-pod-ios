@@ -45,6 +45,7 @@ public enum BuildMode {
   public static let sharedInstance: AstraPayQrisSdk.QRNewRouter
   public var delegate: (any AstraPayQrisSdk.QRProtocolSdk)?
   public func navigateToQrScan(from vc: UIKit.UIViewController)
+  public func presentQrScan(from vc: UIKit.UIViewController)
   public func popToQrScanner(from vc: UIKit.UIViewController)
   @objc deinit
 }
