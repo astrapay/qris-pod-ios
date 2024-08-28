@@ -1,15 +1,23 @@
 // swift-interface-format-version: 1.0
 // swift-compiler-version: Apple Swift version 5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)
-// swift-module-flags: -target arm64-apple-ios13.6 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name AstraPayQrisSdk
+// swift-module-flags: -target arm64-apple-ios13.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name AstraPayQrisSdk
 import AVFoundation
 import AVKit
+import Alamofire
 @_exported import AstraPayQrisSdk
 import ContactsUI
 import CoreGraphics
 import CoreImage
 import DeveloperToolsSupport
+import Factory
 import Foundation
+import Lottie
+import MoEngageGeofence
+import MoEngageSDK
 import Photos
+import RxSwift
+import SkeletonView
+import SnapKit
 import Swift
 import SwiftUI
 import UIKit
