@@ -7310,7 +7310,7 @@
       "kind": "StringLiteral",
       "offset": 770,
       "length": 20,
-      "value": "\"AstraPay mendukung\""
+      "value": "\"Astrapay mendukung\""
     },
     {
       "filePath": "\/Users\/g2academy\/Documents\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/Scanner\/QrisScannerVc.swift",
@@ -7548,7 +7548,7 @@
       "kind": "StringLiteral",
       "offset": 681,
       "length": 20,
-      "value": "\"AstraPay mendukung\""
+      "value": "\"Astrapay mendukung\""
     },
     {
       "filePath": "\/Users\/g2academy\/Documents\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/Scanner\/QrisScannerView.swift",

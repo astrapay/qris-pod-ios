@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "astrapay-qris"
-  spec.version = "0.5.0"
+  spec.version = "0.5.1"
   spec.summary      = "AstraPay Qris SDK"
 
   spec.description  = <<-DESC
@@ -22,10 +22,11 @@ AstraPay Qris SDK simplifies the integration of QRIS payments and top-up functio
     'GENERATE_INFOPLIST_FILE' => 'YES'
   }
 
+
   spec.author       = { "Astrapay" => "devops@astrapay.com" }
   spec.source       = { :git => "https://github.com/astrapay/qris-pod-ios.git", :tag => spec.version.to_s }
 
-  #spec.dependency 'Factory', '1.2.8'
+  spec.dependency 'Alamofire'
   
   spec.ios.deployment_target     = '13.6'
 
