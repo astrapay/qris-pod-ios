@@ -6,15 +6,19 @@
 	<dict>
 		<key>Alamofire.bundle/Info.plist</key>
 		<data>
-		KHb5xyFndN6a69OI0NGjDBkUXSo=
+		MNqPe240UBwusafAEdsTq3zA7Qc=
+		</data>
+		<key>Alamofire.bundle/PrivacyInfo.xcprivacy</key>
+		<data>
+		ovFJMFOLMjzh8DLJKmXncj8JIgU=
 		</data>
 		<key>Assets.car</key>
 		<data>
-		Ap05m5v7ZSt7Afil9khmKI5H+OI=
+		7NQ5kflDXqmXg5Anbrp9V06+y1M=
 		</data>
 		<key>Headers/AstraPayQrisSdk-Swift.h</key>
 		<data>
-		Psmz41WJYDAKzJI85XM3pjc8Uvc=
+		DyvA8YXDJiy0+9IAREKZO9JdUdM=
 		</data>
 		<key>Headers/AstraPayQrisSdk.h</key>
 		<data>
@@ -22,7 +26,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		xDrJAKKVf5sn3VPzhGjS30BYBF4=
+		2GIdGeIHerEmv/6zbaDlwT2TL3Q=
 		</data>
 		<key>Inter-Black.ttf</key>
 		<data>
@@ -60,9 +64,13 @@
 		<data>
 		hILCur+B4IgA3GTJ7YwzIMg9SOQ=
 		</data>
+		<key>LICENSE</key>
+		<data>
+		GMJKjma280PHIBV06s4HzHZSthE=
+		</data>
 		<key>Modules/AstraPayQrisSdk.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		0LHR9s+5LxohGro+RXDqpBaBLfM=
+		+TEBww8GSIRDrORPRTwqrslQwxE=
 		</data>
 		<key>Modules/AstraPayQrisSdk.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -78,11 +86,11 @@
 		</data>
 		<key>Modules/AstraPayQrisSdk.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		SM40o7wBMBMTknavTBkcJpiD/Bc=
+		UpUQ4acitf72CfgeDqGwRO9S3vA=
 		</data>
 		<key>Modules/AstraPayQrisSdk.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		0LHR9s+5LxohGro+RXDqpBaBLfM=
+		+TEBww8GSIRDrORPRTwqrslQwxE=
 		</data>
 		<key>Modules/AstraPayQrisSdk.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -98,15 +106,19 @@
 		</data>
 		<key>Modules/AstraPayQrisSdk.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		15wJ63PkRqmKecix38Pa5GLqXWo=
+		rGkKxVAMpTX+sxFaByG/vTkqQcc=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
 		gRW1yh8DYqF2i6KDIjq0YFows3s=
 		</data>
+		<key>README.md</key>
+		<data>
+		3QGWgLH+TyBKn3j2LRbyOMQWtIA=
+		</data>
 		<key>SnapKit_Privacy.bundle/Info.plist</key>
 		<data>
-		ybRo64jV4VdMRuG/pMyYh9eALxQ=
+		3tB+ySW53xK42LWn3g8RGRtbu7I=
 		</data>
 		<key>SnapKit_Privacy.bundle/PrivacyInfo.xcprivacy</key>
 		<data>
@@ -155,21 +167,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			EiwsySSjzcwOva3UvR113SyuxW41cUZkVZGjXOLiU9Q=
+			P6AIUp4DLrKj5yU9a3G9usHuTbO3+b8SFvfkL28WmJY=
+			</data>
+		</dict>
+		<key>Alamofire.bundle/PrivacyInfo.xcprivacy</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			CNkOaUbb/qDQtbF/tlnXfu0j5EO3Rdjntbn6N4y3RHc=
 			</data>
 		</dict>
 		<key>Assets.car</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			abDAAjRExCNEzP4RnimJrgi4d1n5mgPtdGyRu/CyXKs=
+			6VT3Q5a9s7Pjqo052zVwg8lCeoBNJfOtneOqsoALBsE=
 			</data>
 		</dict>
 		<key>Headers/AstraPayQrisSdk-Swift.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			7cM3UpXaNRVGAiuU/8wxer+JVqR2iPH2d71GCln8n9Y=
+			jye4x/fBNi7spOa0n4Jdituh8wzE6XtuyOAsZMpRSVc=
 			</data>
 		</dict>
 		<key>Headers/AstraPayQrisSdk.h</key>
@@ -242,11 +261,18 @@
 			g74YkfOnudtFeevf5VB0HQrr9FsshFtggdTBYZJOffE=
 			</data>
 		</dict>
+		<key>LICENSE</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			YxVT0NxewNWwCByhSXBgR6SBZKoGVBLLJIjYm6Ij3W8=
+			</data>
+		</dict>
 		<key>Modules/AstraPayQrisSdk.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			y90BdHp7DTVsWVnym2q+qocRAU1Rxl3xYhie+X8JfFo=
+			s0y6VXu6zC2I/moVAeCRkqVmC2fTDdJCOjInGKkviqw=
 			</data>
 		</dict>
 		<key>Modules/AstraPayQrisSdk.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -274,14 +300,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			UxzqUXD4dIQ089U1bD52gW4QWJL7HEUjW0p6aKW74J8=
+			ZEzWcVKLk4yA/5+i0wty0WGFiNTOhtVH9ZcHObOOLy8=
 			</data>
 		</dict>
 		<key>Modules/AstraPayQrisSdk.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			y90BdHp7DTVsWVnym2q+qocRAU1Rxl3xYhie+X8JfFo=
+			s0y6VXu6zC2I/moVAeCRkqVmC2fTDdJCOjInGKkviqw=
 			</data>
 		</dict>
 		<key>Modules/AstraPayQrisSdk.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -309,7 +335,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			3cYPURVJE8GayinbQE5m96/USZdSDXct7gCvB7o8uB4=
+			5mCYP0tdXRwCthGhk0UoqYAZOKvX2Cshdv30H6t6puM=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -319,11 +345,18 @@
 			uQ8IR9itDDCafzdtBSUJ0H9jCj03EPnkS5QxqWPA7cA=
 			</data>
 		</dict>
+		<key>README.md</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			CKfU6Dm/TB+sCBJo3vtBxZttef9zgQuGkGZb87Fs7CQ=
+			</data>
+		</dict>
 		<key>SnapKit_Privacy.bundle/Info.plist</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			/IJp1KMYsFfsKfq0gZByCQkfUTICJjIJ5KmJfuhnWbM=
+			pgRfc/66X9JfyZ+MBMMgr+jcLa+QeO5H0KwwPhYbgFU=
 			</data>
 		</dict>
 		<key>SnapKit_Privacy.bundle/PrivacyInfo.xcprivacy</key>
