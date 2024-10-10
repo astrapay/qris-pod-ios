@@ -6,11 +6,11 @@
 	<dict>
 		<key>Alamofire.bundle/Info.plist</key>
 		<data>
-		bhrvaFhDdkKfqOmUnmOqj0joIWo=
+		h2mHXERpEFLVyNB2xYCx6Ad0cUs=
 		</data>
 		<key>Assets.car</key>
 		<data>
-		rH6HcevClubfe71F7SizAAbC+aA=
+		SBhB+U4FiVmqPG9NwOX7HJ/Ak2c=
 		</data>
 		<key>Frameworks/MoEngageAnalytics.framework/Info.plist</key>
 		<data>
@@ -18,7 +18,7 @@
 		</data>
 		<key>Frameworks/MoEngageAnalytics.framework/MoEngageAnalytics</key>
 		<data>
-		ymGxSmtI06teJpDPgik45QB4nzg=
+		V0ukFOVaGr7SkbiBxmWxTYIslvQ=
 		</data>
 		<key>Frameworks/MoEngageAnalytics.framework/_CodeSignature/CodeResources</key>
 		<data>
@@ -30,7 +30,7 @@
 		</data>
 		<key>Frameworks/MoEngageCore.framework/MoEngageCore</key>
 		<data>
-		wO2T+/qXrNsKzp4bmg3yFTihvzM=
+		TqrQRFzAjvzfIHAhUec8G32TxFY=
 		</data>
 		<key>Frameworks/MoEngageCore.framework/_CodeSignature/CodeResources</key>
 		<data>
@@ -50,7 +50,7 @@
 		</data>
 		<key>Frameworks/MoEngageGeofence.framework/MoEngageGeofence</key>
 		<data>
-		FKddT0ATA20q3pa2wF8siAdQlCg=
+		dSdEi3uUfvOIkVQlx/MgLlbZgec=
 		</data>
 		<key>Frameworks/MoEngageGeofence.framework/PrivacyInfo.xcprivacy</key>
 		<data>
@@ -82,7 +82,7 @@
 		</data>
 		<key>Frameworks/MoEngageInApps.framework/MoEngageInApps</key>
 		<data>
-		KWYTULpGmLmWjiOTVpjr37npnew=
+		dlIrIva9mMP/S+PbkSHyd0SGYMw=
 		</data>
 		<key>Frameworks/MoEngageInApps.framework/PrivacyInfo.xcprivacy</key>
 		<data>
@@ -110,7 +110,7 @@
 		</data>
 		<key>Frameworks/MoEngageInbox.framework/MoEngageInbox</key>
 		<data>
-		LX/Fqvh4lgcsNWqAXVDcS6nfv+U=
+		7WBzJSeWmA/8gz7VVKwKBMF2Bww=
 		</data>
 		<key>Frameworks/MoEngageInbox.framework/MoEngageInbox.storyboardc/Info.plist</key>
 		<data>
@@ -138,7 +138,7 @@
 		</data>
 		<key>Frameworks/MoEngageMessaging.framework/MoEngageMessaging</key>
 		<data>
-		DMqr4ntsZCQUTFuYTLVGn167hXE=
+		1Ar3Q+Ne8r8JRo9gNcdf/agKMlk=
 		</data>
 		<key>Frameworks/MoEngageMessaging.framework/_CodeSignature/CodeResources</key>
 		<data>
@@ -150,7 +150,7 @@
 		</data>
 		<key>Frameworks/MoEngageObjCUtils.framework/MoEngageObjCUtils</key>
 		<data>
-		QrMnFBeMz4LFl4xbBwm9mlEYG1E=
+		mNDkTz7cajCWl2Ef8NWTwxSW5PU=
 		</data>
 		<key>Frameworks/MoEngageObjCUtils.framework/_CodeSignature/CodeResources</key>
 		<data>
@@ -186,7 +186,7 @@
 		</data>
 		<key>Frameworks/MoEngageRichNotification.framework/MoEngageRichNotification</key>
 		<data>
-		MeuX6oTuKA1qXK0KKcZC4xh5Q1E=
+		hhvyJtrOcoQcntWTbe8s98+vFNs=
 		</data>
 		<key>Frameworks/MoEngageRichNotification.framework/PrivacyInfo.xcprivacy</key>
 		<data>
@@ -210,7 +210,7 @@
 		</data>
 		<key>Frameworks/MoEngageSDK.framework/MoEngageSDK</key>
 		<data>
-		zyX3im5+cJN0+TWLZGStochL/Ws=
+		sRAa7Q04xrQVqWhWX2u1TZBpASg=
 		</data>
 		<key>Frameworks/MoEngageSDK.framework/PrivacyInfo.xcprivacy</key>
 		<data>
@@ -230,7 +230,7 @@
 		</data>
 		<key>Frameworks/MoEngageSecurity.framework/MoEngageSecurity</key>
 		<data>
-		gM75zw4X+/awdGE2i1yLxGg9uzA=
+		j70r8KS/56yg6c5NHOXrO9ZPsK0=
 		</data>
 		<key>Frameworks/MoEngageSecurity.framework/_CodeSignature/CodeResources</key>
 		<data>
@@ -246,7 +246,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		AtuPxxtWZWIL8dN/ayPgOg00FXM=
+		I7zeJHjEBmclw8fJrPZmn5bgNBU=
 		</data>
 		<key>Inter-Black.ttf</key>
 		<data>
@@ -290,23 +290,23 @@
 		</data>
 		<key>Modules/AstraPayQrisSdk.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		TFMU/mboB0gJedp/+D/w87+GbcY=
+		T3mOUPEAV1ccJOjVeOkgwg6YyXw=
 		</data>
 		<key>Modules/AstraPayQrisSdk.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		jOyy+jM5g/duFPVFlXyeQn3dU34=
+		41rZK9u82sL5y9qG0+j5l2GhcO4=
 		</data>
 		<key>Modules/AstraPayQrisSdk.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		vpjA/GnqE0KGwNwgEV0h4BDuxzA=
+		RWw7D/sLg5Rt7eK3+sA888r4Jek=
 		</data>
 		<key>Modules/AstraPayQrisSdk.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		jOyy+jM5g/duFPVFlXyeQn3dU34=
+		41rZK9u82sL5y9qG0+j5l2GhcO4=
 		</data>
 		<key>Modules/AstraPayQrisSdk.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		4H8V4dzIhMMsjlhvQMraP7XoT7g=
+		umHHXy7HyWQe9bk64tmP2lYC9wg=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -315,14 +315,6 @@
 		<key>README.md</key>
 		<data>
 		3QGWgLH+TyBKn3j2LRbyOMQWtIA=
-		</data>
-		<key>SnapKit_Privacy.bundle/Info.plist</key>
-		<data>
-		BHgIw0VYjsTbsBQJ6EUqpQ6tSrY=
-		</data>
-		<key>SnapKit_Privacy.bundle/PrivacyInfo.xcprivacy</key>
-		<data>
-		F6mYXr6EQZyLKcQNM0vmTGcGMns=
 		</data>
 		<key>ToastView.nib/objects-14.0+.nib</key>
 		<data>
@@ -367,14 +359,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ZUMDAOupDx6BY3Jbe6pfbfycxKbvVHPZROn55Eh3HAE=
+			HezsxI3qzhBoebiNvSX35MrTM9ek91EE7z2Z6LFuD0o=
 			</data>
 		</dict>
 		<key>Assets.car</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			dPQrO3OoDJGQOo1mp2+uMWJ/Lj6ZU75fp+CKSjqjPSk=
+			jYZLSZEIpDlZ9f/j/TpFtGhHWAVWpPLNydOiZxHAT48=
 			</data>
 		</dict>
 		<key>Frameworks/MoEngageAnalytics.framework/Info.plist</key>
@@ -388,7 +380,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			J45Kv9I+dN538puDBb0Fs3hvO2Bs36hR5ENSX/jFfn0=
+			nDRASSI+u49Y7CbyYGVWTWK/VHrKN+H1g6/f0nnwvrg=
 			</data>
 		</dict>
 		<key>Frameworks/MoEngageAnalytics.framework/_CodeSignature/CodeResources</key>
@@ -409,7 +401,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			RdxZLXuOT1EucFqVKwBpRxCk5UjSyxggvdZv/8b92BA=
+			KUDulfnsZGnxKQEscMzAP3p0SsqS4YZ0OfwMkYsmlsc=
 			</data>
 		</dict>
 		<key>Frameworks/MoEngageCore.framework/_CodeSignature/CodeResources</key>
@@ -444,7 +436,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			g3UFjKEDdBc00iQsasRJjSmd7rNDZjnB7I8tGOt1Y0Y=
+			Okn/K2snPhBD0TMEqFZBpj4JylTCOBHmdZEyxb3MZSA=
 			</data>
 		</dict>
 		<key>Frameworks/MoEngageGeofence.framework/PrivacyInfo.xcprivacy</key>
@@ -500,7 +492,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			EBYrSAeyIkWSMueDUpd4YVfg+d5pgyf0AKXo2KsdFAA=
+			UKO/r/ufxJdeXaWCDxmxrOMEViPTcVQ7GJtkKri/Kzg=
 			</data>
 		</dict>
 		<key>Frameworks/MoEngageInApps.framework/PrivacyInfo.xcprivacy</key>
@@ -549,7 +541,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ji2wEyCO6Kl+6Yw+xPaaLsMhGjiG2nyvqX7BHtt8COo=
+			GAyeUeU3G0JBGu73D/lueWtF0qqhSVObi2ArJ100YDA=
 			</data>
 		</dict>
 		<key>Frameworks/MoEngageInbox.framework/MoEngageInbox.storyboardc/Info.plist</key>
@@ -598,7 +590,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			iviIb1FR2/sCpJhVjq72+4pFZIG07sgQ6mNYLYZsdBY=
+			EvP+R4YhqAKcOLOoKhblA5az9YcCNODJBE3qRCAG6n4=
 			</data>
 		</dict>
 		<key>Frameworks/MoEngageMessaging.framework/_CodeSignature/CodeResources</key>
@@ -619,7 +611,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			BBNld/EiP/ysUVYD7M2B98Eq92GeOsxKrJvgcXyusvM=
+			46t5tBTx5c0TlszPKTNwyQfAIpFwFyAszgOGZfrrkvs=
 			</data>
 		</dict>
 		<key>Frameworks/MoEngageObjCUtils.framework/_CodeSignature/CodeResources</key>
@@ -682,7 +674,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			xaMvy0509cBRgQ05iueAdC78cgcgr4vX2YuEZKCgeDw=
+			pOuvgSVEPTfPhlehmVyMmqIOjjYWLcPxrhb9VM5aKmA=
 			</data>
 		</dict>
 		<key>Frameworks/MoEngageRichNotification.framework/PrivacyInfo.xcprivacy</key>
@@ -724,7 +716,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			3kKqjgS8hLBFwmV7/7PADssLbF7A/IeiPOiZRwWgLC8=
+			uMS6D9MWjFvSiNia3kCSQa0jaew4nHcAwnjDVZr9at4=
 			</data>
 		</dict>
 		<key>Frameworks/MoEngageSDK.framework/PrivacyInfo.xcprivacy</key>
@@ -759,7 +751,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			lIccULmmYAtyybHeL2w3zlXZ4qIBWlvxEOQkf4NnzIM=
+			CnuEiYzS4i2A8pX0ylGO9mnWKieOitGAAOZ8Jg9/LYA=
 			</data>
 		</dict>
 		<key>Frameworks/MoEngageSecurity.framework/_CodeSignature/CodeResources</key>
@@ -857,35 +849,35 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			8EEpck3+NbFGY+CLiZzLyHm+6C74whAwanKedWwg8WQ=
+			N5BA39TWaFs5I9mOeDPXB0Cq4KD75gYn4b5udZx4Aas=
 			</data>
 		</dict>
 		<key>Modules/AstraPayQrisSdk.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			srvir0xMlaaEhqpUN37u8oQ+wI/22JMjp0TPuq33cQ8=
+			Hve1MMHHVB/3yQLlcgBA+B4yCwNiEbrewb9/3mx2epQ=
 			</data>
 		</dict>
 		<key>Modules/AstraPayQrisSdk.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			fr5wd1igwNGApYqpSNsqO+JHiXNrTwsAtlMgyYevxXE=
+			rbXjG9x5L9CU0vUmT4OwpWLVFKa/1AVLQI3XN944JaM=
 			</data>
 		</dict>
 		<key>Modules/AstraPayQrisSdk.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			srvir0xMlaaEhqpUN37u8oQ+wI/22JMjp0TPuq33cQ8=
+			Hve1MMHHVB/3yQLlcgBA+B4yCwNiEbrewb9/3mx2epQ=
 			</data>
 		</dict>
 		<key>Modules/AstraPayQrisSdk.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			tHMD5l2hjU4MC/ZiuQpyTwgIyklP/tgCh720rahRc9E=
+			I1qorE0z4MDF9ZRRip1v/qaZd2fQucYL7QlJToMjYRk=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -900,20 +892,6 @@
 			<key>hash2</key>
 			<data>
 			CKfU6Dm/TB+sCBJo3vtBxZttef9zgQuGkGZb87Fs7CQ=
-			</data>
-		</dict>
-		<key>SnapKit_Privacy.bundle/Info.plist</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			x7p0XeQ5Acg4ajh4WN3mw2KX4futt6nZO62RFiPvHJ8=
-			</data>
-		</dict>
-		<key>SnapKit_Privacy.bundle/PrivacyInfo.xcprivacy</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			oHQY5f4SjiJM03lkvCHFA7eqL1dee0knRoR4rYcyFP4=
 			</data>
 		</dict>
 		<key>ToastView.nib/objects-14.0+.nib</key>

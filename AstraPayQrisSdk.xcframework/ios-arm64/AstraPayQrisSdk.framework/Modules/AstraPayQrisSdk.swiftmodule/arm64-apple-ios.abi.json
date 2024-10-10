@@ -10149,98 +10149,98 @@
     {
       "filePath": "\/Users\/ahmadnabil\/Documents\/astrapay\/sdk\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/Scanner\/QrisScannerView.swift",
       "kind": "IntegerLiteral",
-      "offset": 3328,
+      "offset": 3200,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/ahmadnabil\/Documents\/astrapay\/sdk\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/Scanner\/QrisScannerView.swift",
       "kind": "IntegerLiteral",
-      "offset": 3369,
+      "offset": 3241,
       "length": 2,
       "value": "14"
     },
     {
       "filePath": "\/Users\/ahmadnabil\/Documents\/astrapay\/sdk\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/Scanner\/QrisScannerView.swift",
       "kind": "IntegerLiteral",
-      "offset": 3987,
+      "offset": 3795,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/ahmadnabil\/Documents\/astrapay\/sdk\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/Scanner\/QrisScannerView.swift",
       "kind": "IntegerLiteral",
-      "offset": 4162,
+      "offset": 3970,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/ahmadnabil\/Documents\/astrapay\/sdk\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/Scanner\/QrisScannerView.swift",
       "kind": "IntegerLiteral",
-      "offset": 4203,
+      "offset": 4011,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/ahmadnabil\/Documents\/astrapay\/sdk\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/Scanner\/QrisScannerView.swift",
       "kind": "StringLiteral",
-      "offset": 4227,
+      "offset": 4035,
       "length": 18,
       "value": "\"Tunjukan Kode QR\""
     },
     {
       "filePath": "\/Users\/ahmadnabil\/Documents\/astrapay\/sdk\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/Scanner\/QrisScannerView.swift",
       "kind": "StringLiteral",
-      "offset": 4384,
+      "offset": 4194,
       "length": 14,
       "value": "\"qr_flat_icon\""
     },
     {
       "filePath": "\/Users\/ahmadnabil\/Documents\/astrapay\/sdk\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/Scanner\/QrisScannerView.swift",
       "kind": "IntegerLiteral",
-      "offset": 4946,
+      "offset": 4690,
       "length": 2,
       "value": "36"
     },
     {
       "filePath": "\/Users\/ahmadnabil\/Documents\/astrapay\/sdk\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/Scanner\/QrisScannerView.swift",
       "kind": "IntegerLiteral",
-      "offset": 4981,
+      "offset": 4725,
       "length": 2,
       "value": "36"
     },
     {
       "filePath": "\/Users\/ahmadnabil\/Documents\/astrapay\/sdk\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/Scanner\/QrisScannerView.swift",
       "kind": "IntegerLiteral",
-      "offset": 5018,
+      "offset": 4762,
       "length": 2,
       "value": "25"
     },
     {
       "filePath": "\/Users\/ahmadnabil\/Documents\/astrapay\/sdk\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/Scanner\/QrisScannerView.swift",
       "kind": "IntegerLiteral",
-      "offset": 5148,
+      "offset": 4892,
       "length": 2,
       "value": "36"
     },
     {
       "filePath": "\/Users\/ahmadnabil\/Documents\/astrapay\/sdk\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/Scanner\/QrisScannerView.swift",
       "kind": "IntegerLiteral",
-      "offset": 5183,
+      "offset": 4927,
       "length": 2,
       "value": "36"
     },
     {
       "filePath": "\/Users\/ahmadnabil\/Documents\/astrapay\/sdk\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/Scanner\/QrisScannerView.swift",
       "kind": "IntegerLiteral",
-      "offset": 5220,
+      "offset": 4964,
       "length": 2,
       "value": "25"
     },
     {
       "filePath": "\/Users\/ahmadnabil\/Documents\/astrapay\/sdk\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/Scanner\/QrisScannerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 5383,
+      "offset": 5127,
       "length": 5,
       "value": "false"
     },
@@ -10324,189 +10324,189 @@
     {
       "filePath": "\/Users\/ahmadnabil\/Documents\/astrapay\/sdk\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/Authentication\/ApOtpComponentView.swift",
       "kind": "StringLiteral",
-      "offset": 1765,
+      "offset": 1767,
       "length": 8,
       "value": "\"ic_otp\""
     },
     {
       "filePath": "\/Users\/ahmadnabil\/Documents\/astrapay\/sdk\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/Authentication\/ApOtpComponentView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1956,
+      "offset": 1924,
       "length": 2,
       "value": "18"
     },
     {
       "filePath": "\/Users\/ahmadnabil\/Documents\/astrapay\/sdk\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/Authentication\/ApOtpComponentView.swift",
       "kind": "IntegerLiteral",
-      "offset": 2221,
+      "offset": 2189,
       "length": 2,
       "value": "14"
     },
     {
       "filePath": "\/Users\/ahmadnabil\/Documents\/astrapay\/sdk\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/Authentication\/ApOtpComponentView.swift",
       "kind": "IntegerLiteral",
-      "offset": 2280,
+      "offset": 2248,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/ahmadnabil\/Documents\/astrapay\/sdk\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/Authentication\/ApOtpComponentView.swift",
       "kind": "IntegerLiteral",
-      "offset": 2424,
+      "offset": 2392,
       "length": 2,
       "value": "14"
     },
     {
       "filePath": "\/Users\/ahmadnabil\/Documents\/astrapay\/sdk\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/Authentication\/ApOtpComponentView.swift",
       "kind": "FloatLiteral",
-      "offset": 2653,
+      "offset": 2621,
       "length": 3,
       "value": "1.5"
     },
     {
       "filePath": "\/Users\/ahmadnabil\/Documents\/astrapay\/sdk\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/Authentication\/ApOtpComponentView.swift",
       "kind": "IntegerLiteral",
-      "offset": 2830,
+      "offset": 2798,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/ahmadnabil\/Documents\/astrapay\/sdk\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/Authentication\/ApOtpComponentView.swift",
       "kind": "IntegerLiteral",
-      "offset": 3200,
+      "offset": 3168,
       "length": 2,
       "value": "14"
     },
     {
       "filePath": "\/Users\/ahmadnabil\/Documents\/astrapay\/sdk\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/Authentication\/ApOtpComponentView.swift",
       "kind": "IntegerLiteral",
-      "offset": 3259,
+      "offset": 3227,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/ahmadnabil\/Documents\/astrapay\/sdk\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/Authentication\/ApOtpComponentView.swift",
       "kind": "IntegerLiteral",
-      "offset": 3402,
+      "offset": 3370,
       "length": 2,
       "value": "14"
     },
     {
       "filePath": "\/Users\/ahmadnabil\/Documents\/astrapay\/sdk\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/Authentication\/ApOtpComponentView.swift",
       "kind": "FloatLiteral",
-      "offset": 3631,
+      "offset": 3599,
       "length": 3,
       "value": "1.5"
     },
     {
       "filePath": "\/Users\/ahmadnabil\/Documents\/astrapay\/sdk\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/Authentication\/ApOtpComponentView.swift",
       "kind": "IntegerLiteral",
-      "offset": 3808,
+      "offset": 3776,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/ahmadnabil\/Documents\/astrapay\/sdk\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/Authentication\/ApOtpComponentView.swift",
       "kind": "IntegerLiteral",
-      "offset": 4085,
+      "offset": 4053,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/ahmadnabil\/Documents\/astrapay\/sdk\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/Authentication\/ApOtpComponentView.swift",
       "kind": "StringLiteral",
-      "offset": 4320,
+      "offset": 4288,
       "length": 67,
       "value": "\"Kamu sudah mencapai batas kirim OTP\nharian. Coba lagi besok, ya!\""
     },
     {
       "filePath": "\/Users\/ahmadnabil\/Documents\/astrapay\/sdk\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/Authentication\/ApOtpComponentView.swift",
       "kind": "BooleanLiteral",
-      "offset": 4526,
+      "offset": 4494,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/ahmadnabil\/Documents\/astrapay\/sdk\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/Authentication\/ApOtpComponentView.swift",
       "kind": "FloatLiteral",
-      "offset": 4794,
+      "offset": 4762,
       "length": 3,
       "value": "0.2"
     },
     {
       "filePath": "\/Users\/ahmadnabil\/Documents\/astrapay\/sdk\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/Authentication\/ApOtpComponentView.swift",
       "kind": "IntegerLiteral",
-      "offset": 4918,
+      "offset": 4886,
       "length": 2,
       "value": "15"
     },
     {
       "filePath": "\/Users\/ahmadnabil\/Documents\/astrapay\/sdk\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/Authentication\/ApOtpComponentView.swift",
       "kind": "FloatLiteral",
-      "offset": 5228,
+      "offset": 5196,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/ahmadnabil\/Documents\/astrapay\/sdk\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/Authentication\/ApOtpComponentView.swift",
       "kind": "IntegerLiteral",
-      "offset": 5529,
+      "offset": 5497,
       "length": 2,
       "value": "72"
     },
     {
       "filePath": "\/Users\/ahmadnabil\/Documents\/astrapay\/sdk\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/Authentication\/ApOtpComponentView.swift",
       "kind": "BooleanLiteral",
-      "offset": 5890,
+      "offset": 5858,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/ahmadnabil\/Documents\/astrapay\/sdk\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/Authentication\/ApOtpComponentView.swift",
       "kind": "BooleanLiteral",
-      "offset": 6189,
+      "offset": 6157,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/ahmadnabil\/Documents\/astrapay\/sdk\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/Authentication\/ApOtpComponentView.swift",
       "kind": "StringLiteral",
-      "offset": 6437,
+      "offset": 6405,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/ahmadnabil\/Documents\/astrapay\/sdk\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/Authentication\/ApOtpComponentView.swift",
       "kind": "BooleanLiteral",
-      "offset": 6684,
+      "offset": 6652,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/ahmadnabil\/Documents\/astrapay\/sdk\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/Authentication\/ApOtpComponentView.swift",
       "kind": "IntegerLiteral",
-      "offset": 12281,
+      "offset": 12249,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/ahmadnabil\/Documents\/astrapay\/sdk\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/Authentication\/ApOtpComponentView.swift",
       "kind": "IntegerLiteral",
-      "offset": 12836,
+      "offset": 12804,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/ahmadnabil\/Documents\/astrapay\/sdk\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/Authentication\/ApOtpComponentView.swift",
       "kind": "IntegerLiteral",
-      "offset": 15439,
+      "offset": 15407,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/ahmadnabil\/Documents\/astrapay\/sdk\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/Authentication\/ApOtpComponentView.swift",
       "kind": "BooleanLiteral",
-      "offset": 15459,
+      "offset": 15427,
       "length": 5,
       "value": "false"
     },
@@ -10674,14 +10674,14 @@
     {
       "filePath": "\/Users\/ahmadnabil\/Documents\/astrapay\/sdk\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/Shared\/Component\/UI\/View\/Pin\/component\/ApPinKeyboard.swift",
       "kind": "StringLiteral",
-      "offset": 3850,
+      "offset": 3852,
       "length": 15,
       "value": "\"Backspace.png\""
     },
     {
       "filePath": "\/Users\/ahmadnabil\/Documents\/astrapay\/sdk\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/Shared\/Component\/UI\/View\/Pin\/component\/ApPinKeyboard.swift",
       "kind": "StringLiteral",
-      "offset": 4048,
+      "offset": 4016,
       "length": 14,
       "value": "\"keyBackspace\""
     },
@@ -11374,56 +11374,56 @@
     {
       "filePath": "\/Users\/ahmadnabil\/Documents\/astrapay\/sdk\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/Confirmation\/Component\/PaymentMethodCell.swift",
       "kind": "StringLiteral",
-      "offset": 1753,
+      "offset": 1794,
       "length": 21,
       "value": "\"checkmark.seal.fill\""
     },
     {
       "filePath": "\/Users\/ahmadnabil\/Documents\/astrapay\/sdk\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/Confirmation\/Component\/PaymentMethodCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 2001,
+      "offset": 2113,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/ahmadnabil\/Documents\/astrapay\/sdk\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/Confirmation\/Component\/PaymentMethodCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 2045,
+      "offset": 2157,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/ahmadnabil\/Documents\/astrapay\/sdk\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/Confirmation\/Component\/PaymentMethodCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 2149,
+      "offset": 2261,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/ahmadnabil\/Documents\/astrapay\/sdk\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/Confirmation\/Component\/PaymentMethodCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 2383,
+      "offset": 2495,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/ahmadnabil\/Documents\/astrapay\/sdk\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/Confirmation\/Component\/PaymentMethodCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 2471,
+      "offset": 2583,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/ahmadnabil\/Documents\/astrapay\/sdk\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/Confirmation\/Component\/PaymentMethodCell.swift",
       "kind": "StringLiteral",
-      "offset": 6376,
+      "offset": 6488,
       "length": 14,
       "value": "\"Warning Here\""
     },
     {
       "filePath": "\/Users\/ahmadnabil\/Documents\/astrapay\/sdk\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/Confirmation\/Component\/PaymentMethodCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 7280,
+      "offset": 7392,
       "length": 4,
       "value": "true"
     },
@@ -12347,7 +12347,7 @@
     {
       "filePath": "\/Users\/ahmadnabil\/Documents\/astrapay\/sdk\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/Helpers\/Extensions\/UIImage+Extension.swift",
       "kind": "FloatLiteral",
-      "offset": 780,
+      "offset": 1198,
       "length": 3,
       "value": "1.0"
     },
@@ -13166,21 +13166,21 @@
     {
       "filePath": "\/Users\/ahmadnabil\/Documents\/astrapay\/sdk\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/Shared\/Component\/QrisNavigationBar\/QrisNavigationBar.swift",
       "kind": "StringLiteral",
-      "offset": 677,
+      "offset": 718,
       "length": 18,
       "value": "\"chevron.backward\""
     },
     {
       "filePath": "\/Users\/ahmadnabil\/Documents\/astrapay\/sdk\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/Shared\/Component\/QrisNavigationBar\/QrisNavigationBar.swift",
       "kind": "BooleanLiteral",
-      "offset": 900,
+      "offset": 1016,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/ahmadnabil\/Documents\/astrapay\/sdk\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/Shared\/Component\/QrisNavigationBar\/QrisNavigationBar.swift",
       "kind": "FloatLiteral",
-      "offset": 940,
+      "offset": 1056,
       "length": 3,
       "value": "0.5"
     },
@@ -13600,84 +13600,84 @@
     {
       "filePath": "\/Users\/ahmadnabil\/Documents\/astrapay\/sdk\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/Shared\/Component\/UI\/View\/Pin\/ApPinView.swift",
       "kind": "StringLiteral",
-      "offset": 964,
+      "offset": 966,
       "length": 21,
       "value": "\"logo_landscape_blue\""
     },
     {
       "filePath": "\/Users\/ahmadnabil\/Documents\/astrapay\/sdk\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/Shared\/Component\/UI\/View\/Pin\/ApPinView.swift",
       "kind": "StringLiteral",
-      "offset": 1220,
+      "offset": 1188,
       "length": 10,
       "value": "\"backIcon\""
     },
     {
       "filePath": "\/Users\/ahmadnabil\/Documents\/astrapay\/sdk\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/Shared\/Component\/UI\/View\/Pin\/ApPinView.swift",
       "kind": "StringLiteral",
-      "offset": 1267,
+      "offset": 1237,
       "length": 21,
       "value": "\"ic_arrow_back_black\""
     },
     {
       "filePath": "\/Users\/ahmadnabil\/Documents\/astrapay\/sdk\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/Shared\/Component\/UI\/View\/Pin\/ApPinView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1478,
+      "offset": 1414,
       "length": 2,
       "value": "12"
     },
     {
       "filePath": "\/Users\/ahmadnabil\/Documents\/astrapay\/sdk\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/Shared\/Component\/UI\/View\/Pin\/ApPinView.swift",
       "kind": "StringLiteral",
-      "offset": 1587,
+      "offset": 1523,
       "length": 12,
       "value": "\"errorLabel\""
     },
     {
       "filePath": "\/Users\/ahmadnabil\/Documents\/astrapay\/sdk\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/Shared\/Component\/UI\/View\/Pin\/ApPinView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1810,
+      "offset": 1746,
       "length": 1,
       "value": "6"
     },
     {
       "filePath": "\/Users\/ahmadnabil\/Documents\/astrapay\/sdk\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/Shared\/Component\/UI\/View\/Pin\/ApPinView.swift",
       "kind": "StringLiteral",
-      "offset": 1962,
+      "offset": 1898,
       "length": 11,
       "value": "\"pinValue1\""
     },
     {
       "filePath": "\/Users\/ahmadnabil\/Documents\/astrapay\/sdk\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/Shared\/Component\/UI\/View\/Pin\/ApPinView.swift",
       "kind": "StringLiteral",
-      "offset": 2120,
+      "offset": 2056,
       "length": 11,
       "value": "\"pinValue2\""
     },
     {
       "filePath": "\/Users\/ahmadnabil\/Documents\/astrapay\/sdk\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/Shared\/Component\/UI\/View\/Pin\/ApPinView.swift",
       "kind": "StringLiteral",
-      "offset": 2278,
+      "offset": 2214,
       "length": 11,
       "value": "\"pinValue3\""
     },
     {
       "filePath": "\/Users\/ahmadnabil\/Documents\/astrapay\/sdk\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/Shared\/Component\/UI\/View\/Pin\/ApPinView.swift",
       "kind": "StringLiteral",
-      "offset": 2436,
+      "offset": 2372,
       "length": 11,
       "value": "\"pinValue4\""
     },
     {
       "filePath": "\/Users\/ahmadnabil\/Documents\/astrapay\/sdk\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/Shared\/Component\/UI\/View\/Pin\/ApPinView.swift",
       "kind": "StringLiteral",
-      "offset": 2594,
+      "offset": 2530,
       "length": 11,
       "value": "\"pinValue5\""
     },
     {
       "filePath": "\/Users\/ahmadnabil\/Documents\/astrapay\/sdk\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/Shared\/Component\/UI\/View\/Pin\/ApPinView.swift",
       "kind": "StringLiteral",
-      "offset": 2752,
+      "offset": 2688,
       "length": 11,
       "value": "\"pinValue6\""
     },
@@ -13964,56 +13964,56 @@
     {
       "filePath": "\/Users\/ahmadnabil\/Documents\/astrapay\/sdk\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/QrGenerator\/QrGeneratorView.swift",
       "kind": "StringLiteral",
-      "offset": 1309,
+      "offset": 1311,
       "length": 13,
       "value": "\"ic_open_eye\""
     },
     {
       "filePath": "\/Users\/ahmadnabil\/Documents\/astrapay\/sdk\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/QrGenerator\/QrGeneratorView.swift",
       "kind": "StringLiteral",
-      "offset": 1557,
+      "offset": 1525,
       "length": 6,
       "value": "\"1:21\""
     },
     {
       "filePath": "\/Users\/ahmadnabil\/Documents\/astrapay\/sdk\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/QrGenerator\/QrGeneratorView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1593,
+      "offset": 1561,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/ahmadnabil\/Documents\/astrapay\/sdk\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/QrGenerator\/QrGeneratorView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1634,
+      "offset": 1602,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/ahmadnabil\/Documents\/astrapay\/sdk\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/QrGenerator\/QrGeneratorView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1826,
+      "offset": 1794,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/ahmadnabil\/Documents\/astrapay\/sdk\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/QrGenerator\/QrGeneratorView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1998,
+      "offset": 1966,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/ahmadnabil\/Documents\/astrapay\/sdk\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/QrGenerator\/QrGeneratorView.swift",
       "kind": "IntegerLiteral",
-      "offset": 2197,
+      "offset": 2165,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/ahmadnabil\/Documents\/astrapay\/sdk\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/QrGenerator\/QrGeneratorView.swift",
       "kind": "StringLiteral",
-      "offset": 2247,
+      "offset": 2217,
       "length": 9,
       "value": "\"ap_icon\""
     },
@@ -14888,35 +14888,35 @@
     {
       "filePath": "\/Users\/ahmadnabil\/Documents\/astrapay\/sdk\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/PaymentAmount\/PaymentAmountView.swift",
       "kind": "FloatLiteral",
-      "offset": 4335,
+      "offset": 4447,
       "length": 3,
       "value": "0.2"
     },
     {
       "filePath": "\/Users\/ahmadnabil\/Documents\/astrapay\/sdk\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/PaymentAmount\/PaymentAmountView.swift",
       "kind": "BooleanLiteral",
-      "offset": 5042,
+      "offset": 5154,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/ahmadnabil\/Documents\/astrapay\/sdk\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/PaymentAmount\/PaymentAmountView.swift",
       "kind": "StringLiteral",
-      "offset": 5070,
+      "offset": 5182,
       "length": 3,
       "value": "\"0\""
     },
     {
       "filePath": "\/Users\/ahmadnabil\/Documents\/astrapay\/sdk\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/PaymentAmount\/PaymentAmountView.swift",
       "kind": "StringLiteral",
-      "offset": 5099,
+      "offset": 5211,
       "length": 3,
       "value": "\"0\""
     },
     {
       "filePath": "\/Users\/ahmadnabil\/Documents\/astrapay\/sdk\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/PaymentAmount\/PaymentAmountView.swift",
       "kind": "IntegerLiteral",
-      "offset": 5136,
+      "offset": 5248,
       "length": 1,
       "value": "0"
     },
@@ -15133,7 +15133,7 @@
     {
       "filePath": "\/Users\/ahmadnabil\/Documents\/astrapay\/sdk\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/Shared\/Component\/UI\/View\/QrisKeyboard.swift",
       "kind": "StringLiteral",
-      "offset": 3633,
+      "offset": 3674,
       "length": 13,
       "value": "\"delete.left\""
     },
@@ -15273,37 +15273,30 @@
     {
       "filePath": "\/Users\/ahmadnabil\/Documents\/astrapay\/sdk\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/QrGenerator\/Component\/ApSecretBalanceView.swift",
       "kind": "StringLiteral",
-      "offset": 210,
+      "offset": 212,
       "length": 13,
       "value": "\"ic_open_eye\""
     },
     {
       "filePath": "\/Users\/ahmadnabil\/Documents\/astrapay\/sdk\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/QrGenerator\/Component\/ApSecretBalanceView.swift",
       "kind": "StringLiteral",
-      "offset": 308,
+      "offset": 278,
       "length": 14,
       "value": "\"ic_close_eye\""
     },
     {
       "filePath": "\/Users\/ahmadnabil\/Documents\/astrapay\/sdk\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/QrGenerator\/Component\/ApSecretBalanceView.swift",
       "kind": "StringLiteral",
-      "offset": 389,
+      "offset": 325,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/ahmadnabil\/Documents\/astrapay\/sdk\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/QrGenerator\/Component\/ApSecretBalanceView.swift",
       "kind": "BooleanLiteral",
-      "offset": 417,
+      "offset": 353,
       "length": 5,
       "value": "false"
-    },
-    {
-      "filePath": "\/Users\/ahmadnabil\/Documents\/astrapay\/sdk\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/QrGenerator\/Component\/ApSecretBalanceView.swift",
-      "kind": "StringLiteral",
-      "offset": 679,
-      "length": 4,
-      "value": "\"Rp\""
     },
     {
       "filePath": "\/Users\/ahmadnabil\/Documents\/astrapay\/sdk\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/Helpers\/SkeletonView\/SkeletonViewCore\/Sources\/Internal\/SkeletonConfigs\/SkeletonConfig.swift",
@@ -15343,7 +15336,7 @@
     {
       "filePath": "\/Users\/ahmadnabil\/Documents\/astrapay\/sdk\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/Shared\/Component\/UI\/View\/Dialog\/SingleButton\/DialogView.swift",
       "kind": "StringLiteral",
-      "offset": 1634,
+      "offset": 1675,
       "length": 10,
       "value": "\"multiply\""
     },
@@ -17674,35 +17667,35 @@
     {
       "filePath": "\/Users\/ahmadnabil\/Documents\/astrapay\/sdk\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/Base\/ApViewController.swift",
       "kind": "StringLiteral",
-      "offset": 2817,
+      "offset": 3227,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/ahmadnabil\/Documents\/astrapay\/sdk\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/Base\/ApViewController.swift",
       "kind": "StringLiteral",
-      "offset": 2852,
+      "offset": 3262,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/ahmadnabil\/Documents\/astrapay\/sdk\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/Base\/ApViewController.swift",
       "kind": "StringLiteral",
-      "offset": 5590,
+      "offset": 6000,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/ahmadnabil\/Documents\/astrapay\/sdk\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/Base\/ApViewController.swift",
       "kind": "StringLiteral",
-      "offset": 5616,
+      "offset": 6026,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/ahmadnabil\/Documents\/astrapay\/sdk\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/Base\/ApViewController.swift",
       "kind": "StringLiteral",
-      "offset": 5652,
+      "offset": 6062,
       "length": 2,
       "value": "\"\""
     },

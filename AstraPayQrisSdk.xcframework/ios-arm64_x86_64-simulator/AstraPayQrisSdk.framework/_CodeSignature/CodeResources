@@ -6,11 +6,11 @@
 	<dict>
 		<key>Alamofire.bundle/Info.plist</key>
 		<data>
-		KHb5xyFndN6a69OI0NGjDBkUXSo=
+		Oka0zQONWIsOXPMitNaAsilNREY=
 		</data>
 		<key>Assets.car</key>
 		<data>
-		rH6HcevClubfe71F7SizAAbC+aA=
+		SBhB+U4FiVmqPG9NwOX7HJ/Ak2c=
 		</data>
 		<key>Frameworks/MoEngageAnalytics.framework/Info.plist</key>
 		<data>
@@ -246,7 +246,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		kGv8/WhbnpOUp9wWy0ASip02hA4=
+		MzsNZT8kxzx6hpY8fOYzgcDhN/E=
 		</data>
 		<key>Inter-Black.ttf</key>
 		<data>
@@ -290,43 +290,43 @@
 		</data>
 		<key>Modules/AstraPayQrisSdk.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		ydK+XSsdBkPayd08sOGaY/Z8VPI=
+		ErecJAbnoxSlLqgU3/zlqtGO3Fw=
 		</data>
 		<key>Modules/AstraPayQrisSdk.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		UNXRyturIXT5jRTSlyBw9VZJLVE=
+		x6NwB8Qt1GTmIy9MWXM6O/VOgLA=
 		</data>
 		<key>Modules/AstraPayQrisSdk.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		lX0Rjn6+p2rkUUpj40NkrP5CMJU=
+		9zyOksYxSllq+y5V1beeciB+KcE=
 		</data>
 		<key>Modules/AstraPayQrisSdk.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		UNXRyturIXT5jRTSlyBw9VZJLVE=
+		x6NwB8Qt1GTmIy9MWXM6O/VOgLA=
 		</data>
 		<key>Modules/AstraPayQrisSdk.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		+zSla6kTdlIhfISxO1I7TjqnSgM=
+		RixJaUpYYGS5BCs/NIQyjRByHB0=
 		</data>
 		<key>Modules/AstraPayQrisSdk.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		ydK+XSsdBkPayd08sOGaY/Z8VPI=
+		ErecJAbnoxSlLqgU3/zlqtGO3Fw=
 		</data>
 		<key>Modules/AstraPayQrisSdk.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		527fTuU+dKHeJufWT7D76zv48O4=
+		lWSmliM/fw1XMsOdocBHmeqdyoI=
 		</data>
 		<key>Modules/AstraPayQrisSdk.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		c9OlMAG1ZTQVTiVBoOFALfBiu9w=
+		1QfVMUDAsSvXJ/lNSm2SALHwrSA=
 		</data>
 		<key>Modules/AstraPayQrisSdk.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		527fTuU+dKHeJufWT7D76zv48O4=
+		lWSmliM/fw1XMsOdocBHmeqdyoI=
 		</data>
 		<key>Modules/AstraPayQrisSdk.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		ScB3CTiCnZ0NsUT6C1LQTE2g/Vg=
+		PsE8aQzRdYCML9rJi9NYoYiKKME=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -335,14 +335,6 @@
 		<key>README.md</key>
 		<data>
 		3QGWgLH+TyBKn3j2LRbyOMQWtIA=
-		</data>
-		<key>SnapKit_Privacy.bundle/Info.plist</key>
-		<data>
-		ybRo64jV4VdMRuG/pMyYh9eALxQ=
-		</data>
-		<key>SnapKit_Privacy.bundle/PrivacyInfo.xcprivacy</key>
-		<data>
-		F6mYXr6EQZyLKcQNM0vmTGcGMns=
 		</data>
 		<key>ToastView.nib/objects-14.0+.nib</key>
 		<data>
@@ -387,14 +379,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			EiwsySSjzcwOva3UvR113SyuxW41cUZkVZGjXOLiU9Q=
+			jNtsmpCEhBTnubFIZFHohCBehq3gV3HUmp4EtwuiTtk=
 			</data>
 		</dict>
 		<key>Assets.car</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			dPQrO3OoDJGQOo1mp2+uMWJ/Lj6ZU75fp+CKSjqjPSk=
+			jYZLSZEIpDlZ9f/j/TpFtGhHWAVWpPLNydOiZxHAT48=
 			</data>
 		</dict>
 		<key>Frameworks/MoEngageAnalytics.framework/Info.plist</key>
@@ -877,70 +869,70 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			n3XGq8Zb/L6DMqygggRZWWznKS1efYyjiySSqcQ3ouQ=
+			Vy90OizywI77F0pw5oJgGSvvJ20aNu8zrsDhdG1s/Lk=
 			</data>
 		</dict>
 		<key>Modules/AstraPayQrisSdk.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			HYAPOjJ+xXx2TNapxhwopWpqcnjWF0KdoXA98mghdA0=
+			jis/5o3WIPRMDlWol9FFURAaj5oIhImHrFImvI0N1Jk=
 			</data>
 		</dict>
 		<key>Modules/AstraPayQrisSdk.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			NSn2JO0wEewg5LlrNERpLjflP0z5MgXYA0vpNGtraTQ=
+			6iKarmdZGo24eOR+GFF9xc92bLh1fqBb11yMtTw1NTo=
 			</data>
 		</dict>
 		<key>Modules/AstraPayQrisSdk.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			HYAPOjJ+xXx2TNapxhwopWpqcnjWF0KdoXA98mghdA0=
+			jis/5o3WIPRMDlWol9FFURAaj5oIhImHrFImvI0N1Jk=
 			</data>
 		</dict>
 		<key>Modules/AstraPayQrisSdk.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			27ULXMYIKmmT6aqhQqTjY81g4phO5itwH1y9YeSi1BY=
+			Q06cyprDvhO1GVy56HQ15DG32M6n19BdwyikUV2/7NI=
 			</data>
 		</dict>
 		<key>Modules/AstraPayQrisSdk.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			n3XGq8Zb/L6DMqygggRZWWznKS1efYyjiySSqcQ3ouQ=
+			Vy90OizywI77F0pw5oJgGSvvJ20aNu8zrsDhdG1s/Lk=
 			</data>
 		</dict>
 		<key>Modules/AstraPayQrisSdk.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			wOLpS80QZryQJ4DJ8OU1oB4P+J4eXgR+vUbrkRGZjx4=
+			nFCGsLUl5t9R+pze3ztNLSoBv5ypIFs+q00M4AjR01k=
 			</data>
 		</dict>
 		<key>Modules/AstraPayQrisSdk.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			8mU+O1VAqWhyCTB42k5pYEsRbIsbZniytZ2qX1sWZSU=
+			WO1gpi6n1vptSzYFUqsmORE2K8wFzukHXXnsCg0fKkY=
 			</data>
 		</dict>
 		<key>Modules/AstraPayQrisSdk.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			wOLpS80QZryQJ4DJ8OU1oB4P+J4eXgR+vUbrkRGZjx4=
+			nFCGsLUl5t9R+pze3ztNLSoBv5ypIFs+q00M4AjR01k=
 			</data>
 		</dict>
 		<key>Modules/AstraPayQrisSdk.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			QrMFTmh9/8X3oE1SwdMFKLYz3wBHZ6f8/i6vnOGo0a0=
+			WK2xGE/A0mgUvkNX5OFCHo9zvzn0Hntff5Rc3h4OLHE=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -955,20 +947,6 @@
 			<key>hash2</key>
 			<data>
 			CKfU6Dm/TB+sCBJo3vtBxZttef9zgQuGkGZb87Fs7CQ=
-			</data>
-		</dict>
-		<key>SnapKit_Privacy.bundle/Info.plist</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			/IJp1KMYsFfsKfq0gZByCQkfUTICJjIJ5KmJfuhnWbM=
-			</data>
-		</dict>
-		<key>SnapKit_Privacy.bundle/PrivacyInfo.xcprivacy</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			oHQY5f4SjiJM03lkvCHFA7eqL1dee0knRoR4rYcyFP4=
 			</data>
 		</dict>
 		<key>ToastView.nib/objects-14.0+.nib</key>
