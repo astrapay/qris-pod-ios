@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "astrapay-qris"
-  spec.version = "0.5.5"
+  spec.version = "0.5.7"
   spec.summary      = "AstraPay Qris SDK"
 
   spec.description  = <<-DESC
