@@ -13897,28 +13897,35 @@
     {
       "filePath": "\/Users\/rahman\/Documents\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/Confirmation\/ConfirmationVm.swift",
       "kind": "StringLiteral",
-      "offset": 1134,
+      "offset": 1164,
+      "length": 58,
+      "value": "\"Kamu Terlalu lama untuk mengirim kode OTP, Coba Kembali.\""
+    },
+    {
+      "filePath": "\/Users\/rahman\/Documents\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/Confirmation\/ConfirmationVm.swift",
+      "kind": "StringLiteral",
+      "offset": 1255,
       "length": 6,
       "value": "\"VOID\""
     },
     {
       "filePath": "\/Users\/rahman\/Documents\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/Confirmation\/ConfirmationVm.swift",
       "kind": "StringLiteral",
-      "offset": 1176,
+      "offset": 1297,
       "length": 9,
       "value": "\"SUCCESS\""
     },
     {
       "filePath": "\/Users\/rahman\/Documents\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/Confirmation\/ConfirmationVm.swift",
       "kind": "StringLiteral",
-      "offset": 1228,
+      "offset": 1349,
       "length": 9,
       "value": "\"BALANCE\""
     },
     {
       "filePath": "\/Users\/rahman\/Documents\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/Confirmation\/ConfirmationVm.swift",
       "kind": "StringLiteral",
-      "offset": 1281,
+      "offset": 1402,
       "length": 10,
       "value": "\"PAYLATER\""
     },
@@ -14425,6 +14432,13 @@
       "offset": 787,
       "length": 13,
       "value": "\"OTP-EXPIRED\""
+    },
+    {
+      "filePath": "\/Users\/rahman\/Documents\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/Shared\/Enum\/QrisConfirmationErrorCode.swift",
+      "kind": "StringLiteral",
+      "offset": 836,
+      "length": 25,
+      "value": "\"TransactionTokenExpired\""
     },
     {
       "filePath": "\/Users\/rahman\/Documents\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/ApplyVoucherSelection\/Component\/ApplyVoucherView.swift",
