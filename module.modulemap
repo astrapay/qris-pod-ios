@@ -1,0 +1,6 @@
+framework module AstraPayQrisSdk {
+    umbrella header "AstraPayQrisSdk.h"
+
+    export *
+    module * { export * }
+}

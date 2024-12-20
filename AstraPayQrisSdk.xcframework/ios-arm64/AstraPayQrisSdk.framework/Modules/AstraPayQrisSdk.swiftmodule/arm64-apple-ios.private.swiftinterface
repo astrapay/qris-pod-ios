@@ -79,9 +79,10 @@ public protocol ApOtpDatasource {
   @objc public var merchantName: Swift.String?
   @objc public var merchantCity: Swift.String?
   @objc public var amount: Swift.String?
+  @objc public var totalAmount: Swift.String?
   @objc public var discountAmount: Swift.String?
   @objc public var merchantId: Swift.String?
-  @objc public init(transactionAt: Swift.String? = nil, status: Swift.String? = nil, transactionNumber: Swift.String? = nil, referenceNumber: Swift.String? = nil, merchantName: Swift.String? = nil, merchantCity: Swift.String? = nil, amount: Swift.String? = nil, discountAmount: Swift.String? = nil, merchantId: Swift.String? = nil)
+  @objc public init(transactionAt: Swift.String? = nil, status: Swift.String? = nil, transactionNumber: Swift.String? = nil, referenceNumber: Swift.String? = nil, merchantName: Swift.String? = nil, merchantCity: Swift.String? = nil, amount: Swift.String? = nil, totalAmount: Swift.String? = nil, discountAmount: Swift.String? = nil, merchantId: Swift.String? = nil)
   @objc deinit
 }
 public enum AuthenticationClaim : Swift.String, Swift.Codable {

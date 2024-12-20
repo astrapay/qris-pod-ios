@@ -1667,6 +1667,16 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AstraPayQrisSdk",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -4160,6 +4170,123 @@
           },
           {
             "kind": "Var",
+            "name": "totalAmount",
+            "printedName": "totalAmount",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@AstraPayQrisSdk@objc(cs)QrisTransactionHistorySummary(py)totalAmount",
+            "mangledName": "$s15AstraPayQrisSdk0C25TransactionHistorySummaryC11totalAmountSSSgvp",
+            "moduleName": "AstraPayQrisSdk",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@AstraPayQrisSdk@objc(cs)QrisTransactionHistorySummary(im)totalAmount",
+                "mangledName": "$s15AstraPayQrisSdk0C25TransactionHistorySummaryC11totalAmountSSSgvg",
+                "moduleName": "AstraPayQrisSdk",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@AstraPayQrisSdk@objc(cs)QrisTransactionHistorySummary(im)setTotalAmount:",
+                "mangledName": "$s15AstraPayQrisSdk0C25TransactionHistorySummaryC11totalAmountSSSgvs",
+                "moduleName": "AstraPayQrisSdk",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15AstraPayQrisSdk0C25TransactionHistorySummaryC11totalAmountSSSgvM",
+                "mangledName": "$s15AstraPayQrisSdk0C25TransactionHistorySummaryC11totalAmountSSSgvM",
+                "moduleName": "AstraPayQrisSdk",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
             "name": "discountAmount",
             "printedName": "discountAmount",
             "children": [
@@ -4395,7 +4522,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(transactionAt:status:transactionNumber:referenceNumber:merchantName:merchantCity:amount:discountAmount:merchantId:)",
+            "printedName": "init(transactionAt:status:transactionNumber:referenceNumber:merchantName:merchantCity:amount:totalAmount:discountAmount:merchantId:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -4537,13 +4664,28 @@
                 ],
                 "hasDefaultArg": true,
                 "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Constructor",
-            "usr": "c:@M@AstraPayQrisSdk@objc(cs)QrisTransactionHistorySummary(im)initWithTransactionAt:status:transactionNumber:referenceNumber:merchantName:merchantCity:amount:discountAmount:merchantId:",
-            "mangledName": "$s15AstraPayQrisSdk0C25TransactionHistorySummaryC13transactionAt6status0H6Number09referenceK012merchantName0M4City6amount14discountAmount0M2IdACSSSg_A8Mtcfc",
+            "usr": "c:@M@AstraPayQrisSdk@objc(cs)QrisTransactionHistorySummary(im)initWithTransactionAt:status:transactionNumber:referenceNumber:merchantName:merchantCity:amount:totalAmount:discountAmount:merchantId:",
+            "mangledName": "$s15AstraPayQrisSdk0C25TransactionHistorySummaryC13transactionAt6status0H6Number09referenceK012merchantName0M4City6amount11totalAmount08discountR00M2IdACSSSg_A9Ntcfc",
             "moduleName": "AstraPayQrisSdk",
-            "objc_name": "initWithTransactionAt:status:transactionNumber:referenceNumber:merchantName:merchantCity:amount:discountAmount:merchantId:",
+            "objc_name": "initWithTransactionAt:status:transactionNumber:referenceNumber:merchantName:merchantCity:amount:totalAmount:discountAmount:merchantId:",
             "declAttributes": [
               "AccessControl",
               "ObjC"
@@ -11254,147 +11396,147 @@
     {
       "filePath": "\/Users\/rahman\/Documents\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/Scanner\/QrisScannerVc.swift",
       "kind": "StringLiteral",
-      "offset": 343,
+      "offset": 339,
       "length": 21,
       "value": "\"illustration_failed\""
     },
     {
       "filePath": "\/Users\/rahman\/Documents\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/Scanner\/QrisScannerVc.swift",
       "kind": "StringLiteral",
-      "offset": 399,
+      "offset": 395,
       "length": 30,
       "value": "\"illustration_unauthenticated\""
     },
     {
       "filePath": "\/Users\/rahman\/Documents\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/Scanner\/QrisScannerVc.swift",
       "kind": "StringLiteral",
-      "offset": 464,
+      "offset": 460,
       "length": 26,
       "value": "\"illustration_limitAmount\""
     },
     {
       "filePath": "\/Users\/rahman\/Documents\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/Scanner\/QrisScannerVc.swift",
       "kind": "StringLiteral",
-      "offset": 528,
+      "offset": 524,
       "length": 22,
       "value": "\"Secure payment with \""
     },
     {
       "filePath": "\/Users\/rahman\/Documents\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/Scanner\/QrisScannerVc.swift",
       "kind": "StringLiteral",
-      "offset": 593,
+      "offset": 589,
       "length": 18,
       "value": "\"horizontal_white\""
     },
     {
       "filePath": "\/Users\/rahman\/Documents\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/Scanner\/QrisScannerVc.swift",
       "kind": "StringLiteral",
-      "offset": 654,
+      "offset": 650,
       "length": 19,
       "value": "\"dark_blue_element\""
     },
     {
       "filePath": "\/Users\/rahman\/Documents\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/Scanner\/QrisScannerVc.swift",
       "kind": "StringLiteral",
-      "offset": 712,
+      "offset": 708,
       "length": 14,
       "value": "\"QRStoryBoard\""
     },
     {
       "filePath": "\/Users\/rahman\/Documents\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/Scanner\/QrisScannerVc.swift",
       "kind": "StringLiteral",
-      "offset": 770,
+      "offset": 766,
       "length": 20,
       "value": "\"Astrapay mendukung\""
     },
     {
       "filePath": "\/Users\/rahman\/Documents\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/Scanner\/QrisScannerVc.swift",
       "kind": "StringLiteral",
-      "offset": 836,
+      "offset": 832,
       "length": 26,
       "value": "\"Scan di dalam area kotak\""
     },
     {
       "filePath": "\/Users\/rahman\/Documents\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/Scanner\/QrisScannerVc.swift",
       "kind": "StringLiteral",
-      "offset": 920,
+      "offset": 908,
       "length": 12,
       "value": "\"qris_white\""
     },
     {
       "filePath": "\/Users\/rahman\/Documents\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/Scanner\/QrisScannerVc.swift",
       "kind": "StringLiteral",
-      "offset": 1001,
+      "offset": 981,
       "length": 22,
       "value": "\"Secure payment with \""
     },
     {
       "filePath": "\/Users\/rahman\/Documents\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/Scanner\/QrisScannerVc.swift",
       "kind": "StringLiteral",
-      "offset": 1073,
+      "offset": 1053,
       "length": 52,
       "value": "\"Terjadi masalah\n Silahkan coba beberapa saat lagi\""
     },
     {
       "filePath": "\/Users\/rahman\/Documents\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/Scanner\/QrisScannerVc.swift",
       "kind": "StringLiteral",
-      "offset": 1171,
+      "offset": 1151,
       "length": 11,
       "value": "\"Perhatian\""
     },
     {
       "filePath": "\/Users\/rahman\/Documents\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/Scanner\/QrisScannerVc.swift",
       "kind": "StringLiteral",
-      "offset": 1236,
+      "offset": 1216,
       "length": 54,
       "value": "\"Berikan akses Kamera di Pengaturan untuk melanjutkan\""
     },
     {
       "filePath": "\/Users\/rahman\/Documents\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/Scanner\/QrisScannerVc.swift",
       "kind": "StringLiteral",
-      "offset": 1345,
+      "offset": 1325,
       "length": 54,
       "value": "\"Berikan akses Photos di Pengaturan untuk melanjutkan\""
     },
     {
       "filePath": "\/Users\/rahman\/Documents\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/Scanner\/QrisScannerVc.swift",
       "kind": "StringLiteral",
-      "offset": 1450,
+      "offset": 1430,
       "length": 10,
       "value": "\"Batalkan\""
     },
     {
       "filePath": "\/Users\/rahman\/Documents\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/Scanner\/QrisScannerVc.swift",
       "kind": "StringLiteral",
-      "offset": 1513,
+      "offset": 1493,
       "length": 12,
       "value": "\"Pengaturan\""
     },
     {
       "filePath": "\/Users\/rahman\/Documents\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/Scanner\/QrisScannerVc.swift",
       "kind": "IntegerLiteral",
-      "offset": 1572,
+      "offset": 1552,
       "length": 3,
       "value": "129"
     },
     {
       "filePath": "\/Users\/rahman\/Documents\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/Scanner\/QrisScannerVc.swift",
       "kind": "StringLiteral",
-      "offset": 1616,
+      "offset": 1596,
       "length": 21,
       "value": "\"illustration_failed\""
     },
     {
       "filePath": "\/Users\/rahman\/Documents\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/Scanner\/QrisScannerVc.swift",
       "kind": "StringLiteral",
-      "offset": 1670,
+      "offset": 1650,
       "length": 8,
       "value": "\"STATIC\""
     },
     {
       "filePath": "\/Users\/rahman\/Documents\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/Scanner\/QrisScannerVc.swift",
       "kind": "StringLiteral",
-      "offset": 1711,
+      "offset": 1691,
       "length": 9,
       "value": "\"DYNAMIC\""
     },
@@ -14502,35 +14644,35 @@
     {
       "filePath": "\/Users\/rahman\/Documents\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/Authentication\/ApOtpVm.swift",
       "kind": "StringLiteral",
-      "offset": 7639,
+      "offset": 7705,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/rahman\/Documents\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/Authentication\/ApOtpVm.swift",
       "kind": "StringLiteral",
-      "offset": 7790,
+      "offset": 7856,
       "length": 147,
       "value": "\"You need to initiate the request resend otp path and request body resend first, call setupRequestPath() and setupRequestBody() before this method\""
     },
     {
       "filePath": "\/Users\/rahman\/Documents\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/Authentication\/ApOtpVm.swift",
       "kind": "BooleanLiteral",
-      "offset": 8016,
+      "offset": 8082,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/rahman\/Documents\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/Authentication\/ApOtpVm.swift",
       "kind": "StringLiteral",
-      "offset": 8295,
+      "offset": 8361,
       "length": 9,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/rahman\/Documents\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/Authentication\/ApOtpVm.swift",
       "kind": "StringLiteral",
-      "offset": 8303,
+      "offset": 8369,
       "length": 1,
       "value": "\"\""
     },
@@ -14943,112 +15085,112 @@
     {
       "filePath": "\/Users\/rahman\/Documents\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/Confirmation\/ConfirmationVm.swift",
       "kind": "StringLiteral",
-      "offset": 648,
+      "offset": 676,
       "length": 30,
       "value": "\"PIN yang kamu masukkan salah\""
     },
     {
       "filePath": "\/Users\/rahman\/Documents\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/Confirmation\/ConfirmationVm.swift",
       "kind": "StringLiteral",
-      "offset": 729,
+      "offset": 757,
       "length": 47,
       "value": "\"PIN salah, kamu punya kesempatan 1 kali lagi!\""
     },
     {
       "filePath": "\/Users\/rahman\/Documents\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/Confirmation\/ConfirmationVm.swift",
       "kind": "StringLiteral",
-      "offset": 834,
+      "offset": 862,
       "length": 59,
       "value": "\"Kamu sudah 3 kali salah PIN.\nCoba kembali setelah 1 jam.\""
     },
     {
       "filePath": "\/Users\/rahman\/Documents\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/Confirmation\/ConfirmationVm.swift",
       "kind": "StringLiteral",
-      "offset": 939,
+      "offset": 967,
       "length": 76,
       "value": "\"Kamu sudah melebihi batas memasukan PIN.\nHubungi CS untuk pemulihan akun.\""
     },
     {
       "filePath": "\/Users\/rahman\/Documents\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/Confirmation\/ConfirmationVm.swift",
       "kind": "StringLiteral",
-      "offset": 1064,
+      "offset": 1092,
       "length": 80,
       "value": "\"Kamu melewatkan verifikasi kode OTP sebelumnya, coba lagi dalam beberapa saat.\""
     },
     {
       "filePath": "\/Users\/rahman\/Documents\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/Confirmation\/ConfirmationVm.swift",
       "kind": "StringLiteral",
-      "offset": 1207,
+      "offset": 1235,
       "length": 58,
       "value": "\"Kamu Terlalu lama untuk mengirim kode OTP, Coba Kembali.\""
     },
     {
       "filePath": "\/Users\/rahman\/Documents\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/Confirmation\/ConfirmationVm.swift",
       "kind": "StringLiteral",
-      "offset": 1298,
+      "offset": 1326,
       "length": 6,
       "value": "\"VOID\""
     },
     {
       "filePath": "\/Users\/rahman\/Documents\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/Confirmation\/ConfirmationVm.swift",
       "kind": "StringLiteral",
-      "offset": 1340,
+      "offset": 1368,
       "length": 9,
       "value": "\"SUCCESS\""
     },
     {
       "filePath": "\/Users\/rahman\/Documents\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/Confirmation\/ConfirmationVm.swift",
       "kind": "StringLiteral",
-      "offset": 1392,
+      "offset": 1420,
       "length": 9,
       "value": "\"BALANCE\""
     },
     {
       "filePath": "\/Users\/rahman\/Documents\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/Confirmation\/ConfirmationVm.swift",
       "kind": "StringLiteral",
-      "offset": 1431,
+      "offset": 1459,
       "length": 9,
       "value": "\"retryIn\""
     },
     {
       "filePath": "\/Users\/rahman\/Documents\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/Confirmation\/ConfirmationVm.swift",
       "kind": "StringLiteral",
-      "offset": 1473,
+      "offset": 1501,
       "length": 12,
       "value": "\"retryCount\""
     },
     {
       "filePath": "\/Users\/rahman\/Documents\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/Confirmation\/ConfirmationVm.swift",
       "kind": "IntegerLiteral",
-      "offset": 4877,
+      "offset": 4905,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/rahman\/Documents\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/Confirmation\/ConfirmationVm.swift",
       "kind": "IntegerLiteral",
-      "offset": 4906,
+      "offset": 4934,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/rahman\/Documents\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/Confirmation\/ConfirmationVm.swift",
       "kind": "FloatLiteral",
-      "offset": 13691,
+      "offset": 13848,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/rahman\/Documents\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/Confirmation\/ConfirmationVm.swift",
       "kind": "FloatLiteral",
-      "offset": 13717,
+      "offset": 13874,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/rahman\/Documents\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/Confirmation\/ConfirmationVm.swift",
       "kind": "FloatLiteral",
-      "offset": 13766,
+      "offset": 13923,
       "length": 3,
       "value": "0.0"
     },
@@ -15118,7 +15260,14 @@
     {
       "filePath": "\/Users\/rahman\/Documents\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/TransactionResult\/QrisTransactionResultView.swift",
       "kind": "StringLiteral",
-      "offset": 8019,
+      "offset": 5092,
+      "length": 5,
+      "value": "\"MPM\""
+    },
+    {
+      "filePath": "\/Users\/rahman\/Documents\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/TransactionResult\/QrisTransactionResultView.swift",
+      "kind": "StringLiteral",
+      "offset": 8775,
       "length": 9,
       "value": "\"BALANCE\""
     },
@@ -17267,35 +17416,42 @@
     {
       "filePath": "\/Users\/rahman\/Documents\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/QrGenerator\/QrGeneratorVc.swift",
       "kind": "IntegerLiteral",
-      "offset": 2665,
+      "offset": 2662,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/rahman\/Documents\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/QrGenerator\/QrGeneratorVc.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2713,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/rahman\/Documents\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/QrGenerator\/QrGeneratorVc.swift",
       "kind": "BooleanLiteral",
-      "offset": 11199,
+      "offset": 12108,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/rahman\/Documents\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/QrGenerator\/QrGeneratorVc.swift",
       "kind": "BooleanLiteral",
-      "offset": 11330,
+      "offset": 12239,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/rahman\/Documents\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/QrGenerator\/QrGeneratorVc.swift",
       "kind": "BooleanLiteral",
-      "offset": 11417,
+      "offset": 12326,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/rahman\/Documents\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/QrGenerator\/QrGeneratorVc.swift",
       "kind": "BooleanLiteral",
-      "offset": 11481,
+      "offset": 12390,
       "length": 4,
       "value": "true"
     },
@@ -18443,49 +18599,56 @@
     {
       "filePath": "\/Users\/rahman\/Documents\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/TransactionResult\/QrisTransactionResultVc.swift",
       "kind": "BooleanLiteral",
-      "offset": 621,
+      "offset": 650,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/rahman\/Documents\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/TransactionResult\/QrisTransactionResultVc.swift",
       "kind": "StringLiteral",
-      "offset": 664,
+      "offset": 693,
       "length": 3,
       "value": "\"-\""
     },
     {
       "filePath": "\/Users\/rahman\/Documents\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/TransactionResult\/QrisTransactionResultVc.swift",
       "kind": "StringLiteral",
-      "offset": 703,
+      "offset": 732,
       "length": 3,
       "value": "\"-\""
     },
     {
       "filePath": "\/Users\/rahman\/Documents\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/TransactionResult\/QrisTransactionResultVc.swift",
       "kind": "StringLiteral",
-      "offset": 742,
+      "offset": 771,
       "length": 6,
       "value": "\"QRIS\""
     },
     {
       "filePath": "\/Users\/rahman\/Documents\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/TransactionResult\/QrisTransactionResultVc.swift",
       "kind": "StringLiteral",
-      "offset": 883,
+      "offset": 804,
+      "length": 5,
+      "value": "\"MPM\""
+    },
+    {
+      "filePath": "\/Users\/rahman\/Documents\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/TransactionResult\/QrisTransactionResultVc.swift",
+      "kind": "StringLiteral",
+      "offset": 944,
       "length": 6,
       "value": "\"QRIS\""
     },
     {
       "filePath": "\/Users\/rahman\/Documents\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/TransactionResult\/QrisTransactionResultVc.swift",
       "kind": "StringLiteral",
-      "offset": 927,
+      "offset": 988,
       "length": 14,
       "value": "\"merchantName\""
     },
     {
       "filePath": "\/Users\/rahman\/Documents\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/TransactionResult\/QrisTransactionResultVc.swift",
       "kind": "StringLiteral",
-      "offset": 975,
+      "offset": 1036,
       "length": 10,
       "value": "\"Paylater\""
     },
