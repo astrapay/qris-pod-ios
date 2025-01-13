@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.0 effective-5.10 (swiftlang-6.0.0.9.10 clang-1600.0.26.2)
+// swift-compiler-version: Apple Swift version 6.0.3 effective-5.10 (swiftlang-6.0.3.1.10 clang-1600.0.30.1)
 // swift-module-flags: -target arm64-apple-ios11.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name AstraPayQrisSdk
 // swift-module-flags-ignorable: -no-verify-emitted-module-interface
 import AVFoundation
@@ -10,7 +10,9 @@ import CoreGraphics
 import CoreImage
 import DeveloperToolsSupport
 import Foundation
+import Kingfisher
 import Photos
+import SnapKit
 import Swift
 import SwiftUI
 import UIKit
@@ -36,11 +38,63 @@ import _SwiftConcurrencyShims
   @objc public static var isPaylaterAvailable: Swift.Bool
   @objc public static var isSnap: Swift.Bool
   @objc public static var qrisCpm: Swift.Bool
+  @objc public static var isUserEligibleQrisCpm: Swift.Bool
   @objc public static var REFRESH_TOKEN: Swift.String
   @objc public static func setPaylaterAvailability()
   @objc public static func isAppAstrapay(bundleIdentifier: Swift.String) -> Swift.Bool
   @objc override dynamic public init()
   @objc deinit
+}
+public enum BottomBarStyle {
+  case single
+  case vertical
+  case horizontal
+  case singleAndDetail
+  public static func == (a: AstraPayQrisSdk.BottomBarStyle, b: AstraPayQrisSdk.BottomBarStyle) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public enum BottomBarLeadingType {
+  case singleLine
+  case doubleLine
+  case tripleLine
+  public static func == (a: AstraPayQrisSdk.BottomBarLeadingType, b: AstraPayQrisSdk.BottomBarLeadingType) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public enum BottomBarTopContent {
+  case none
+  case text
+  case checkboxText
+  public static func == (a: AstraPayQrisSdk.BottomBarTopContent, b: AstraPayQrisSdk.BottomBarTopContent) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public enum BottomBarBottomContent {
+  case none
+  case text
+  case iconText
+  public static func == (a: AstraPayQrisSdk.BottomBarBottomContent, b: AstraPayQrisSdk.BottomBarBottomContent) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public enum BottomBarLeadingDescriptionPosition {
+  case none
+  case belowTitle
+  case aboveTitle
+  public static func == (a: AstraPayQrisSdk.BottomBarLeadingDescriptionPosition, b: AstraPayQrisSdk.BottomBarLeadingDescriptionPosition) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
 }
 @_inheritsConvenienceInitializers @objc public class QRNewRouter : ObjectiveC.NSObject {
   @objc public static let sharedInstance: AstraPayQrisSdk.QRNewRouter
@@ -85,6 +139,19 @@ public protocol ApOtpDatasource {
   @objc public init(transactionAt: Swift.String? = nil, status: Swift.String? = nil, transactionNumber: Swift.String? = nil, referenceNumber: Swift.String? = nil, merchantName: Swift.String? = nil, merchantCity: Swift.String? = nil, amount: Swift.String? = nil, totalAmount: Swift.String? = nil, discountAmount: Swift.String? = nil, merchantId: Swift.String? = nil)
   @objc deinit
 }
+public enum QrisTransactionResultEnum : Swift.String {
+  case SUCCESS
+  case FAILED
+  case PENDING
+  case PROCESSING
+  case VOID
+  case REJECTED
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
 public enum AuthenticationClaim : Swift.String, Swift.Codable {
   case REGISTRATION
   case LOGIN
@@ -108,6 +175,382 @@ public enum OtpMechanism : Swift.String, Swift.Codable {
     get
   }
 }
+public struct ShadowSize {
+  public var height: CoreFoundation.CGFloat
+  public var shadowRadius: CoreFoundation.CGFloat
+  public var shadowOpacity: Swift.Float
+}
+public struct Shadow {
+  public static let bottomShadowSm: AstraPayQrisSdk.ShadowSize
+  public static let bottomShadowMd: AstraPayQrisSdk.ShadowSize
+  public static let bottomShadowLg: AstraPayQrisSdk.ShadowSize
+  public static let topShadowSm: AstraPayQrisSdk.ShadowSize
+  public static let topShadowMd: AstraPayQrisSdk.ShadowSize
+  public static let topShadowLg: AstraPayQrisSdk.ShadowSize
+}
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @_Concurrency.MainActor @preconcurrency public class ApBottomBar : UIKit.UIView {
+  @_Concurrency.MainActor @preconcurrency public var bottomBarStyle: AstraPayQrisSdk.BottomBarStyle {
+    get
+    set
+  }
+  @_Concurrency.MainActor @preconcurrency public var bottomBarTopContent: AstraPayQrisSdk.BottomBarTopContent {
+    get
+    set
+  }
+  @_Concurrency.MainActor @preconcurrency public var bottomBarTopText: Swift.String {
+    get
+    set
+  }
+  @_Concurrency.MainActor @preconcurrency public var bottomBarTopCheckbox: AstraPayQrisSdk.ApCheckbox {
+    get
+    set
+  }
+  @_Concurrency.MainActor @preconcurrency public var bottomBarBottomContent: AstraPayQrisSdk.BottomBarBottomContent {
+    get
+    set
+  }
+  @_Concurrency.MainActor @preconcurrency public var bottomBarBottomText: Swift.String {
+    get
+    set
+  }
+  @_Concurrency.MainActor @preconcurrency public var bottomBarBottomIcon: UIKit.UIImage? {
+    get
+    set
+  }
+  @_Concurrency.MainActor @preconcurrency public var bottomBarBottomIconUrl: Swift.String {
+    get
+    set
+  }
+  @_Concurrency.MainActor @preconcurrency public var bottomBarLeadingType: AstraPayQrisSdk.BottomBarLeadingType {
+    get
+    set
+  }
+  @_Concurrency.MainActor @preconcurrency public var bottomBarLeadingTitle: Swift.String {
+    get
+    set
+  }
+  @_Concurrency.MainActor @preconcurrency public var bottomBarLeadingDescription: Swift.String {
+    get
+    set
+  }
+  @_Concurrency.MainActor @preconcurrency public var bottomBarLeadingAdditionalText: Swift.String {
+    get
+    set
+  }
+  @_Concurrency.MainActor @preconcurrency public var bottomBarLeadingAdditionalIcon: UIKit.UIImage? {
+    get
+    set
+  }
+  @_Concurrency.MainActor @preconcurrency public var bottomBarLeadingAdditionalIconUrl: Swift.String {
+    get
+    set
+  }
+  @_Concurrency.MainActor @preconcurrency public var bottomBarLeadingDescriptionPosition: AstraPayQrisSdk.BottomBarLeadingDescriptionPosition {
+    get
+    set
+  }
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func layoutSubviews()
+  @objc deinit
+}
+public struct IconSize {
+  public var width: CoreFoundation.CGFloat
+  public var height: CoreFoundation.CGFloat
+}
+public struct Icon {
+  public static let icon14: AstraPayQrisSdk.IconSize
+  public static let icon16: AstraPayQrisSdk.IconSize
+  public static let icon20: AstraPayQrisSdk.IconSize
+  public static let icon24: AstraPayQrisSdk.IconSize
+  public static let icon28: AstraPayQrisSdk.IconSize
+  public static let icon32: AstraPayQrisSdk.IconSize
+  public static let icon40: AstraPayQrisSdk.IconSize
+  public static let icon48: AstraPayQrisSdk.IconSize
+  public static let icon56: AstraPayQrisSdk.IconSize
+  public static let icon64: AstraPayQrisSdk.IconSize
+}
+public struct IllustrationSize {
+  public var width: CoreFoundation.CGFloat
+  public var height: CoreFoundation.CGFloat
+}
+public struct Illustration {
+  public static let squareSm: AstraPayQrisSdk.IllustrationSize
+  public static let squareMd: AstraPayQrisSdk.IllustrationSize
+  public static let squareLg: AstraPayQrisSdk.IllustrationSize
+  public static let squareXl: AstraPayQrisSdk.IllustrationSize
+  public static let rectangleSm: AstraPayQrisSdk.IllustrationSize
+  public static let rectangleMd: AstraPayQrisSdk.IllustrationSize
+  public static let rectangleLg: AstraPayQrisSdk.IllustrationSize
+  public static let rectangleXl: AstraPayQrisSdk.IllustrationSize
+}
+public struct LogoSize {
+  public var width: CoreFoundation.CGFloat
+  public var height: CoreFoundation.CGFloat
+}
+public struct Logo {
+  public static let rectangleLogoSm: AstraPayQrisSdk.LogoSize
+  public static let rectangleLogoMd: AstraPayQrisSdk.LogoSize
+  public static let rectangleLogoLg: AstraPayQrisSdk.LogoSize
+  public static let squareLogoSm: AstraPayQrisSdk.LogoSize
+  public static let squareLogoMd: AstraPayQrisSdk.LogoSize
+  public static let styleB: AstraPayQrisSdk.LogoSize
+}
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @_Concurrency.MainActor @preconcurrency public class ApBadge : UIKit.UIView {
+  @_Concurrency.MainActor @preconcurrency public var badgeStyle: AstraPayQrisSdk.BadgeStyle {
+    get
+    set
+  }
+  @_Concurrency.MainActor @preconcurrency public var badgeType: AstraPayQrisSdk.BadgeType {
+    get
+    set
+  }
+  @_Concurrency.MainActor @preconcurrency public var badgeLabel: Swift.String {
+    get
+    set
+  }
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func layoutSubviews()
+  @objc deinit
+}
+public enum BadgeStyle {
+  case text
+  case ribbon
+  case dot
+  public static func == (a: AstraPayQrisSdk.BadgeStyle, b: AstraPayQrisSdk.BadgeStyle) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public enum BadgeType {
+  case primary
+  case success
+  case warning
+  case danger
+  case light
+  case info
+  case brandPink
+  case brandPurple
+  case boldPrimary
+  case boldSuccess
+  case boldWarning
+  case boldDanger
+  public static func == (a: AstraPayQrisSdk.BadgeType, b: AstraPayQrisSdk.BadgeType) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @_Concurrency.MainActor @preconcurrency public class ApRadioButtonCell : UIKit.UITableViewCell {
+  @_Concurrency.MainActor @preconcurrency public static let radioButtonCellIdentifier: Swift.String
+  @objc deinit
+}
+public struct RadioButtonOption {
+  public var radioButtonLabel: Swift.String
+  public var radioButtonValue: Swift.String
+  public var radioButtonIsSelected: Swift.Bool
+  public var radioButtonDisabled: Swift.Bool
+  public init(radioButtonLabel: Swift.String = "", radioButtonValue: Swift.String = "", radioButtonIsSelected: Swift.Bool = false, radioButtonDisabled: Swift.Bool = false)
+}
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @_Concurrency.MainActor @preconcurrency public class ApRadioButton : UIKit.UIView {
+  @_Concurrency.MainActor @preconcurrency public var radioButtonOptions: [AstraPayQrisSdk.RadioButtonOption] {
+    get
+    set
+  }
+  @_Concurrency.MainActor @preconcurrency public var radioButtonIsSelected: Swift.Bool {
+    get
+    set
+  }
+  @_Concurrency.MainActor @preconcurrency public func onRadioButtonStatusChanged(callBack: @escaping (Swift.Bool) -> Swift.Void)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public var intrinsicContentSize: CoreFoundation.CGSize {
+    @objc get
+  }
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func layoutSubviews()
+  @objc deinit
+}
+extension AstraPayQrisSdk.ApRadioButton : UIKit.UITableViewDataSource, UIKit.UITableViewDelegate {
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func numberOfSections(in tableView: UIKit.UITableView) -> Swift.Int
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func tableView(_ tableView: UIKit.UITableView, numberOfRowsInSection section: Swift.Int) -> Swift.Int
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func tableView(_ tableView: UIKit.UITableView, cellForRowAt indexPath: Foundation.IndexPath) -> UIKit.UITableViewCell
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func tableView(_ tableView: UIKit.UITableView, didSelectRowAt indexPath: Foundation.IndexPath)
+}
+extension UIKit.UIImageView {
+  @_Concurrency.MainActor @preconcurrency public func setIconSizeConstraints(size: AstraPayQrisSdk.IconSize)
+  @_Concurrency.MainActor @preconcurrency public func setLogoSizeConstraints(size: AstraPayQrisSdk.LogoSize)
+  @_Concurrency.MainActor @preconcurrency public func setIllustrationSizeConstraints(size: AstraPayQrisSdk.IllustrationSize)
+}
+public enum CardMode {
+  case singleLine
+  case doubleLine
+  case tripleLine
+  public static func == (a: AstraPayQrisSdk.CardMode, b: AstraPayQrisSdk.CardMode) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public enum CardStyle {
+  case custom
+  case nonCustom
+  public static func == (a: AstraPayQrisSdk.CardStyle, b: AstraPayQrisSdk.CardStyle) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public enum CardLeading {
+  case none
+  case brandIcon
+  case flatIcon
+  public static func == (a: AstraPayQrisSdk.CardLeading, b: AstraPayQrisSdk.CardLeading) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public enum CardTrailing : Swift.String {
+  case none
+  case icon
+  case button
+  case radioButton
+  case checkbox
+  case singleDetail
+  case doubleDetail
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public enum CardFooter {
+  case none
+  case iconText
+  case text
+  case textButton
+  public static func == (a: AstraPayQrisSdk.CardFooter, b: AstraPayQrisSdk.CardFooter) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public enum CheckboxType {
+  case square
+  case round
+  public static func == (a: AstraPayQrisSdk.CheckboxType, b: AstraPayQrisSdk.CheckboxType) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public enum BtnType {
+  case primary
+  case primaryWhite
+  case success
+  case warning
+  case danger
+  case info
+  case light
+  public static func == (a: AstraPayQrisSdk.BtnType, b: AstraPayQrisSdk.BtnType) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public enum BtnStyle {
+  case filled
+  case outlined
+  case nude
+  case link
+  case tertiary
+  public static func == (a: AstraPayQrisSdk.BtnStyle, b: AstraPayQrisSdk.BtnStyle) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public enum BtnWidth {
+  case wrapContent
+  case matchParent
+  public static func == (a: AstraPayQrisSdk.BtnWidth, b: AstraPayQrisSdk.BtnWidth) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public enum BtnAlignment {
+  case leading
+  case center
+  public static func == (a: AstraPayQrisSdk.BtnAlignment, b: AstraPayQrisSdk.BtnAlignment) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public enum BtnSize {
+  case small
+  case medium
+  case large
+  public static func == (a: AstraPayQrisSdk.BtnSize, b: AstraPayQrisSdk.BtnSize) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public enum BtnContent {
+  case text
+  case leading
+  case trailingAndLeading
+  case trailing
+  case icon
+  public static func == (a: AstraPayQrisSdk.BtnContent, b: AstraPayQrisSdk.BtnContent) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public struct ApCheckBoxParentViewData : Swift.Codable {
+  public var checkboxLabel: Swift.String
+  public var checkboxIsChecked: Swift.Bool
+  public init(checkboxLabel: Swift.String, checkboxIsChecked: Swift.Bool = false)
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @_Concurrency.MainActor @preconcurrency public class ApCheckboxGroup : UIKit.UIView {
+  @_Concurrency.MainActor @preconcurrency public var checkboxViewData: [AstraPayQrisSdk.ApCheckBoxParentViewData]
+  @_Concurrency.MainActor @preconcurrency public var checkboxParentDisabled: Swift.Bool {
+    get
+    set
+  }
+  @_Concurrency.MainActor @preconcurrency public var checkboxParentIsChecked: Swift.Bool {
+    get
+    set
+  }
+  @_Concurrency.MainActor @preconcurrency public func addCheckbox(checkbox: AstraPayQrisSdk.ApCheckbox)
+  @_Concurrency.MainActor @preconcurrency public func addMultipleCheckboxes(childs: [AstraPayQrisSdk.ApCheckBoxParentViewData], type: AstraPayQrisSdk.CheckboxType = .square)
+  @_Concurrency.MainActor @preconcurrency public func setGroupLabel(_ text: Swift.String)
+  @_Concurrency.MainActor @preconcurrency public func getParentCheckboxValue() -> Swift.Bool
+  @_Concurrency.MainActor @preconcurrency public func getChildCheckboxValue(_ index: Swift.Int) -> Swift.Bool?
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @_Concurrency.MainActor @preconcurrency public class ApCheckbox : UIKit.UIView {
+  @_Concurrency.MainActor @preconcurrency public var checkboxType: AstraPayQrisSdk.CheckboxType {
+    get
+    set
+  }
+  @_Concurrency.MainActor @preconcurrency public var checkboxIsChecked: Swift.Bool {
+    get
+    set
+  }
+  @_Concurrency.MainActor @preconcurrency public var checkboxLabel: Swift.String {
+    get
+    set
+  }
+  @_Concurrency.MainActor @preconcurrency public var checkboxDisabled: Swift.Bool {
+    get
+    set
+  }
+  @_Concurrency.MainActor @preconcurrency public func onCheckboxStatusChanged(callBack: @escaping (Swift.Bool) -> Swift.Void)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func draw(_ rect: CoreFoundation.CGRect)
+  @objc deinit
+}
 @objc public protocol QRProtocolSdk {
   @objc func onForbidden(viewController: UIKit.UIViewController)
   @objc func onComplete(viewController: UIKit.UIViewController)
@@ -120,9 +563,51 @@ public enum OtpMechanism : Swift.String, Swift.Codable {
 extension AstraPayQrisSdk.BuildMode : Swift.Equatable {}
 extension AstraPayQrisSdk.BuildMode : Swift.Hashable {}
 extension AstraPayQrisSdk.BuildMode : Swift.RawRepresentable {}
+extension AstraPayQrisSdk.BottomBarStyle : Swift.Equatable {}
+extension AstraPayQrisSdk.BottomBarStyle : Swift.Hashable {}
+extension AstraPayQrisSdk.BottomBarLeadingType : Swift.Equatable {}
+extension AstraPayQrisSdk.BottomBarLeadingType : Swift.Hashable {}
+extension AstraPayQrisSdk.BottomBarTopContent : Swift.Equatable {}
+extension AstraPayQrisSdk.BottomBarTopContent : Swift.Hashable {}
+extension AstraPayQrisSdk.BottomBarBottomContent : Swift.Equatable {}
+extension AstraPayQrisSdk.BottomBarBottomContent : Swift.Hashable {}
+extension AstraPayQrisSdk.BottomBarLeadingDescriptionPosition : Swift.Equatable {}
+extension AstraPayQrisSdk.BottomBarLeadingDescriptionPosition : Swift.Hashable {}
+extension AstraPayQrisSdk.QrisTransactionResultEnum : Swift.Equatable {}
+extension AstraPayQrisSdk.QrisTransactionResultEnum : Swift.Hashable {}
+extension AstraPayQrisSdk.QrisTransactionResultEnum : Swift.RawRepresentable {}
 extension AstraPayQrisSdk.AuthenticationClaim : Swift.Equatable {}
 extension AstraPayQrisSdk.AuthenticationClaim : Swift.Hashable {}
 extension AstraPayQrisSdk.AuthenticationClaim : Swift.RawRepresentable {}
 extension AstraPayQrisSdk.OtpMechanism : Swift.Equatable {}
 extension AstraPayQrisSdk.OtpMechanism : Swift.Hashable {}
 extension AstraPayQrisSdk.OtpMechanism : Swift.RawRepresentable {}
+extension AstraPayQrisSdk.BadgeStyle : Swift.Equatable {}
+extension AstraPayQrisSdk.BadgeStyle : Swift.Hashable {}
+extension AstraPayQrisSdk.BadgeType : Swift.Equatable {}
+extension AstraPayQrisSdk.BadgeType : Swift.Hashable {}
+extension AstraPayQrisSdk.CardMode : Swift.Equatable {}
+extension AstraPayQrisSdk.CardMode : Swift.Hashable {}
+extension AstraPayQrisSdk.CardStyle : Swift.Equatable {}
+extension AstraPayQrisSdk.CardStyle : Swift.Hashable {}
+extension AstraPayQrisSdk.CardLeading : Swift.Equatable {}
+extension AstraPayQrisSdk.CardLeading : Swift.Hashable {}
+extension AstraPayQrisSdk.CardTrailing : Swift.Equatable {}
+extension AstraPayQrisSdk.CardTrailing : Swift.Hashable {}
+extension AstraPayQrisSdk.CardTrailing : Swift.RawRepresentable {}
+extension AstraPayQrisSdk.CardFooter : Swift.Equatable {}
+extension AstraPayQrisSdk.CardFooter : Swift.Hashable {}
+extension AstraPayQrisSdk.CheckboxType : Swift.Equatable {}
+extension AstraPayQrisSdk.CheckboxType : Swift.Hashable {}
+extension AstraPayQrisSdk.BtnType : Swift.Equatable {}
+extension AstraPayQrisSdk.BtnType : Swift.Hashable {}
+extension AstraPayQrisSdk.BtnStyle : Swift.Equatable {}
+extension AstraPayQrisSdk.BtnStyle : Swift.Hashable {}
+extension AstraPayQrisSdk.BtnWidth : Swift.Equatable {}
+extension AstraPayQrisSdk.BtnWidth : Swift.Hashable {}
+extension AstraPayQrisSdk.BtnAlignment : Swift.Equatable {}
+extension AstraPayQrisSdk.BtnAlignment : Swift.Hashable {}
+extension AstraPayQrisSdk.BtnSize : Swift.Equatable {}
+extension AstraPayQrisSdk.BtnSize : Swift.Hashable {}
+extension AstraPayQrisSdk.BtnContent : Swift.Equatable {}
+extension AstraPayQrisSdk.BtnContent : Swift.Hashable {}
