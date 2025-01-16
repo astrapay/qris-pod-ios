@@ -3234,6 +3234,26 @@
       },
       {
         "kind": "Import",
+        "name": "Alamofire",
+        "printedName": "Alamofire",
+        "declKind": "Import",
+        "moduleName": "AstraPayQrisSdk",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AstraPayQrisSdk",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -6441,16 +6461,6 @@
       },
       {
         "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "AstraPayQrisSdk",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
         "name": "Factory",
         "printedName": "Factory",
         "declKind": "Import",
@@ -6691,6 +6701,36 @@
         "printedName": "UIKit",
         "declKind": "Import",
         "moduleName": "AstraPayQrisSdk"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AstraPayQrisSdk",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Factory",
+        "printedName": "Factory",
+        "declKind": "Import",
+        "moduleName": "AstraPayQrisSdk",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "RxSwift",
+        "printedName": "RxSwift",
+        "declKind": "Import",
+        "moduleName": "AstraPayQrisSdk",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
       },
       {
         "kind": "Import",
@@ -7603,6 +7643,16 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AstraPayQrisSdk",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "Alamofire",
         "printedName": "Alamofire",
         "declKind": "Import",
@@ -7869,12 +7919,49 @@
       },
       {
         "kind": "Import",
+        "name": "SnapKit",
+        "printedName": "SnapKit",
+        "declKind": "Import",
+        "moduleName": "AstraPayQrisSdk"
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
         "moduleName": "AstraPayQrisSdk",
         "declAttributes": [
           "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AstraPayQrisSdk",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Alamofire",
+        "printedName": "Alamofire",
+        "declKind": "Import",
+        "moduleName": "AstraPayQrisSdk",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Factory",
+        "printedName": "Factory",
+        "declKind": "Import",
+        "moduleName": "AstraPayQrisSdk",
+        "declAttributes": [
+          "ImplementationOnly"
         ]
       },
       {
@@ -13574,16 +13661,6 @@
       },
       {
         "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "AstraPayQrisSdk",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -14211,6 +14288,16 @@
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
           }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AstraPayQrisSdk",
+        "declAttributes": [
+          "RawDocComment"
         ]
       },
       {
@@ -15715,6 +15802,16 @@
       },
       {
         "kind": "Import",
+        "name": "SnapKit",
+        "printedName": "SnapKit",
+        "declKind": "Import",
+        "moduleName": "AstraPayQrisSdk",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "Factory",
         "printedName": "Factory",
         "declKind": "Import",
@@ -17084,16 +17181,6 @@
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
           }
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "AstraPayQrisSdk",
-        "declAttributes": [
-          "RawDocComment"
         ]
       },
       {
@@ -27504,113 +27591,134 @@
     },
     {
       "filePath": "\/Users\/asep\/JOBS\/ASTRAPAY\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/Kredivo\/KredivoTenorView.swift",
+      "kind": "Array",
+      "offset": 401,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/asep\/JOBS\/ASTRAPAY\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/Kredivo\/KredivoTenorView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 484,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/asep\/JOBS\/ASTRAPAY\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/Kredivo\/KredivoTenorView.swift",
       "kind": "IntegerLiteral",
-      "offset": 369,
+      "offset": 557,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/asep\/JOBS\/ASTRAPAY\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/Kredivo\/KredivoTenorView.swift",
       "kind": "BooleanLiteral",
-      "offset": 545,
+      "offset": 733,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/asep\/JOBS\/ASTRAPAY\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/Kredivo\/KredivoTenorView.swift",
       "kind": "StringLiteral",
-      "offset": 777,
+      "offset": 916,
       "length": 22,
       "value": "\"Pilih Tenor Pinjaman\""
     },
     {
       "filePath": "\/Users\/asep\/JOBS\/ASTRAPAY\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/Kredivo\/KredivoTenorView.swift",
       "kind": "StringLiteral",
-      "offset": 960,
+      "offset": 1129,
       "length": 18,
       "value": "\"Rincian Pinjaman\""
     },
     {
       "filePath": "\/Users\/asep\/JOBS\/ASTRAPAY\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/Kredivo\/KredivoTenorView.swift",
       "kind": "StringLiteral",
-      "offset": 1112,
+      "offset": 1281,
       "length": 17,
       "value": "\"Jumlah Pinjaman\""
     },
     {
       "filePath": "\/Users\/asep\/JOBS\/ASTRAPAY\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/Kredivo\/KredivoTenorView.swift",
       "kind": "StringLiteral",
-      "offset": 1214,
+      "offset": 1383,
       "length": 23,
       "value": "\"Biaya Layanan Kredivo\""
     },
     {
       "filePath": "\/Users\/asep\/JOBS\/ASTRAPAY\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/Kredivo\/KredivoTenorView.swift",
       "kind": "StringLiteral",
-      "offset": 1321,
-      "length": 10,
-      "value": "\"Rp48.000\""
+      "offset": 1490,
+      "length": 5,
+      "value": "\"Rp-\""
     },
     {
       "filePath": "\/Users\/asep\/JOBS\/ASTRAPAY\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/Kredivo\/KredivoTenorView.swift",
       "kind": "StringLiteral",
-      "offset": 1422,
-      "length": 10,
-      "value": "\"Rp48.000\""
+      "offset": 1586,
+      "length": 5,
+      "value": "\"Rp-\""
     },
     {
       "filePath": "\/Users\/asep\/JOBS\/ASTRAPAY\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/Kredivo\/KredivoTenorView.swift",
       "kind": "StringLiteral",
-      "offset": 1519,
+      "offset": 1678,
       "length": 7,
       "value": "\"Total\""
     },
     {
       "filePath": "\/Users\/asep\/JOBS\/ASTRAPAY\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/Kredivo\/KredivoTenorView.swift",
       "kind": "StringLiteral",
-      "offset": 1616,
-      "length": 13,
-      "value": "\"Rp2.448.000\""
+      "offset": 1775,
+      "length": 5,
+      "value": "\"Rp-\""
     },
     {
       "filePath": "\/Users\/asep\/JOBS\/ASTRAPAY\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/Kredivo\/KredivoTenorView.swift",
       "kind": "FloatLiteral",
-      "offset": 1804,
+      "offset": 1955,
       "length": 4,
       "value": "12.0"
     },
     {
       "filePath": "\/Users\/asep\/JOBS\/ASTRAPAY\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/Kredivo\/KredivoTenorView.swift",
       "kind": "BooleanLiteral",
-      "offset": 2357,
+      "offset": 2508,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/asep\/JOBS\/ASTRAPAY\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/Kredivo\/KredivoTenorView.swift",
       "kind": "StringLiteral",
-      "offset": 2546,
+      "offset": 2697,
       "length": 11,
       "value": "\"Lanjutkan\""
     },
     {
       "filePath": "\/Users\/asep\/JOBS\/ASTRAPAY\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/Kredivo\/KredivoTenorView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2761,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/asep\/JOBS\/ASTRAPAY\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/Kredivo\/KredivoTenorView.swift",
       "kind": "StringLiteral",
-      "offset": 2666,
+      "offset": 2874,
       "length": 15,
       "value": "\"Didukung oleh\""
     },
     {
       "filePath": "\/Users\/asep\/JOBS\/ASTRAPAY\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/Kredivo\/KredivoTenorView.swift",
       "kind": "StringLiteral",
-      "offset": 2790,
+      "offset": 2998,
       "length": 14,
       "value": "\"logo_kredivo\""
     },
     {
       "filePath": "\/Users\/asep\/JOBS\/ASTRAPAY\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/Kredivo\/KredivoTenorView.swift",
       "kind": "FloatLiteral",
-      "offset": 3163,
+      "offset": 3371,
       "length": 4,
       "value": "12.0"
     },
@@ -30830,14 +30938,42 @@
     {
       "filePath": "\/Users\/asep\/JOBS\/ASTRAPAY\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/Kredivo\/KredivoTenorCollectionViewCell.swift",
       "kind": "StringLiteral",
-      "offset": 248,
+      "offset": 263,
       "length": 42,
       "value": "\"KredivoTenorCollectionViewCellIdentifier\""
     },
     {
       "filePath": "\/Users\/asep\/JOBS\/ASTRAPAY\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/Kredivo\/KredivoTenorCollectionViewCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 503,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/asep\/JOBS\/ASTRAPAY\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/Kredivo\/KredivoTenorCollectionViewCell.swift",
+      "kind": "StringLiteral",
+      "offset": 526,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/asep\/JOBS\/ASTRAPAY\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/Kredivo\/KredivoTenorCollectionViewCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 732,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/asep\/JOBS\/ASTRAPAY\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/Kredivo\/KredivoTenorCollectionViewCell.swift",
+      "kind": "StringLiteral",
+      "offset": 755,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/asep\/JOBS\/ASTRAPAY\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/Kredivo\/KredivoTenorCollectionViewCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 411,
+      "offset": 868,
       "length": 4,
       "value": "true"
     },
@@ -33969,6 +34105,69 @@
       "offset": 1222,
       "length": 29,
       "value": "\"delayedShowSkeletonWorkItem\""
+    },
+    {
+      "filePath": "\/Users\/asep\/JOBS\/ASTRAPAY\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/Kredivo\/KredivoTenorVc.swift",
+      "kind": "StringLiteral",
+      "offset": 294,
+      "length": 16,
+      "value": "\"Tenor Pinjaman\""
+    },
+    {
+      "filePath": "\/Users\/asep\/JOBS\/ASTRAPAY\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/Kredivo\/KredivoTenorVc.swift",
+      "kind": "StringLiteral",
+      "offset": 350,
+      "length": 33,
+      "value": "\"Permintaan Belum Dapat Diproses\""
+    },
+    {
+      "filePath": "\/Users\/asep\/JOBS\/ASTRAPAY\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/Kredivo\/KredivoTenorVc.swift",
+      "kind": "StringLiteral",
+      "offset": 429,
+      "length": 48,
+      "value": "\"Ada sedikit kendala, nih. Coba lagi nanti, ya.\""
+    },
+    {
+      "filePath": "\/Users\/asep\/JOBS\/ASTRAPAY\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/Kredivo\/KredivoTenorVc.swift",
+      "kind": "StringLiteral",
+      "offset": 516,
+      "length": 5,
+      "value": "\"Oke\""
+    },
+    {
+      "filePath": "\/Users\/asep\/JOBS\/ASTRAPAY\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/Kredivo\/KredivoTenorVc.swift",
+      "kind": "StringLiteral",
+      "offset": 556,
+      "length": 23,
+      "value": "\"illustration_rejected\""
+    },
+    {
+      "filePath": "\/Users\/asep\/JOBS\/ASTRAPAY\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/Kredivo\/KredivoTenorVc.swift",
+      "kind": "StringLiteral",
+      "offset": 638,
+      "length": 19,
+      "value": "\"ic_bad_connection\""
+    },
+    {
+      "filePath": "\/Users\/asep\/JOBS\/ASTRAPAY\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/Kredivo\/KredivoTenorVc.swift",
+      "kind": "StringLiteral",
+      "offset": 710,
+      "length": 19,
+      "value": "\"Internet Terputus\""
+    },
+    {
+      "filePath": "\/Users\/asep\/JOBS\/ASTRAPAY\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/Kredivo\/KredivoTenorVc.swift",
+      "kind": "StringLiteral",
+      "offset": 788,
+      "length": 45,
+      "value": "\"Periksa koneksi internet kamu dan coba lagi\""
+    },
+    {
+      "filePath": "\/Users\/asep\/JOBS\/ASTRAPAY\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/Kredivo\/KredivoTenorVc.swift",
+      "kind": "StringLiteral",
+      "offset": 885,
+      "length": 11,
+      "value": "\"Coba Lagi\""
     },
     {
       "filePath": "\/Users\/asep\/JOBS\/ASTRAPAY\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/Helpers\/SkeletonView\/SkeletonViewCore\/Sources\/Internal\/Collections\/CollectionSkeleton.swift",
