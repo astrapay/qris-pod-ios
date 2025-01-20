@@ -409,6 +409,9 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class) BOOL isUserEligibleQrisCpm;)
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class, copy) NSString * _Nonnull REFRESH_TOKEN;)
 + (NSString * _Nonnull)REFRESH_TOKEN SWIFT_WARN_UNUSED_RESULT;
 + (void)setREFRESH_TOKEN:(NSString * _Nonnull)value;
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class) BOOL newPaymentMethod;)
++ (BOOL)newPaymentMethod SWIFT_WARN_UNUSED_RESULT;
++ (void)setNewPaymentMethod:(BOOL)value;
 + (void)setPaylaterAvailability;
 + (BOOL)isAppAstrapayWithBundleIdentifier:(NSString * _Nonnull)bundleIdentifier SWIFT_WARN_UNUSED_RESULT;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;

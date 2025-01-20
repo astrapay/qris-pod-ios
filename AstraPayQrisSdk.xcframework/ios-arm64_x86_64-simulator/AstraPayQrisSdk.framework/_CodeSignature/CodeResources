@@ -18,7 +18,7 @@
 		</data>
 		<key>Headers/AstraPayQrisSdk-Swift.h</key>
 		<data>
-		yLSP+uOWnPHoLFO7G8/muW4vB3g=
+		5/M3PSOKBZLu/JDC9NMxIY/LrJs=
 		</data>
 		<key>Headers/AstraPayQrisSdk.h</key>
 		<data>
@@ -70,11 +70,11 @@
 		</data>
 		<key>Modules/AstraPayQrisSdk.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		dJwKf/ksSskZo686oEyHIVGRGEw=
+		dTCQN+AsILTq/Bce8ntjPiqQx9U=
 		</data>
 		<key>Modules/AstraPayQrisSdk.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		noiRbJRjlcBe4aZ53LGDKOygH1Y=
+		GOmDwJ1J0OdoXuoM6ZKBmytwtYA=
 		</data>
 		<key>Modules/AstraPayQrisSdk.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -82,19 +82,19 @@
 		</data>
 		<key>Modules/AstraPayQrisSdk.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		noiRbJRjlcBe4aZ53LGDKOygH1Y=
+		GOmDwJ1J0OdoXuoM6ZKBmytwtYA=
 		</data>
 		<key>Modules/AstraPayQrisSdk.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		P5y2tH7lA2k4fu30Y0tzMD5bSoM=
+		VexQ23bqTLsqa7bpBqfBbXojDn4=
 		</data>
 		<key>Modules/AstraPayQrisSdk.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		dJwKf/ksSskZo686oEyHIVGRGEw=
+		dTCQN+AsILTq/Bce8ntjPiqQx9U=
 		</data>
 		<key>Modules/AstraPayQrisSdk.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		zXGa3FnfKnkzE9Wv1uc486D9fHc=
+		dq6J2onztiOvCV0RajzDjofkt04=
 		</data>
 		<key>Modules/AstraPayQrisSdk.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -102,11 +102,11 @@
 		</data>
 		<key>Modules/AstraPayQrisSdk.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		zXGa3FnfKnkzE9Wv1uc486D9fHc=
+		dq6J2onztiOvCV0RajzDjofkt04=
 		</data>
 		<key>Modules/AstraPayQrisSdk.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		Sh9E8Z431cotL+0d/lCUZ6rTZVM=
+		OStAYvzCtoIq5R+5Dp8/wHnHhBA=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -180,7 +180,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			qFLZemge4OBtfuKT+iExhKDgSEKsF5KXTU2CpTOIvXA=
+			LeHiq4oqazll0vI949o7f0crMVGlirnuUrSTtYgP8lQ=
 			</data>
 		</dict>
 		<key>Headers/AstraPayQrisSdk.h</key>
@@ -264,14 +264,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			nUkFR54g7rcFQuj+HpdAzEAAw+bYLbVXhZ2vmVAvSBA=
+			CN9XSr6Boxq5J6H2JHVFlyJ3GSjt9odkOFn8shlijAM=
 			</data>
 		</dict>
 		<key>Modules/AstraPayQrisSdk.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			bDe0aHDvH0VxkVMQavPteDGdcmQe5NcGa8qcmJuD6z0=
+			ALrFZkI0frPnhAAHzthutB2iX0U3zeXRkhKt06nsvaI=
 			</data>
 		</dict>
 		<key>Modules/AstraPayQrisSdk.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -285,28 +285,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			bDe0aHDvH0VxkVMQavPteDGdcmQe5NcGa8qcmJuD6z0=
+			ALrFZkI0frPnhAAHzthutB2iX0U3zeXRkhKt06nsvaI=
 			</data>
 		</dict>
 		<key>Modules/AstraPayQrisSdk.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			HS5xs554t4VxSjForXIunBF8p5ec4aW18k6EGEv+i8M=
+			0AufalQHCZIRRJz7sE9szkiys9xdZrNkj18mS82CXxA=
 			</data>
 		</dict>
 		<key>Modules/AstraPayQrisSdk.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			nUkFR54g7rcFQuj+HpdAzEAAw+bYLbVXhZ2vmVAvSBA=
+			CN9XSr6Boxq5J6H2JHVFlyJ3GSjt9odkOFn8shlijAM=
 			</data>
 		</dict>
 		<key>Modules/AstraPayQrisSdk.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			K0USi22thxivNCaDsIxFIr5LwZGzPN2chAn7jk8baxk=
+			UIr64KHwX+Z7ihQ7RFAjOr7QjalK7LQ967ZggKRmILA=
 			</data>
 		</dict>
 		<key>Modules/AstraPayQrisSdk.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -320,14 +320,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			K0USi22thxivNCaDsIxFIr5LwZGzPN2chAn7jk8baxk=
+			UIr64KHwX+Z7ihQ7RFAjOr7QjalK7LQ967ZggKRmILA=
 			</data>
 		</dict>
 		<key>Modules/AstraPayQrisSdk.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			fDdO9v/py+Ji2HvdIFxTanxCbcHpewslQTdxtoWakqc=
+			7TRS06SUBWyD9jE0uIqa09jAe+Xb09mGLa5RqU8lmoA=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

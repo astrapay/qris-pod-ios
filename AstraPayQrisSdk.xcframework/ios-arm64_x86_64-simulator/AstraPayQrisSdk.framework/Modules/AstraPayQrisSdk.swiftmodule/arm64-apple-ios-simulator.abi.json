@@ -1277,6 +1277,109 @@
             ]
           },
           {
+            "kind": "Var",
+            "name": "newPaymentMethod",
+            "printedName": "newPaymentMethod",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@AstraPayQrisSdk@objc(cs)QRConfigurationSdk(cpy)newPaymentMethod",
+            "mangledName": "$s15AstraPayQrisSdk015QRConfigurationD0C16newPaymentMethodSbvpZ",
+            "moduleName": "AstraPayQrisSdk",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@AstraPayQrisSdk@objc(cs)QRConfigurationSdk(cm)newPaymentMethod",
+                "mangledName": "$s15AstraPayQrisSdk015QRConfigurationD0C16newPaymentMethodSbvgZ",
+                "moduleName": "AstraPayQrisSdk",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@AstraPayQrisSdk@objc(cs)QRConfigurationSdk(cm)setNewPaymentMethod:",
+                "mangledName": "$s15AstraPayQrisSdk015QRConfigurationD0C16newPaymentMethodSbvsZ",
+                "moduleName": "AstraPayQrisSdk",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15AstraPayQrisSdk015QRConfigurationD0C16newPaymentMethodSbvMZ",
+                "mangledName": "$s15AstraPayQrisSdk015QRConfigurationD0C16newPaymentMethodSbvMZ",
+                "moduleName": "AstraPayQrisSdk",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
             "kind": "Function",
             "name": "setPaylaterAvailability",
             "printedName": "setPaylaterAvailability()",
@@ -3061,6 +3164,16 @@
         "moduleName": "AstraPayQrisSdk",
         "declAttributes": [
           "ImplementationOnly",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AstraPayQrisSdk",
+        "declAttributes": [
           "RawDocComment"
         ]
       },
@@ -9387,6 +9500,36 @@
         "kind": "Import",
         "name": "SnapKit",
         "printedName": "SnapKit",
+        "declKind": "Import",
+        "moduleName": "AstraPayQrisSdk",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AstraPayQrisSdk",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Factory",
+        "printedName": "Factory",
+        "declKind": "Import",
+        "moduleName": "AstraPayQrisSdk",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "RxSwift",
+        "printedName": "RxSwift",
         "declKind": "Import",
         "moduleName": "AstraPayQrisSdk",
         "declAttributes": [
@@ -25450,21 +25593,28 @@
     {
       "filePath": "\/Users\/asep\/JOBS\/ASTRAPAY\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/Shared\/Configuration\/QRConfigurationSdk.swift",
       "kind": "BooleanLiteral",
-      "offset": 794,
+      "offset": 800,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/asep\/JOBS\/ASTRAPAY\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/Shared\/Configuration\/QRConfigurationSdk.swift",
       "kind": "BooleanLiteral",
-      "offset": 848,
+      "offset": 853,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/asep\/JOBS\/ASTRAPAY\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/Shared\/Configuration\/QRConfigurationSdk.swift",
+      "kind": "BooleanLiteral",
+      "offset": 907,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/asep\/JOBS\/ASTRAPAY\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/Shared\/Configuration\/QRConfigurationSdk.swift",
       "kind": "StringLiteral",
-      "offset": 895,
+      "offset": 954,
       "length": 10,
       "value": "\"ASTRAPAY\""
     },
@@ -27138,20 +27288,20 @@
       "filePath": "\/Users\/asep\/JOBS\/ASTRAPAY\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/ApplyVoucherSelection\/ApplyVoucherSelectionVc.swift",
       "kind": "StringLiteral",
       "offset": 257,
+      "length": 9,
+      "value": "\"BALANCE\""
+    },
+    {
+      "filePath": "\/Users\/asep\/JOBS\/ASTRAPAY\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/ApplyVoucherSelection\/ApplyVoucherSelectionVc.swift",
+      "kind": "StringLiteral",
+      "offset": 286,
       "length": 10,
-      "value": "\"AstraPay\""
+      "value": "\"PAYLATER\""
     },
     {
       "filePath": "\/Users\/asep\/JOBS\/ASTRAPAY\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/ApplyVoucherSelection\/ApplyVoucherSelectionVc.swift",
       "kind": "StringLiteral",
-      "offset": 287,
-      "length": 21,
-      "value": "\"Paylater by Kredivo\""
-    },
-    {
-      "filePath": "\/Users\/asep\/JOBS\/ASTRAPAY\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/ApplyVoucherSelection\/ApplyVoucherSelectionVc.swift",
-      "kind": "StringLiteral",
-      "offset": 1078,
+      "offset": 1066,
       "length": 6,
       "value": "\"QRIS\""
     },
@@ -28614,7 +28764,7 @@
     {
       "filePath": "\/Users\/asep\/JOBS\/ASTRAPAY\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/PaymentMethod\/PaymentMethodNewVm.swift",
       "kind": "StringLiteral",
-      "offset": 974,
+      "offset": 1159,
       "length": 2,
       "value": "\"\""
     },
@@ -29195,14 +29345,21 @@
     {
       "filePath": "\/Users\/asep\/JOBS\/ASTRAPAY\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/Scanner\/Enum\/ScannerEnum.swift",
       "kind": "StringLiteral",
-      "offset": 352,
+      "offset": 310,
+      "length": 14,
+      "value": "\"QRIS_CPM_NFC\""
+    },
+    {
+      "filePath": "\/Users\/asep\/JOBS\/ASTRAPAY\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/Scanner\/Enum\/ScannerEnum.swift",
+      "kind": "StringLiteral",
+      "offset": 386,
       "length": 8,
       "value": "\"ACTIVE\""
     },
     {
       "filePath": "\/Users\/asep\/JOBS\/ASTRAPAY\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/Scanner\/Enum\/ScannerEnum.swift",
       "kind": "StringLiteral",
-      "offset": 381,
+      "offset": 415,
       "length": 10,
       "value": "\"INACTIVE\""
     },
@@ -30686,21 +30843,21 @@
     {
       "filePath": "\/Users\/asep\/JOBS\/ASTRAPAY\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/PaymentMethod\/PaymentMethod.swift",
       "kind": "IntegerLiteral",
-      "offset": 789,
+      "offset": 858,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/asep\/JOBS\/ASTRAPAY\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/PaymentMethod\/PaymentMethod.swift",
       "kind": "StringLiteral",
-      "offset": 925,
+      "offset": 994,
       "length": 19,
       "value": "\"Metode Pembayaran\""
     },
     {
       "filePath": "\/Users\/asep\/JOBS\/ASTRAPAY\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/PaymentMethod\/PaymentMethod.swift",
       "kind": "StringLiteral",
-      "offset": 1158,
+      "offset": 1227,
       "length": 19,
       "value": "\"PaymentMethodCard\""
     },
@@ -30980,14 +31137,14 @@
     {
       "filePath": "\/Users\/asep\/JOBS\/ASTRAPAY\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/Confirmation\/ConfirmationView.swift",
       "kind": "StringLiteral",
-      "offset": 435,
+      "offset": 547,
       "length": 7,
       "value": "\"Bayar\""
     },
     {
       "filePath": "\/Users\/asep\/JOBS\/ASTRAPAY\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/Confirmation\/ConfirmationView.swift",
       "kind": "BooleanLiteral",
-      "offset": 1281,
+      "offset": 1462,
       "length": 4,
       "value": "true"
     },
@@ -35719,21 +35876,21 @@
     {
       "filePath": "\/Users\/asep\/JOBS\/ASTRAPAY\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/Kredivo\/KredivoWebview\/KredivoWebviewVc.swift",
       "kind": "StringLiteral",
-      "offset": 595,
+      "offset": 713,
       "length": 31,
       "value": "\"Ketentuan Penggunaan AstraPay\""
     },
     {
       "filePath": "\/Users\/asep\/JOBS\/ASTRAPAY\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/Kredivo\/KredivoWebview\/KredivoWebviewVc.swift",
       "kind": "StringLiteral",
-      "offset": 660,
+      "offset": 778,
       "length": 33,
       "value": "\"file:\/\/\/Users\/rahman\/index.html\""
     },
     {
       "filePath": "\/Users\/asep\/JOBS\/ASTRAPAY\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/Kredivo\/KredivoWebview\/KredivoWebviewVc.swift",
       "kind": "BooleanLiteral",
-      "offset": 734,
+      "offset": 852,
       "length": 5,
       "value": "false"
     },
