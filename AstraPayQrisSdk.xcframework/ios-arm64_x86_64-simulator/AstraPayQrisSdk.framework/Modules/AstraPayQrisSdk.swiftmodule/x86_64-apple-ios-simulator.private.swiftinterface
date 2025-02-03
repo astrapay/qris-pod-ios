@@ -35,12 +35,13 @@ import _SwiftConcurrencyShims
   @objc public static var SDK_TOKEN: Swift.String
   @objc public static var BUILD_MODE: AstraPayQrisSdk.BuildMode
   @objc public static var isLoproVoucherAvailable: Swift.Bool
+  @objc public static var isLoproRedeemVoucherAvailable: Swift.Bool
   @objc public static var isPaylaterAvailable: Swift.Bool
   @objc public static var isSnap: Swift.Bool
   @objc public static var qrisCpm: Swift.Bool
   @objc public static var isUserEligibleQrisCpm: Swift.Bool
   @objc public static var REFRESH_TOKEN: Swift.String
-  @objc public static var newPaymentMethod: Swift.Bool
+  @objc public static var multiSourceOfFunds: Swift.Bool
   @objc public static func setPaylaterAvailability()
   @objc public static func isAppAstrapay(bundleIdentifier: Swift.String) -> Swift.Bool
   @objc override dynamic public init()
@@ -283,6 +284,38 @@ public struct Illustration {
   public static let rectangleLg: AstraPayQrisSdk.IllustrationSize
   public static let rectangleXl: AstraPayQrisSdk.IllustrationSize
 }
+public enum ToastType {
+  case success
+  case warning
+  case danger
+  case light
+  case info
+  case dark
+  public static func == (a: AstraPayQrisSdk.ToastType, b: AstraPayQrisSdk.ToastType) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public enum ToastMode {
+  case singleLine
+  case doubleLine
+  public static func == (a: AstraPayQrisSdk.ToastMode, b: AstraPayQrisSdk.ToastMode) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public enum ToastContent {
+  case plain
+  case button
+  case icon
+  public static func == (a: AstraPayQrisSdk.ToastContent, b: AstraPayQrisSdk.ToastContent) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
 public struct LogoSize {
   public var width: CoreFoundation.CGFloat
   public var height: CoreFoundation.CGFloat
@@ -377,6 +410,10 @@ extension UIKit.UIImageView {
   @_Concurrency.MainActor @preconcurrency public func setIconSizeConstraints(size: AstraPayQrisSdk.IconSize)
   @_Concurrency.MainActor @preconcurrency public func setLogoSizeConstraints(size: AstraPayQrisSdk.LogoSize)
   @_Concurrency.MainActor @preconcurrency public func setIllustrationSizeConstraints(size: AstraPayQrisSdk.IllustrationSize)
+}
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @available(tvOS, unavailable)
+@_Concurrency.MainActor @preconcurrency public class KeyboardLayoutConstraint : UIKit.NSLayoutConstraint {
+  @objc deinit
 }
 public enum CardMode {
   case singleLine
@@ -583,6 +620,12 @@ extension AstraPayQrisSdk.AuthenticationClaim : Swift.RawRepresentable {}
 extension AstraPayQrisSdk.OtpMechanism : Swift.Equatable {}
 extension AstraPayQrisSdk.OtpMechanism : Swift.Hashable {}
 extension AstraPayQrisSdk.OtpMechanism : Swift.RawRepresentable {}
+extension AstraPayQrisSdk.ToastType : Swift.Equatable {}
+extension AstraPayQrisSdk.ToastType : Swift.Hashable {}
+extension AstraPayQrisSdk.ToastMode : Swift.Equatable {}
+extension AstraPayQrisSdk.ToastMode : Swift.Hashable {}
+extension AstraPayQrisSdk.ToastContent : Swift.Equatable {}
+extension AstraPayQrisSdk.ToastContent : Swift.Hashable {}
 extension AstraPayQrisSdk.BadgeStyle : Swift.Equatable {}
 extension AstraPayQrisSdk.BadgeStyle : Swift.Hashable {}
 extension AstraPayQrisSdk.BadgeType : Swift.Equatable {}

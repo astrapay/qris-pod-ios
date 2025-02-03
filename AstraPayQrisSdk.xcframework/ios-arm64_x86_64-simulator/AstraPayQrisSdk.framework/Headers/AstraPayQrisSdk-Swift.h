@@ -377,6 +377,13 @@ typedef SWIFT_ENUM(NSInteger, BuildMode, open) {
 
 
 
+SWIFT_CLASS("_TtC15AstraPayQrisSdk24KeyboardLayoutConstraint") SWIFT_AVAILABILITY(tvos,unavailable)
+@interface KeyboardLayoutConstraint : NSLayoutConstraint
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
+
 
 
 
@@ -394,6 +401,9 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class) enum BuildMode BUILD_MODE;)
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class) BOOL isLoproVoucherAvailable;)
 + (BOOL)isLoproVoucherAvailable SWIFT_WARN_UNUSED_RESULT;
 + (void)setIsLoproVoucherAvailable:(BOOL)value;
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class) BOOL isLoproRedeemVoucherAvailable;)
++ (BOOL)isLoproRedeemVoucherAvailable SWIFT_WARN_UNUSED_RESULT;
++ (void)setIsLoproRedeemVoucherAvailable:(BOOL)value;
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class) BOOL isPaylaterAvailable;)
 + (BOOL)isPaylaterAvailable SWIFT_WARN_UNUSED_RESULT;
 + (void)setIsPaylaterAvailable:(BOOL)value;
@@ -409,9 +419,9 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class) BOOL isUserEligibleQrisCpm;)
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class, copy) NSString * _Nonnull REFRESH_TOKEN;)
 + (NSString * _Nonnull)REFRESH_TOKEN SWIFT_WARN_UNUSED_RESULT;
 + (void)setREFRESH_TOKEN:(NSString * _Nonnull)value;
-SWIFT_CLASS_PROPERTY(@property (nonatomic, class) BOOL newPaymentMethod;)
-+ (BOOL)newPaymentMethod SWIFT_WARN_UNUSED_RESULT;
-+ (void)setNewPaymentMethod:(BOOL)value;
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class) BOOL multiSourceOfFunds;)
++ (BOOL)multiSourceOfFunds SWIFT_WARN_UNUSED_RESULT;
++ (void)setMultiSourceOfFunds:(BOOL)value;
 + (void)setPaylaterAvailability;
 + (BOOL)isAppAstrapayWithBundleIdentifier:(NSString * _Nonnull)bundleIdentifier SWIFT_WARN_UNUSED_RESULT;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
