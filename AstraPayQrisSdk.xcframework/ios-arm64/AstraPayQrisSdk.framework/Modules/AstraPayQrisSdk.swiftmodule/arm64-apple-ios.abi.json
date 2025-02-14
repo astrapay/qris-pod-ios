@@ -28986,41 +28986,41 @@
       "filePath": "\/Users\/asep\/JOBS\/ASTRAPAY\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/ApplyVoucherList\/Component\/RedeemVoucherDialogView.swift",
       "kind": "StringLiteral",
       "offset": 1720,
-      "length": 20,
-      "value": "\"Masukan Kode Promo\""
+      "length": 21,
+      "value": "\"Masukkan kode promo\""
     },
     {
       "filePath": "\/Users\/asep\/JOBS\/ASTRAPAY\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/ApplyVoucherList\/Component\/RedeemVoucherDialogView.swift",
       "kind": "IntegerLiteral",
-      "offset": 2060,
+      "offset": 2061,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/asep\/JOBS\/ASTRAPAY\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/ApplyVoucherList\/Component\/RedeemVoucherDialogView.swift",
       "kind": "StringLiteral",
-      "offset": 2083,
+      "offset": 2084,
       "length": 29,
       "value": "\"Kode promo sudah kamu tukar\""
     },
     {
       "filePath": "\/Users\/asep\/JOBS\/ASTRAPAY\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/ApplyVoucherList\/Component\/RedeemVoucherDialogView.swift",
       "kind": "StringLiteral",
-      "offset": 2270,
+      "offset": 2271,
       "length": 22,
       "value": "\"Pakai Promo Sekarang\""
     },
     {
       "filePath": "\/Users\/asep\/JOBS\/ASTRAPAY\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/ApplyVoucherList\/Component\/RedeemVoucherDialogView.swift",
       "kind": "StringLiteral",
-      "offset": 2415,
+      "offset": 2416,
       "length": 18,
       "value": "\"arrow_right_blue\""
     },
     {
       "filePath": "\/Users\/asep\/JOBS\/ASTRAPAY\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/ApplyVoucherList\/Component\/RedeemVoucherDialogView.swift",
       "kind": "StringLiteral",
-      "offset": 2594,
+      "offset": 2595,
       "length": 7,
       "value": "\"Tukar\""
     },
@@ -30763,21 +30763,14 @@
     {
       "filePath": "\/Users\/asep\/JOBS\/ASTRAPAY\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/Scanner\/Enum\/ScannerEnum.swift",
       "kind": "StringLiteral",
-      "offset": 355,
-      "length": 23,
-      "value": "\"MULTI_SOURCE_OF_FUNDS\""
-    },
-    {
-      "filePath": "\/Users\/asep\/JOBS\/ASTRAPAY\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/Scanner\/Enum\/ScannerEnum.swift",
-      "kind": "StringLiteral",
-      "offset": 440,
+      "offset": 386,
       "length": 8,
       "value": "\"ACTIVE\""
     },
     {
       "filePath": "\/Users\/asep\/JOBS\/ASTRAPAY\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/Scanner\/Enum\/ScannerEnum.swift",
       "kind": "StringLiteral",
-      "offset": 469,
+      "offset": 415,
       "length": 10,
       "value": "\"INACTIVE\""
     },
