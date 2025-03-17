@@ -27251,78 +27251,85 @@
     },
     {
       "filePath": "\/Users\/rahman\/Documents\/GitHub\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/Scanner\/QrisScannerView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3821,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/rahman\/Documents\/GitHub\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/Scanner\/QrisScannerView.swift",
       "kind": "IntegerLiteral",
-      "offset": 3970,
+      "offset": 3999,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/rahman\/Documents\/GitHub\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/Scanner\/QrisScannerView.swift",
       "kind": "IntegerLiteral",
-      "offset": 4011,
+      "offset": 4040,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/rahman\/Documents\/GitHub\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/Scanner\/QrisScannerView.swift",
       "kind": "StringLiteral",
-      "offset": 4035,
+      "offset": 4064,
       "length": 18,
       "value": "\"Tunjukan Kode QR\""
     },
     {
       "filePath": "\/Users\/rahman\/Documents\/GitHub\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/Scanner\/QrisScannerView.swift",
       "kind": "StringLiteral",
-      "offset": 4194,
+      "offset": 4223,
       "length": 14,
       "value": "\"qr_flat_icon\""
     },
     {
       "filePath": "\/Users\/rahman\/Documents\/GitHub\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/Scanner\/QrisScannerView.swift",
       "kind": "IntegerLiteral",
-      "offset": 4690,
+      "offset": 4719,
       "length": 2,
       "value": "36"
     },
     {
       "filePath": "\/Users\/rahman\/Documents\/GitHub\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/Scanner\/QrisScannerView.swift",
       "kind": "IntegerLiteral",
-      "offset": 4725,
+      "offset": 4754,
       "length": 2,
       "value": "36"
     },
     {
       "filePath": "\/Users\/rahman\/Documents\/GitHub\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/Scanner\/QrisScannerView.swift",
       "kind": "IntegerLiteral",
-      "offset": 4762,
+      "offset": 4791,
       "length": 2,
       "value": "25"
     },
     {
       "filePath": "\/Users\/rahman\/Documents\/GitHub\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/Scanner\/QrisScannerView.swift",
       "kind": "IntegerLiteral",
-      "offset": 4892,
+      "offset": 4921,
       "length": 2,
       "value": "36"
     },
     {
       "filePath": "\/Users\/rahman\/Documents\/GitHub\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/Scanner\/QrisScannerView.swift",
       "kind": "IntegerLiteral",
-      "offset": 4927,
+      "offset": 4956,
       "length": 2,
       "value": "36"
     },
     {
       "filePath": "\/Users\/rahman\/Documents\/GitHub\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/Scanner\/QrisScannerView.swift",
       "kind": "IntegerLiteral",
-      "offset": 4964,
+      "offset": 4993,
       "length": 2,
       "value": "25"
     },
     {
       "filePath": "\/Users\/rahman\/Documents\/GitHub\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/Scanner\/QrisScannerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 5127,
+      "offset": 5156,
       "length": 5,
       "value": "false"
     },
@@ -31662,63 +31669,63 @@
     {
       "filePath": "\/Users\/rahman\/Documents\/GitHub\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/QrGenerator\/QrGeneratorView.swift",
       "kind": "IntegerLiteral",
-      "offset": 896,
+      "offset": 901,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/rahman\/Documents\/GitHub\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/QrGenerator\/QrGeneratorView.swift",
       "kind": "StringLiteral",
-      "offset": 1311,
+      "offset": 1316,
       "length": 13,
       "value": "\"ic_open_eye\""
     },
     {
       "filePath": "\/Users\/rahman\/Documents\/GitHub\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/QrGenerator\/QrGeneratorView.swift",
       "kind": "StringLiteral",
-      "offset": 1525,
+      "offset": 1530,
       "length": 6,
       "value": "\"1:21\""
     },
     {
       "filePath": "\/Users\/rahman\/Documents\/GitHub\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/QrGenerator\/QrGeneratorView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1561,
+      "offset": 1566,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/rahman\/Documents\/GitHub\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/QrGenerator\/QrGeneratorView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1602,
+      "offset": 1607,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/rahman\/Documents\/GitHub\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/QrGenerator\/QrGeneratorView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1794,
+      "offset": 1799,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/rahman\/Documents\/GitHub\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/QrGenerator\/QrGeneratorView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1966,
+      "offset": 1971,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/rahman\/Documents\/GitHub\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/QrGenerator\/QrGeneratorView.swift",
       "kind": "IntegerLiteral",
-      "offset": 2165,
+      "offset": 2170,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/rahman\/Documents\/GitHub\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/QrGenerator\/QrGeneratorView.swift",
       "kind": "StringLiteral",
-      "offset": 2217,
+      "offset": 2222,
       "length": 9,
       "value": "\"ap_icon\""
     },
@@ -32880,7 +32887,7 @@
     {
       "filePath": "\/Users\/rahman\/Documents\/GitHub\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/Shared\/Component\/UI\/View\/Pin\/ApPinVc.swift",
       "kind": "StringLiteral",
-      "offset": 6541,
+      "offset": 6519,
       "length": 10,
       "value": "\"<Insert>\""
     },
@@ -33867,28 +33874,28 @@
     {
       "filePath": "\/Users\/rahman\/Documents\/GitHub\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/QrGenerator\/QrGeneratorVc.swift",
       "kind": "BooleanLiteral",
-      "offset": 12108,
+      "offset": 12538,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/rahman\/Documents\/GitHub\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/QrGenerator\/QrGeneratorVc.swift",
       "kind": "BooleanLiteral",
-      "offset": 12239,
+      "offset": 12669,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/rahman\/Documents\/GitHub\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/QrGenerator\/QrGeneratorVc.swift",
       "kind": "BooleanLiteral",
-      "offset": 12326,
+      "offset": 12756,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/rahman\/Documents\/GitHub\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/QrGenerator\/QrGeneratorVc.swift",
       "kind": "BooleanLiteral",
-      "offset": 12390,
+      "offset": 12820,
       "length": 4,
       "value": "true"
     },
@@ -34016,14 +34023,14 @@
       "kind": "FloatLiteral",
       "offset": 645,
       "length": 4,
-      "value": "-2.0"
+      "value": "-4.0"
     },
     {
       "filePath": "\/Users\/rahman\/Documents\/GitHub\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/Helpers\/Foundations\/Shadow.swift",
       "kind": "FloatLiteral",
       "offset": 665,
       "length": 3,
-      "value": "8.0"
+      "value": "4.0"
     },
     {
       "filePath": "\/Users\/rahman\/Documents\/GitHub\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/Helpers\/Foundations\/Shadow.swift",
@@ -34861,133 +34868,133 @@
     {
       "filePath": "\/Users\/rahman\/Documents\/GitHub\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/ApplyVoucherList\/Component\/ApplyVoucherItemCell.swift",
       "kind": "StringLiteral",
-      "offset": 355,
+      "offset": 352,
       "length": 10,
       "value": "\"PAYLATER\""
     },
     {
       "filePath": "\/Users\/rahman\/Documents\/GitHub\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/ApplyVoucherList\/Component\/ApplyVoucherItemCell.swift",
       "kind": "StringLiteral",
-      "offset": 1049,
+      "offset": 1054,
       "length": 16,
       "value": "\"checklist_true\""
     },
     {
       "filePath": "\/Users\/rahman\/Documents\/GitHub\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/ApplyVoucherList\/Component\/ApplyVoucherItemCell.swift",
       "kind": "StringLiteral",
-      "offset": 1120,
+      "offset": 1125,
       "length": 17,
       "value": "\"checklist_false\""
     },
     {
       "filePath": "\/Users\/rahman\/Documents\/GitHub\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/ApplyVoucherList\/Component\/ApplyVoucherItemCell.swift",
       "kind": "StringLiteral",
-      "offset": 1189,
+      "offset": 1194,
       "length": 17,
       "value": "\"main_icon_small\""
     },
     {
       "filePath": "\/Users\/rahman\/Documents\/GitHub\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/ApplyVoucherList\/Component\/ApplyVoucherItemCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 1238,
+      "offset": 1243,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/rahman\/Documents\/GitHub\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/ApplyVoucherList\/Component\/ApplyVoucherItemCell.swift",
       "kind": "Array",
-      "offset": 1281,
+      "offset": 1286,
       "length": 12,
       "value": "[\"ASTRAPAY\"]"
     },
     {
       "filePath": "\/Users\/rahman\/Documents\/GitHub\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/ApplyVoucherList\/Component\/ApplyVoucherItemCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 1505,
+      "offset": 1510,
       "length": 8,
       "value": "0xE5E5E5"
     },
     {
       "filePath": "\/Users\/rahman\/Documents\/GitHub\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/ApplyVoucherList\/Component\/ApplyVoucherItemCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 1556,
+      "offset": 1561,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/rahman\/Documents\/GitHub\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/ApplyVoucherList\/Component\/ApplyVoucherItemCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 1592,
+      "offset": 1597,
       "length": 2,
       "value": "15"
     },
     {
       "filePath": "\/Users\/rahman\/Documents\/GitHub\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/ApplyVoucherList\/Component\/ApplyVoucherItemCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 1624,
+      "offset": 1629,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/rahman\/Documents\/GitHub\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/ApplyVoucherList\/Component\/ApplyVoucherItemCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 2171,
+      "offset": 2176,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/rahman\/Documents\/GitHub\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/ApplyVoucherList\/Component\/ApplyVoucherItemCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 2466,
+      "offset": 2471,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/rahman\/Documents\/GitHub\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/ApplyVoucherList\/Component\/ApplyVoucherItemCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 2720,
+      "offset": 2725,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/rahman\/Documents\/GitHub\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/ApplyVoucherList\/Component\/ApplyVoucherItemCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 2889,
+      "offset": 2894,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/rahman\/Documents\/GitHub\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/ApplyVoucherList\/Component\/ApplyVoucherItemCell.swift",
       "kind": "StringLiteral",
-      "offset": 3038,
+      "offset": 3043,
       "length": 19,
       "value": "\"ic_tooltip_orange\""
     },
     {
       "filePath": "\/Users\/rahman\/Documents\/GitHub\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/ApplyVoucherList\/Component\/ApplyVoucherItemCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 3249,
+      "offset": 3254,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/rahman\/Documents\/GitHub\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/ApplyVoucherList\/Component\/ApplyVoucherItemCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 3471,
+      "offset": 3476,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/rahman\/Documents\/GitHub\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/ApplyVoucherList\/Component\/ApplyVoucherItemCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 3656,
+      "offset": 3661,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/rahman\/Documents\/GitHub\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/ApplyVoucherList\/Component\/ApplyVoucherItemCell.swift",
       "kind": "StringLiteral",
-      "offset": 3679,
+      "offset": 3684,
       "length": 6,
       "value": "\"Info\""
     },
@@ -37724,21 +37731,14 @@
     {
       "filePath": "\/Users\/rahman\/Documents\/GitHub\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/Kredivo\/KredivoWebview\/KredivoWebviewVc.swift",
       "kind": "StringLiteral",
-      "offset": 755,
+      "offset": 791,
       "length": 31,
       "value": "\"Ketentuan Penggunaan AstraPay\""
     },
     {
       "filePath": "\/Users\/rahman\/Documents\/GitHub\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/Kredivo\/KredivoWebview\/KredivoWebviewVc.swift",
-      "kind": "StringLiteral",
-      "offset": 820,
-      "length": 33,
-      "value": "\"file:\/\/\/Users\/rahman\/index.html\""
-    },
-    {
-      "filePath": "\/Users\/rahman\/Documents\/GitHub\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/Kredivo\/KredivoWebview\/KredivoWebviewVc.swift",
       "kind": "BooleanLiteral",
-      "offset": 894,
+      "offset": 863,
       "length": 5,
       "value": "false"
     },
@@ -37801,525 +37801,532 @@
     {
       "filePath": "\/Users\/rahman\/Documents\/GitHub\/qris-sdk-ios\/.build\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AstraPayQrisSdk\/IntermediateBuildFilesPath\/AstraPayQrisSdk.build\/Release-iphoneos\/AstraPayQrisSdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 1924,
+      "offset": 1936,
+      "length": 25,
+      "value": "\"astrapay_sdk_ic_kredivo\""
+    },
+    {
+      "filePath": "\/Users\/rahman\/Documents\/GitHub\/qris-sdk-ios\/.build\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AstraPayQrisSdk\/IntermediateBuildFilesPath\/AstraPayQrisSdk.build\/Release-iphoneos\/AstraPayQrisSdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 2102,
       "length": 18,
       "value": "\"blocked_paylater\""
     },
     {
       "filePath": "\/Users\/rahman\/Documents\/GitHub\/qris-sdk-ios\/.build\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AstraPayQrisSdk\/IntermediateBuildFilesPath\/AstraPayQrisSdk.build\/Release-iphoneos\/AstraPayQrisSdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 2084,
+      "offset": 2262,
       "length": 19,
       "value": "\"bottom_left_white\""
     },
     {
       "filePath": "\/Users\/rahman\/Documents\/GitHub\/qris-sdk-ios\/.build\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AstraPayQrisSdk\/IntermediateBuildFilesPath\/AstraPayQrisSdk.build\/Release-iphoneos\/AstraPayQrisSdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 2247,
+      "offset": 2425,
       "length": 20,
       "value": "\"bottom_right_white\""
     },
     {
       "filePath": "\/Users\/rahman\/Documents\/GitHub\/qris-sdk-ios\/.build\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AstraPayQrisSdk\/IntermediateBuildFilesPath\/AstraPayQrisSdk.build\/Release-iphoneos\/AstraPayQrisSdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 2406,
+      "offset": 2584,
       "length": 17,
       "value": "\"checklist_false\""
     },
     {
       "filePath": "\/Users\/rahman\/Documents\/GitHub\/qris-sdk-ios\/.build\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AstraPayQrisSdk\/IntermediateBuildFilesPath\/AstraPayQrisSdk.build\/Release-iphoneos\/AstraPayQrisSdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 2560,
+      "offset": 2738,
       "length": 16,
       "value": "\"checklist_true\""
     },
     {
       "filePath": "\/Users\/rahman\/Documents\/GitHub\/qris-sdk-ios\/.build\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AstraPayQrisSdk\/IntermediateBuildFilesPath\/AstraPayQrisSdk.build\/Release-iphoneos\/AstraPayQrisSdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 2718,
+      "offset": 2896,
       "length": 19,
       "value": "\"dark_blue_element\""
     },
     {
       "filePath": "\/Users\/rahman\/Documents\/GitHub\/qris-sdk-ios\/.build\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AstraPayQrisSdk\/IntermediateBuildFilesPath\/AstraPayQrisSdk.build\/Release-iphoneos\/AstraPayQrisSdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 2872,
+      "offset": 3050,
       "length": 15,
       "value": "\"empty_voucher\""
     },
     {
       "filePath": "\/Users\/rahman\/Documents\/GitHub\/qris-sdk-ios\/.build\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AstraPayQrisSdk\/IntermediateBuildFilesPath\/AstraPayQrisSdk.build\/Release-iphoneos\/AstraPayQrisSdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 3041,
+      "offset": 3219,
       "length": 25,
       "value": "\"fail_repayment_paylater\""
     },
     {
       "filePath": "\/Users\/rahman\/Documents\/GitHub\/qris-sdk-ios\/.build\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AstraPayQrisSdk\/IntermediateBuildFilesPath\/AstraPayQrisSdk.build\/Release-iphoneos\/AstraPayQrisSdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 3207,
+      "offset": 3385,
       "length": 18,
       "value": "\"horizontal_white\""
     },
     {
       "filePath": "\/Users\/rahman\/Documents\/GitHub\/qris-sdk-ios\/.build\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AstraPayQrisSdk\/IntermediateBuildFilesPath\/AstraPayQrisSdk.build\/Release-iphoneos\/AstraPayQrisSdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 3348,
+      "offset": 3526,
       "length": 9,
       "value": "\"ic_PLMC\""
     },
     {
       "filePath": "\/Users\/rahman\/Documents\/GitHub\/qris-sdk-ios\/.build\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AstraPayQrisSdk\/IntermediateBuildFilesPath\/AstraPayQrisSdk.build\/Release-iphoneos\/AstraPayQrisSdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 3491,
+      "offset": 3669,
       "length": 15,
       "value": "\"ic_arrow_back\""
     },
     {
       "filePath": "\/Users\/rahman\/Documents\/GitHub\/qris-sdk-ios\/.build\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AstraPayQrisSdk\/IntermediateBuildFilesPath\/AstraPayQrisSdk.build\/Release-iphoneos\/AstraPayQrisSdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 3651,
+      "offset": 3829,
       "length": 21,
       "value": "\"ic_arrow_back_black\""
     },
     {
       "filePath": "\/Users\/rahman\/Documents\/GitHub\/qris-sdk-ios\/.build\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AstraPayQrisSdk\/IntermediateBuildFilesPath\/AstraPayQrisSdk.build\/Release-iphoneos\/AstraPayQrisSdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 3814,
+      "offset": 3992,
       "length": 19,
       "value": "\"ic_bad_connection\""
     },
     {
       "filePath": "\/Users\/rahman\/Documents\/GitHub\/qris-sdk-ios\/.build\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AstraPayQrisSdk\/IntermediateBuildFilesPath\/AstraPayQrisSdk.build\/Release-iphoneos\/AstraPayQrisSdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 3965,
+      "offset": 4143,
       "length": 14,
       "value": "\"ic_bank_saqu\""
     },
     {
       "filePath": "\/Users\/rahman\/Documents\/GitHub\/qris-sdk-ios\/.build\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AstraPayQrisSdk\/IntermediateBuildFilesPath\/AstraPayQrisSdk.build\/Release-iphoneos\/AstraPayQrisSdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 4127,
+      "offset": 4305,
       "length": 22,
       "value": "\"ic_changepin_success\""
     },
     {
       "filePath": "\/Users\/rahman\/Documents\/GitHub\/qris-sdk-ios\/.build\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AstraPayQrisSdk\/IntermediateBuildFilesPath\/AstraPayQrisSdk.build\/Release-iphoneos\/AstraPayQrisSdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 4274,
+      "offset": 4452,
       "length": 10,
       "value": "\"ic_check\""
     },
     {
       "filePath": "\/Users\/rahman\/Documents\/GitHub\/qris-sdk-ios\/.build\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AstraPayQrisSdk\/IntermediateBuildFilesPath\/AstraPayQrisSdk.build\/Release-iphoneos\/AstraPayQrisSdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 4420,
+      "offset": 4598,
       "length": 16,
       "value": "\"ic_close_black\""
     },
     {
       "filePath": "\/Users\/rahman\/Documents\/GitHub\/qris-sdk-ios\/.build\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AstraPayQrisSdk\/IntermediateBuildFilesPath\/AstraPayQrisSdk.build\/Release-iphoneos\/AstraPayQrisSdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 4568,
+      "offset": 4746,
       "length": 14,
       "value": "\"ic_close_eye\""
     },
     {
       "filePath": "\/Users\/rahman\/Documents\/GitHub\/qris-sdk-ios\/.build\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AstraPayQrisSdk\/IntermediateBuildFilesPath\/AstraPayQrisSdk.build\/Release-iphoneos\/AstraPayQrisSdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 4716,
+      "offset": 4894,
       "length": 15,
       "value": "\"ic_copy_black\""
     },
     {
       "filePath": "\/Users\/rahman\/Documents\/GitHub\/qris-sdk-ios\/.build\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AstraPayQrisSdk\/IntermediateBuildFilesPath\/AstraPayQrisSdk.build\/Release-iphoneos\/AstraPayQrisSdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 4854,
+      "offset": 5032,
       "length": 9,
       "value": "\"ic_edit\""
     },
     {
       "filePath": "\/Users\/rahman\/Documents\/GitHub\/qris-sdk-ios\/.build\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AstraPayQrisSdk\/IntermediateBuildFilesPath\/AstraPayQrisSdk.build\/Release-iphoneos\/AstraPayQrisSdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 4990,
+      "offset": 5168,
       "length": 11,
       "value": "\"ic_failed\""
     },
     {
       "filePath": "\/Users\/rahman\/Documents\/GitHub\/qris-sdk-ios\/.build\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AstraPayQrisSdk\/IntermediateBuildFilesPath\/AstraPayQrisSdk.build\/Release-iphoneos\/AstraPayQrisSdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 5128,
+      "offset": 5306,
       "length": 11,
       "value": "\"ic_folder\""
     },
     {
       "filePath": "\/Users\/rahman\/Documents\/GitHub\/qris-sdk-ios\/.build\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AstraPayQrisSdk\/IntermediateBuildFilesPath\/AstraPayQrisSdk.build\/Release-iphoneos\/AstraPayQrisSdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 5287,
+      "offset": 5465,
       "length": 22,
       "value": "\"ic_forgotpin_success\""
     },
     {
       "filePath": "\/Users\/rahman\/Documents\/GitHub\/qris-sdk-ios\/.build\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AstraPayQrisSdk\/IntermediateBuildFilesPath\/AstraPayQrisSdk.build\/Release-iphoneos\/AstraPayQrisSdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 5445,
+      "offset": 5623,
       "length": 16,
       "value": "\"ic_info_orange\""
     },
     {
       "filePath": "\/Users\/rahman\/Documents\/GitHub\/qris-sdk-ios\/.build\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AstraPayQrisSdk\/IntermediateBuildFilesPath\/AstraPayQrisSdk.build\/Release-iphoneos\/AstraPayQrisSdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 5603,
+      "offset": 5781,
       "length": 19,
       "value": "\"ic_maucash_square\""
     },
     {
       "filePath": "\/Users\/rahman\/Documents\/GitHub\/qris-sdk-ios\/.build\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AstraPayQrisSdk\/IntermediateBuildFilesPath\/AstraPayQrisSdk.build\/Release-iphoneos\/AstraPayQrisSdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 5752,
+      "offset": 5930,
       "length": 13,
       "value": "\"ic_open_eye\""
     },
     {
       "filePath": "\/Users\/rahman\/Documents\/GitHub\/qris-sdk-ios\/.build\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AstraPayQrisSdk\/IntermediateBuildFilesPath\/AstraPayQrisSdk.build\/Release-iphoneos\/AstraPayQrisSdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 5886,
+      "offset": 6064,
       "length": 8,
       "value": "\"ic_otp\""
     },
     {
       "filePath": "\/Users\/rahman\/Documents\/GitHub\/qris-sdk-ios\/.build\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AstraPayQrisSdk\/IntermediateBuildFilesPath\/AstraPayQrisSdk.build\/Release-iphoneos\/AstraPayQrisSdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 6030,
+      "offset": 6208,
       "length": 16,
       "value": "\"ic_otp_attempt\""
     },
     {
       "filePath": "\/Users\/rahman\/Documents\/GitHub\/qris-sdk-ios\/.build\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AstraPayQrisSdk\/IntermediateBuildFilesPath\/AstraPayQrisSdk.build\/Release-iphoneos\/AstraPayQrisSdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 6184,
+      "offset": 6362,
       "length": 17,
       "value": "\"ic_otp_delivery\""
     },
     {
       "filePath": "\/Users\/rahman\/Documents\/GitHub\/qris-sdk-ios\/.build\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AstraPayQrisSdk\/IntermediateBuildFilesPath\/AstraPayQrisSdk.build\/Release-iphoneos\/AstraPayQrisSdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 6329,
+      "offset": 6507,
       "length": 12,
       "value": "\"ic_otp_sms\""
     },
     {
       "filePath": "\/Users\/rahman\/Documents\/GitHub\/qris-sdk-ios\/.build\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AstraPayQrisSdk\/IntermediateBuildFilesPath\/AstraPayQrisSdk.build\/Release-iphoneos\/AstraPayQrisSdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 6477,
+      "offset": 6655,
       "length": 16,
       "value": "\"ic_otp_warning\""
     },
     {
       "filePath": "\/Users\/rahman\/Documents\/GitHub\/qris-sdk-ios\/.build\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AstraPayQrisSdk\/IntermediateBuildFilesPath\/AstraPayQrisSdk.build\/Release-iphoneos\/AstraPayQrisSdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 6631,
+      "offset": 6809,
       "length": 17,
       "value": "\"ic_otp_whatsapp\""
     },
     {
       "filePath": "\/Users\/rahman\/Documents\/GitHub\/qris-sdk-ios\/.build\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AstraPayQrisSdk\/IntermediateBuildFilesPath\/AstraPayQrisSdk.build\/Release-iphoneos\/AstraPayQrisSdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 6790,
+      "offset": 6968,
       "length": 19,
       "value": "\"ic_profile_circle\""
     },
     {
       "filePath": "\/Users\/rahman\/Documents\/GitHub\/qris-sdk-ios\/.build\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AstraPayQrisSdk\/IntermediateBuildFilesPath\/AstraPayQrisSdk.build\/Release-iphoneos\/AstraPayQrisSdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 6951,
+      "offset": 7129,
       "length": 19,
       "value": "\"ic_redeem_voucher\""
     },
     {
       "filePath": "\/Users\/rahman\/Documents\/GitHub\/qris-sdk-ios\/.build\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AstraPayQrisSdk\/IntermediateBuildFilesPath\/AstraPayQrisSdk.build\/Release-iphoneos\/AstraPayQrisSdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 7104,
+      "offset": 7282,
       "length": 15,
       "value": "\"ic_right_gray\""
     },
     {
       "filePath": "\/Users\/rahman\/Documents\/GitHub\/qris-sdk-ios\/.build\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AstraPayQrisSdk\/IntermediateBuildFilesPath\/AstraPayQrisSdk.build\/Release-iphoneos\/AstraPayQrisSdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 7261,
+      "offset": 7439,
       "length": 19,
       "value": "\"ic_success_filled\""
     },
     {
       "filePath": "\/Users\/rahman\/Documents\/GitHub\/qris-sdk-ios\/.build\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AstraPayQrisSdk\/IntermediateBuildFilesPath\/AstraPayQrisSdk.build\/Release-iphoneos\/AstraPayQrisSdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 7424,
+      "offset": 7602,
       "length": 20,
       "value": "\"ic_tenor_checklist\""
     },
     {
       "filePath": "\/Users\/rahman\/Documents\/GitHub\/qris-sdk-ios\/.build\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AstraPayQrisSdk\/IntermediateBuildFilesPath\/AstraPayQrisSdk.build\/Release-iphoneos\/AstraPayQrisSdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 7593,
+      "offset": 7771,
       "length": 23,
       "value": "\"ic_tenor_no_checklist\""
     },
     {
       "filePath": "\/Users\/rahman\/Documents\/GitHub\/qris-sdk-ios\/.build\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AstraPayQrisSdk\/IntermediateBuildFilesPath\/AstraPayQrisSdk.build\/Release-iphoneos\/AstraPayQrisSdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 7758,
+      "offset": 7936,
       "length": 19,
       "value": "\"ic_tooltip_orange\""
     },
     {
       "filePath": "\/Users\/rahman\/Documents\/GitHub\/qris-sdk-ios\/.build\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AstraPayQrisSdk\/IntermediateBuildFilesPath\/AstraPayQrisSdk.build\/Release-iphoneos\/AstraPayQrisSdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 7906,
+      "offset": 8084,
       "length": 12,
       "value": "\"ic_touchUp\""
     },
     {
       "filePath": "\/Users\/rahman\/Documents\/GitHub\/qris-sdk-ios\/.build\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AstraPayQrisSdk\/IntermediateBuildFilesPath\/AstraPayQrisSdk.build\/Release-iphoneos\/AstraPayQrisSdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 8045,
+      "offset": 8223,
       "length": 11,
       "value": "\"icon_back\""
     },
     {
       "filePath": "\/Users\/rahman\/Documents\/GitHub\/qris-sdk-ios\/.build\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AstraPayQrisSdk\/IntermediateBuildFilesPath\/AstraPayQrisSdk.build\/Release-iphoneos\/AstraPayQrisSdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 8185,
+      "offset": 8363,
       "length": 12,
       "value": "\"icon_flash\""
     },
     {
       "filePath": "\/Users\/rahman\/Documents\/GitHub\/qris-sdk-ios\/.build\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AstraPayQrisSdk\/IntermediateBuildFilesPath\/AstraPayQrisSdk.build\/Release-iphoneos\/AstraPayQrisSdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 8324,
+      "offset": 8502,
       "length": 11,
       "value": "\"icon_info\""
     },
     {
       "filePath": "\/Users\/rahman\/Documents\/GitHub\/qris-sdk-ios\/.build\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AstraPayQrisSdk\/IntermediateBuildFilesPath\/AstraPayQrisSdk.build\/Release-iphoneos\/AstraPayQrisSdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 8471,
+      "offset": 8649,
       "length": 16,
       "value": "\"icon_opt_false\""
     },
     {
       "filePath": "\/Users\/rahman\/Documents\/GitHub\/qris-sdk-ios\/.build\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AstraPayQrisSdk\/IntermediateBuildFilesPath\/AstraPayQrisSdk.build\/Release-iphoneos\/AstraPayQrisSdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 8621,
+      "offset": 8799,
       "length": 15,
       "value": "\"icon_opt_true\""
     },
     {
       "filePath": "\/Users\/rahman\/Documents\/GitHub\/qris-sdk-ios\/.build\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AstraPayQrisSdk\/IntermediateBuildFilesPath\/AstraPayQrisSdk.build\/Release-iphoneos\/AstraPayQrisSdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 8776,
+      "offset": 8954,
       "length": 18,
       "value": "\"icon_pay_picture\""
     },
     {
       "filePath": "\/Users\/rahman\/Documents\/GitHub\/qris-sdk-ios\/.build\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AstraPayQrisSdk\/IntermediateBuildFilesPath\/AstraPayQrisSdk.build\/Release-iphoneos\/AstraPayQrisSdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 8927,
+      "offset": 9105,
       "length": 14,
       "value": "\"icon_voucher\""
     },
     {
       "filePath": "\/Users\/rahman\/Documents\/GitHub\/qris-sdk-ios\/.build\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AstraPayQrisSdk\/IntermediateBuildFilesPath\/AstraPayQrisSdk.build\/Release-iphoneos\/AstraPayQrisSdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 9092,
+      "offset": 9270,
       "length": 23,
       "value": "\"illustration_closeacc\""
     },
     {
       "filePath": "\/Users\/rahman\/Documents\/GitHub\/qris-sdk-ios\/.build\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AstraPayQrisSdk\/IntermediateBuildFilesPath\/AstraPayQrisSdk.build\/Release-iphoneos\/AstraPayQrisSdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 9277,
+      "offset": 9455,
       "length": 29,
       "value": "\"illustration_closeacc_alert\""
     },
     {
       "filePath": "\/Users\/rahman\/Documents\/GitHub\/qris-sdk-ios\/.build\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AstraPayQrisSdk\/IntermediateBuildFilesPath\/AstraPayQrisSdk.build\/Release-iphoneos\/AstraPayQrisSdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 9453,
+      "offset": 9631,
       "length": 21,
       "value": "\"illustration_failed\""
     },
     {
       "filePath": "\/Users\/rahman\/Documents\/GitHub\/qris-sdk-ios\/.build\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AstraPayQrisSdk\/IntermediateBuildFilesPath\/AstraPayQrisSdk.build\/Release-iphoneos\/AstraPayQrisSdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 9631,
+      "offset": 9809,
       "length": 26,
       "value": "\"illustration_limitAmount\""
     },
     {
       "filePath": "\/Users\/rahman\/Documents\/GitHub\/qris-sdk-ios\/.build\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AstraPayQrisSdk\/IntermediateBuildFilesPath\/AstraPayQrisSdk.build\/Release-iphoneos\/AstraPayQrisSdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 9804,
+      "offset": 9982,
       "length": 21,
       "value": "\"illustration_logout\""
     },
     {
       "filePath": "\/Users\/rahman\/Documents\/GitHub\/qris-sdk-ios\/.build\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AstraPayQrisSdk\/IntermediateBuildFilesPath\/AstraPayQrisSdk.build\/Release-iphoneos\/AstraPayQrisSdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 9966,
+      "offset": 10144,
       "length": 18,
       "value": "\"illustration_pin\""
     },
     {
       "filePath": "\/Users\/rahman\/Documents\/GitHub\/qris-sdk-ios\/.build\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AstraPayQrisSdk\/IntermediateBuildFilesPath\/AstraPayQrisSdk.build\/Release-iphoneos\/AstraPayQrisSdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 10135,
+      "offset": 10313,
       "length": 23,
       "value": "\"illustration_rejected\""
     },
     {
       "filePath": "\/Users\/rahman\/Documents\/GitHub\/qris-sdk-ios\/.build\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AstraPayQrisSdk\/IntermediateBuildFilesPath\/AstraPayQrisSdk.build\/Release-iphoneos\/AstraPayQrisSdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 10307,
+      "offset": 10485,
       "length": 22,
       "value": "\"illustration_success\""
     },
     {
       "filePath": "\/Users\/rahman\/Documents\/GitHub\/qris-sdk-ios\/.build\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AstraPayQrisSdk\/IntermediateBuildFilesPath\/AstraPayQrisSdk.build\/Release-iphoneos\/AstraPayQrisSdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 10494,
+      "offset": 10672,
       "length": 30,
       "value": "\"illustration_unauthenticated\""
     },
     {
       "filePath": "\/Users\/rahman\/Documents\/GitHub\/qris-sdk-ios\/.build\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AstraPayQrisSdk\/IntermediateBuildFilesPath\/AstraPayQrisSdk.build\/Release-iphoneos\/AstraPayQrisSdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 10674,
+      "offset": 10852,
       "length": 23,
       "value": "\"img_broken_connection\""
     },
     {
       "filePath": "\/Users\/rahman\/Documents\/GitHub\/qris-sdk-ios\/.build\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AstraPayQrisSdk\/IntermediateBuildFilesPath\/AstraPayQrisSdk.build\/Release-iphoneos\/AstraPayQrisSdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 10845,
+      "offset": 11023,
       "length": 22,
       "value": "\"img_placeholder_home\""
     },
     {
       "filePath": "\/Users\/rahman\/Documents\/GitHub\/qris-sdk-ios\/.build\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AstraPayQrisSdk\/IntermediateBuildFilesPath\/AstraPayQrisSdk.build\/Release-iphoneos\/AstraPayQrisSdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 11000,
+      "offset": 11178,
       "length": 14,
       "value": "\"img_question\""
     },
     {
       "filePath": "\/Users\/rahman\/Documents\/GitHub\/qris-sdk-ios\/.build\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AstraPayQrisSdk\/IntermediateBuildFilesPath\/AstraPayQrisSdk.build\/Release-iphoneos\/AstraPayQrisSdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 11148,
+      "offset": 11326,
       "length": 15,
       "value": "\"img_sent_mail\""
     },
     {
       "filePath": "\/Users\/rahman\/Documents\/GitHub\/qris-sdk-ios\/.build\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AstraPayQrisSdk\/IntermediateBuildFilesPath\/AstraPayQrisSdk.build\/Release-iphoneos\/AstraPayQrisSdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 11320,
+      "offset": 11498,
       "length": 27,
       "value": "\"img_success_klaim_voucher\""
     },
     {
       "filePath": "\/Users\/rahman\/Documents\/GitHub\/qris-sdk-ios\/.build\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AstraPayQrisSdk\/IntermediateBuildFilesPath\/AstraPayQrisSdk.build\/Release-iphoneos\/AstraPayQrisSdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 11474,
+      "offset": 11652,
       "length": 11,
       "value": "\"img_think\""
     },
     {
       "filePath": "\/Users\/rahman\/Documents\/GitHub\/qris-sdk-ios\/.build\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AstraPayQrisSdk\/IntermediateBuildFilesPath\/AstraPayQrisSdk.build\/Release-iphoneos\/AstraPayQrisSdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 11618,
+      "offset": 11796,
       "length": 14,
       "value": "\"logo_kredivo\""
     },
     {
       "filePath": "\/Users\/rahman\/Documents\/GitHub\/qris-sdk-ios\/.build\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AstraPayQrisSdk\/IntermediateBuildFilesPath\/AstraPayQrisSdk.build\/Release-iphoneos\/AstraPayQrisSdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 11778,
+      "offset": 11956,
       "length": 21,
       "value": "\"logo_landscape_blue\""
     },
     {
       "filePath": "\/Users\/rahman\/Documents\/GitHub\/qris-sdk-ios\/.build\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AstraPayQrisSdk\/IntermediateBuildFilesPath\/AstraPayQrisSdk.build\/Release-iphoneos\/AstraPayQrisSdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 11937,
+      "offset": 12115,
       "length": 17,
       "value": "\"main_icon_small\""
     },
     {
       "filePath": "\/Users\/rahman\/Documents\/GitHub\/qris-sdk-ios\/.build\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AstraPayQrisSdk\/IntermediateBuildFilesPath\/AstraPayQrisSdk.build\/Release-iphoneos\/AstraPayQrisSdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 12095,
+      "offset": 12273,
       "length": 18,
       "value": "\"pending_paylater\""
     },
     {
       "filePath": "\/Users\/rahman\/Documents\/GitHub\/qris-sdk-ios\/.build\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AstraPayQrisSdk\/IntermediateBuildFilesPath\/AstraPayQrisSdk.build\/Release-iphoneos\/AstraPayQrisSdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 12245,
+      "offset": 12423,
       "length": 14,
       "value": "\"qr_flat_icon\""
     },
     {
       "filePath": "\/Users\/rahman\/Documents\/GitHub\/qris-sdk-ios\/.build\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AstraPayQrisSdk\/IntermediateBuildFilesPath\/AstraPayQrisSdk.build\/Release-iphoneos\/AstraPayQrisSdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 12388,
+      "offset": 12566,
       "length": 12,
       "value": "\"qris_white\""
     },
     {
       "filePath": "\/Users\/rahman\/Documents\/GitHub\/qris-sdk-ios\/.build\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AstraPayQrisSdk\/IntermediateBuildFilesPath\/AstraPayQrisSdk.build\/Release-iphoneos\/AstraPayQrisSdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 12548,
+      "offset": 12726,
       "length": 22,
       "value": "\"radio_button_checked\""
     },
     {
       "filePath": "\/Users\/rahman\/Documents\/GitHub\/qris-sdk-ios\/.build\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AstraPayQrisSdk\/IntermediateBuildFilesPath\/AstraPayQrisSdk.build\/Release-iphoneos\/AstraPayQrisSdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 12722,
+      "offset": 12900,
       "length": 24,
       "value": "\"radio_button_unchecked\""
     },
     {
       "filePath": "\/Users\/rahman\/Documents\/GitHub\/qris-sdk-ios\/.build\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AstraPayQrisSdk\/IntermediateBuildFilesPath\/AstraPayQrisSdk.build\/Release-iphoneos\/AstraPayQrisSdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 12879,
+      "offset": 13057,
       "length": 14,
       "value": "\"refresh_icon\""
     },
     {
       "filePath": "\/Users\/rahman\/Documents\/GitHub\/qris-sdk-ios\/.build\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AstraPayQrisSdk\/IntermediateBuildFilesPath\/AstraPayQrisSdk.build\/Release-iphoneos\/AstraPayQrisSdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 13036,
+      "offset": 13214,
       "length": 19,
       "value": "\"rejected_paylater\""
     },
     {
       "filePath": "\/Users\/rahman\/Documents\/GitHub\/qris-sdk-ios\/.build\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AstraPayQrisSdk\/IntermediateBuildFilesPath\/AstraPayQrisSdk.build\/Release-iphoneos\/AstraPayQrisSdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 13195,
+      "offset": 13373,
       "length": 18,
       "value": "\"upper_left_white\""
     },
     {
       "filePath": "\/Users\/rahman\/Documents\/GitHub\/qris-sdk-ios\/.build\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AstraPayQrisSdk\/IntermediateBuildFilesPath\/AstraPayQrisSdk.build\/Release-iphoneos\/AstraPayQrisSdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 13355,
+      "offset": 13533,
       "length": 19,
       "value": "\"upper_right_white\""
     },
     {
       "filePath": "\/Users\/rahman\/Documents\/GitHub\/qris-sdk-ios\/.build\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AstraPayQrisSdk\/IntermediateBuildFilesPath\/AstraPayQrisSdk.build\/Release-iphoneos\/AstraPayQrisSdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 13507,
+      "offset": 13685,
       "length": 14,
       "value": "\"warning_info\""
     }
