@@ -98,6 +98,13 @@ public enum BottomBarLeadingDescriptionPosition {
     get
   }
 }
+@_inheritsConvenienceInitializers @objc public class QrPartnerService : ObjectiveC.NSObject {
+  @objc public static let sharedInstance: AstraPayQrisSdk.QrPartnerService
+  @objc weak public var delegate: (any AstraPayQrisSdk.QRProtocolSdk)?
+  @objc public func getTransactionById(transactionId: Swift.String)
+  @objc override dynamic public init()
+  @objc deinit
+}
 @_inheritsConvenienceInitializers @objc public class QRNewRouter : ObjectiveC.NSObject {
   @objc public static let sharedInstance: AstraPayQrisSdk.QRNewRouter
   @objc public var delegate: (any AstraPayQrisSdk.QRProtocolSdk)?
@@ -597,6 +604,7 @@ public struct ApCheckBoxParentViewData : Swift.Codable {
   @objc func onProcessing(viewController: UIKit.UIViewController)
   @objc func onCancel(viewController: UIKit.UIViewController)
   @objc func onCompleteTransaction(history: AstraPayQrisSdk.QrisTransactionHistorySummary)
+  @objc func onCheckTransactionStatus(history: AstraPayQrisSdk.QrisTransactionHistorySummary)
 }
 extension AstraPayQrisSdk.BuildMode : Swift.Equatable {}
 extension AstraPayQrisSdk.BuildMode : Swift.Hashable {}

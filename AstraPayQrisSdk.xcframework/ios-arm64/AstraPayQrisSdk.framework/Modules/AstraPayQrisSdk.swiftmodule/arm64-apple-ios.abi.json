@@ -3517,6 +3517,347 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AstraPayQrisSdk",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AstraPayQrisSdk"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "QrPartnerService",
+        "printedName": "QrPartnerService",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "sharedInstance",
+            "printedName": "sharedInstance",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "QrPartnerService",
+                "printedName": "AstraPayQrisSdk.QrPartnerService",
+                "usr": "c:@M@AstraPayQrisSdk@objc(cs)QrPartnerService"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@AstraPayQrisSdk@objc(cs)QrPartnerService(cpy)sharedInstance",
+            "mangledName": "$s15AstraPayQrisSdk16QrPartnerServiceC14sharedInstanceACvpZ",
+            "moduleName": "AstraPayQrisSdk",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "QrPartnerService",
+                    "printedName": "AstraPayQrisSdk.QrPartnerService",
+                    "usr": "c:@M@AstraPayQrisSdk@objc(cs)QrPartnerService"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@AstraPayQrisSdk@objc(cs)QrPartnerService(cm)sharedInstance",
+                "mangledName": "$s15AstraPayQrisSdk16QrPartnerServiceC14sharedInstanceACvgZ",
+                "moduleName": "AstraPayQrisSdk",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "delegate",
+            "printedName": "delegate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WeakStorage",
+                "printedName": "(any AstraPayQrisSdk.QRProtocolSdk)?"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@AstraPayQrisSdk@objc(cs)QrPartnerService(py)delegate",
+            "mangledName": "$s15AstraPayQrisSdk16QrPartnerServiceC8delegateAA010QRProtocolD0_pSgvp",
+            "moduleName": "AstraPayQrisSdk",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "ReferenceOwnership",
+              "AccessControl",
+              "ObjC"
+            ],
+            "ownership": 1,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any AstraPayQrisSdk.QRProtocolSdk)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "QRProtocolSdk",
+                        "printedName": "any AstraPayQrisSdk.QRProtocolSdk",
+                        "usr": "c:@M@AstraPayQrisSdk@objc(pl)QRProtocolSdk"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@AstraPayQrisSdk@objc(cs)QrPartnerService(im)delegate",
+                "mangledName": "$s15AstraPayQrisSdk16QrPartnerServiceC8delegateAA010QRProtocolD0_pSgvg",
+                "moduleName": "AstraPayQrisSdk",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any AstraPayQrisSdk.QRProtocolSdk)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "QRProtocolSdk",
+                        "printedName": "any AstraPayQrisSdk.QRProtocolSdk",
+                        "usr": "c:@M@AstraPayQrisSdk@objc(pl)QRProtocolSdk"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@AstraPayQrisSdk@objc(cs)QrPartnerService(im)setDelegate:",
+                "mangledName": "$s15AstraPayQrisSdk16QrPartnerServiceC8delegateAA010QRProtocolD0_pSgvs",
+                "moduleName": "AstraPayQrisSdk",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15AstraPayQrisSdk16QrPartnerServiceC8delegateAA010QRProtocolD0_pSgvM",
+                "mangledName": "$s15AstraPayQrisSdk16QrPartnerServiceC8delegateAA010QRProtocolD0_pSgvM",
+                "moduleName": "AstraPayQrisSdk",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "getTransactionById",
+            "printedName": "getTransactionById(transactionId:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AstraPayQrisSdk@objc(cs)QrPartnerService(im)getTransactionByIdWithTransactionId:",
+            "mangledName": "$s15AstraPayQrisSdk16QrPartnerServiceC18getTransactionById011transactionK0ySS_tF",
+            "moduleName": "AstraPayQrisSdk",
+            "objc_name": "getTransactionByIdWithTransactionId:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "QrPartnerService",
+                "printedName": "AstraPayQrisSdk.QrPartnerService",
+                "usr": "c:@M@AstraPayQrisSdk@objc(cs)QrPartnerService"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@AstraPayQrisSdk@objc(cs)QrPartnerService(im)init",
+            "mangledName": "$s15AstraPayQrisSdk16QrPartnerServiceCACycfc",
+            "moduleName": "AstraPayQrisSdk",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@AstraPayQrisSdk@objc(cs)QrPartnerService",
+        "mangledName": "$s15AstraPayQrisSdk16QrPartnerServiceC",
+        "moduleName": "AstraPayQrisSdk",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ReactiveCompatible",
+            "printedName": "ReactiveCompatible",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "ReactiveBase",
+                "printedName": "ReactiveBase",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSObject",
+                    "printedName": "ObjectiveC.NSObject",
+                    "usr": "c:objc(cs)NSObject"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7RxSwift18ReactiveCompatibleP",
+            "mangledName": "$s7RxSwift18ReactiveCompatibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "Alamofire",
         "printedName": "Alamofire",
         "declKind": "Import",
@@ -24270,6 +24611,36 @@
             "declKind": "Func",
             "usr": "c:@M@AstraPayQrisSdk@objc(pl)QRProtocolSdk(im)onCompleteTransactionWithHistory:",
             "mangledName": "$s15AstraPayQrisSdk010QRProtocolD0P21onCompleteTransaction7historyyAA0cH14HistorySummaryC_tF",
+            "moduleName": "AstraPayQrisSdk",
+            "genericSig": "<τ_0_0 where τ_0_0 : AstraPayQrisSdk.QRProtocolSdk>",
+            "sugared_genericSig": "<Self where Self : AstraPayQrisSdk.QRProtocolSdk>",
+            "protocolReq": true,
+            "declAttributes": [
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onCheckTransactionStatus",
+            "printedName": "onCheckTransactionStatus(history:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "QrisTransactionHistorySummary",
+                "printedName": "AstraPayQrisSdk.QrisTransactionHistorySummary",
+                "usr": "c:@M@AstraPayQrisSdk@objc(cs)QrisTransactionHistorySummary"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AstraPayQrisSdk@objc(pl)QRProtocolSdk(im)onCheckTransactionStatusWithHistory:",
+            "mangledName": "$s15AstraPayQrisSdk010QRProtocolD0P24onCheckTransactionStatus7historyyAA0cH14HistorySummaryC_tF",
             "moduleName": "AstraPayQrisSdk",
             "genericSig": "<τ_0_0 where τ_0_0 : AstraPayQrisSdk.QRProtocolSdk>",
             "sugared_genericSig": "<Self where Self : AstraPayQrisSdk.QRProtocolSdk>",

@@ -452,6 +452,17 @@ SWIFT_PROTOCOL("_TtP15AstraPayQrisSdk13QRProtocolSdk_")
 - (void)onProcessingWithViewController:(UIViewController * _Nonnull)viewController;
 - (void)onCancelWithViewController:(UIViewController * _Nonnull)viewController;
 - (void)onCompleteTransactionWithHistory:(QrisTransactionHistorySummary * _Nonnull)history;
+- (void)onCheckTransactionStatusWithHistory:(QrisTransactionHistorySummary * _Nonnull)history;
+@end
+
+
+SWIFT_CLASS("_TtC15AstraPayQrisSdk16QrPartnerService")
+@interface QrPartnerService : NSObject
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) QrPartnerService * _Nonnull sharedInstance;)
++ (QrPartnerService * _Nonnull)sharedInstance SWIFT_WARN_UNUSED_RESULT;
+@property (nonatomic, weak) id <QRProtocolSdk> _Nullable delegate;
+- (void)getTransactionByIdWithTransactionId:(NSString * _Nonnull)transactionId;
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
 
