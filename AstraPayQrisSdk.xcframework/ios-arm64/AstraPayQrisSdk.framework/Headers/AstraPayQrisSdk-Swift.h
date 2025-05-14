@@ -478,7 +478,8 @@ SWIFT_CLASS_NAMED("QrisTransactionHistorySummary")
 @property (nonatomic, copy) NSString * _Nullable totalAmount;
 @property (nonatomic, copy) NSString * _Nullable discountAmount;
 @property (nonatomic, copy) NSString * _Nullable merchantId;
-- (nonnull instancetype)initWithTransactionAt:(NSString * _Nullable)transactionAt status:(NSString * _Nullable)status transactionNumber:(NSString * _Nullable)transactionNumber referenceNumber:(NSString * _Nullable)referenceNumber merchantName:(NSString * _Nullable)merchantName merchantCity:(NSString * _Nullable)merchantCity amount:(NSString * _Nullable)amount totalAmount:(NSString * _Nullable)totalAmount discountAmount:(NSString * _Nullable)discountAmount merchantId:(NSString * _Nullable)merchantId OBJC_DESIGNATED_INITIALIZER;
+@property (nonatomic, copy) NSString * _Nullable transactionId;
+- (nonnull instancetype)initWithTransactionAt:(NSString * _Nullable)transactionAt status:(NSString * _Nullable)status transactionNumber:(NSString * _Nullable)transactionNumber referenceNumber:(NSString * _Nullable)referenceNumber merchantName:(NSString * _Nullable)merchantName merchantCity:(NSString * _Nullable)merchantCity amount:(NSString * _Nullable)amount totalAmount:(NSString * _Nullable)totalAmount discountAmount:(NSString * _Nullable)discountAmount merchantId:(NSString * _Nullable)merchantId transactionId:(NSString * _Nullable)transactionId OBJC_DESIGNATED_INITIALIZER;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end

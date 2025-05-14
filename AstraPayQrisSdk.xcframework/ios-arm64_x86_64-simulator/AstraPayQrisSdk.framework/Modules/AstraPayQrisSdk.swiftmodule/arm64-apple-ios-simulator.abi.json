@@ -6443,9 +6443,126 @@
             ]
           },
           {
+            "kind": "Var",
+            "name": "transactionId",
+            "printedName": "transactionId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@AstraPayQrisSdk@objc(cs)QrisTransactionHistorySummary(py)transactionId",
+            "mangledName": "$s15AstraPayQrisSdk0C25TransactionHistorySummaryC13transactionIdSSSgvp",
+            "moduleName": "AstraPayQrisSdk",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@AstraPayQrisSdk@objc(cs)QrisTransactionHistorySummary(im)transactionId",
+                "mangledName": "$s15AstraPayQrisSdk0C25TransactionHistorySummaryC13transactionIdSSSgvg",
+                "moduleName": "AstraPayQrisSdk",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@AstraPayQrisSdk@objc(cs)QrisTransactionHistorySummary(im)setTransactionId:",
+                "mangledName": "$s15AstraPayQrisSdk0C25TransactionHistorySummaryC13transactionIdSSSgvs",
+                "moduleName": "AstraPayQrisSdk",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15AstraPayQrisSdk0C25TransactionHistorySummaryC13transactionIdSSSgvM",
+                "mangledName": "$s15AstraPayQrisSdk0C25TransactionHistorySummaryC13transactionIdSSSgvM",
+                "moduleName": "AstraPayQrisSdk",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(transactionAt:status:transactionNumber:referenceNumber:merchantName:merchantCity:amount:totalAmount:discountAmount:merchantId:)",
+            "printedName": "init(transactionAt:status:transactionNumber:referenceNumber:merchantName:merchantCity:amount:totalAmount:discountAmount:merchantId:transactionId:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -6602,13 +6719,28 @@
                 ],
                 "hasDefaultArg": true,
                 "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Constructor",
-            "usr": "c:@M@AstraPayQrisSdk@objc(cs)QrisTransactionHistorySummary(im)initWithTransactionAt:status:transactionNumber:referenceNumber:merchantName:merchantCity:amount:totalAmount:discountAmount:merchantId:",
-            "mangledName": "$s15AstraPayQrisSdk0C25TransactionHistorySummaryC13transactionAt6status0H6Number09referenceK012merchantName0M4City6amount11totalAmount08discountR00M2IdACSSSg_A9Ntcfc",
+            "usr": "c:@M@AstraPayQrisSdk@objc(cs)QrisTransactionHistorySummary(im)initWithTransactionAt:status:transactionNumber:referenceNumber:merchantName:merchantCity:amount:totalAmount:discountAmount:merchantId:transactionId:",
+            "mangledName": "$s15AstraPayQrisSdk0C25TransactionHistorySummaryC13transactionAt6status0H6Number09referenceK012merchantName0M4City6amount11totalAmount08discountR00M2Id0hT0ACSSSg_A10Otcfc",
             "moduleName": "AstraPayQrisSdk",
-            "objc_name": "initWithTransactionAt:status:transactionNumber:referenceNumber:merchantName:merchantCity:amount:totalAmount:discountAmount:merchantId:",
+            "objc_name": "initWithTransactionAt:status:transactionNumber:referenceNumber:merchantName:merchantCity:amount:totalAmount:discountAmount:merchantId:transactionId:",
             "declAttributes": [
               "AccessControl",
               "ObjC"
