@@ -335,6 +335,14 @@ SWIFT_CLASS("_TtC15AstraPayQrisSdk15ApCheckboxGroup")
 @end
 
 
+SWIFT_CLASS("_TtC15AstraPayQrisSdk9ApDivider")
+@interface ApDivider : UIView
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder SWIFT_UNAVAILABLE;
+- (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
+- (void)layoutSubviews;
+@end
+
+
 SWIFT_CLASS("_TtC15AstraPayQrisSdk13ApRadioButton")
 @interface ApRadioButton : UIView
 - (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
@@ -360,6 +368,14 @@ SWIFT_CLASS("_TtC15AstraPayQrisSdk17ApRadioButtonCell")
 @interface ApRadioButtonCell : UITableViewCell
 - (nonnull instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString * _Nullable)reuseIdentifier SWIFT_UNAVAILABLE;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder SWIFT_UNAVAILABLE;
+@end
+
+
+SWIFT_CLASS("_TtC15AstraPayQrisSdk11ApTopAppBar")
+@interface ApTopAppBar : UIView
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder SWIFT_UNAVAILABLE;
+- (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
+- (void)layoutSubviews;
 @end
 
 typedef SWIFT_ENUM(NSInteger, BuildMode, open) {
@@ -483,6 +499,7 @@ SWIFT_CLASS_NAMED("QrisTransactionHistorySummary")
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
+
 
 
 

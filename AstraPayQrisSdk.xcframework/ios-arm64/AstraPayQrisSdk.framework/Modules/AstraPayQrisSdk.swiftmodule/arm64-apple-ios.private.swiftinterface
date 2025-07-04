@@ -149,6 +149,43 @@ public protocol ApOtpDatasource {
   @objc public init(transactionAt: Swift.String? = nil, status: Swift.String? = nil, transactionNumber: Swift.String? = nil, referenceNumber: Swift.String? = nil, merchantName: Swift.String? = nil, merchantCity: Swift.String? = nil, amount: Swift.String? = nil, totalAmount: Swift.String? = nil, discountAmount: Swift.String? = nil, merchantId: Swift.String? = nil, transactionId: Swift.String? = nil)
   @objc deinit
 }
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @_Concurrency.MainActor @preconcurrency public class ApDivider : UIKit.UIView {
+  @_Concurrency.MainActor @preconcurrency public var dividerType: AstraPayQrisSdk.DividerType {
+    get
+    set
+  }
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func layoutSubviews()
+  @objc deinit
+}
+public protocol ApTopAppBarDelegate : AnyObject {
+  func onTopAppBarLeadingTapped()
+  func onTopAppBarTrailingTapped()
+}
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @_Concurrency.MainActor @preconcurrency public class ApTopAppBar : UIKit.UIView {
+  @_Concurrency.MainActor @preconcurrency public var delegate: (any AstraPayQrisSdk.ApTopAppBarDelegate)?
+  @_Concurrency.MainActor @preconcurrency public var topAppBarTitle: Swift.String {
+    get
+    set
+  }
+  @_Concurrency.MainActor @preconcurrency public var topAppBarType: AstraPayQrisSdk.TopAppBarType {
+    get
+    set
+  }
+  @_Concurrency.MainActor @preconcurrency public var topAppBarLeading: AstraPayQrisSdk.TopAppBarLeading {
+    get
+    set
+  }
+  @_Concurrency.MainActor @preconcurrency public var topAppBarTrailing: AstraPayQrisSdk.TopAppBarTrailing {
+    get
+    set
+  }
+  @_Concurrency.MainActor @preconcurrency public var topAppBarTrailingIcon: UIKit.UIImage? {
+    get
+    set
+  }
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func layoutSubviews()
+  @objc deinit
+}
 public enum QrisTransactionResultEnum : Swift.String {
   case SUCCESS
   case FAILED
@@ -182,6 +219,16 @@ public enum OtpMechanism : Swift.String, Swift.Codable {
   public init?(rawValue: Swift.String)
   public typealias RawValue = Swift.String
   public var rawValue: Swift.String {
+    get
+  }
+}
+public enum DividerType {
+  case solid
+  case dotted
+  case section
+  public static func == (a: AstraPayQrisSdk.DividerType, b: AstraPayQrisSdk.DividerType) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
     get
   }
 }
@@ -376,6 +423,43 @@ public enum BadgeType {
   case boldWarning
   case boldDanger
   public static func == (a: AstraPayQrisSdk.BadgeType, b: AstraPayQrisSdk.BadgeType) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+extension UIKit.UIView {
+  @_Concurrency.MainActor @preconcurrency public func applySpecificRoundCorners(corners: UIKit.UIRectCorner, radius: CoreFoundation.CGFloat)
+  @_Concurrency.MainActor @preconcurrency public func addTapGestureListener(action: (() -> Swift.Void)?)
+  @_Concurrency.MainActor @preconcurrency public func removeTapGestureRecognizer()
+  @_Concurrency.MainActor @preconcurrency public func addUiSdkTapGestureRecognizer(action: (() -> Swift.Void)?)
+}
+public enum TopAppBarType {
+  case white
+  case blue
+  case transparentWhite
+  case transparentBlack
+  public static func == (a: AstraPayQrisSdk.TopAppBarType, b: AstraPayQrisSdk.TopAppBarType) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public enum TopAppBarLeading {
+  case none
+  case back
+  case close
+  public static func == (a: AstraPayQrisSdk.TopAppBarLeading, b: AstraPayQrisSdk.TopAppBarLeading) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public enum TopAppBarTrailing {
+  case none
+  case icon
+  case button
+  public static func == (a: AstraPayQrisSdk.TopAppBarTrailing, b: AstraPayQrisSdk.TopAppBarTrailing) -> Swift.Bool
   public func hash(into hasher: inout Swift.Hasher)
   public var hashValue: Swift.Int {
     get
@@ -629,6 +713,8 @@ extension AstraPayQrisSdk.AuthenticationClaim : Swift.RawRepresentable {}
 extension AstraPayQrisSdk.OtpMechanism : Swift.Equatable {}
 extension AstraPayQrisSdk.OtpMechanism : Swift.Hashable {}
 extension AstraPayQrisSdk.OtpMechanism : Swift.RawRepresentable {}
+extension AstraPayQrisSdk.DividerType : Swift.Equatable {}
+extension AstraPayQrisSdk.DividerType : Swift.Hashable {}
 extension AstraPayQrisSdk.ToastType : Swift.Equatable {}
 extension AstraPayQrisSdk.ToastType : Swift.Hashable {}
 extension AstraPayQrisSdk.ToastMode : Swift.Equatable {}
@@ -639,6 +725,12 @@ extension AstraPayQrisSdk.BadgeStyle : Swift.Equatable {}
 extension AstraPayQrisSdk.BadgeStyle : Swift.Hashable {}
 extension AstraPayQrisSdk.BadgeType : Swift.Equatable {}
 extension AstraPayQrisSdk.BadgeType : Swift.Hashable {}
+extension AstraPayQrisSdk.TopAppBarType : Swift.Equatable {}
+extension AstraPayQrisSdk.TopAppBarType : Swift.Hashable {}
+extension AstraPayQrisSdk.TopAppBarLeading : Swift.Equatable {}
+extension AstraPayQrisSdk.TopAppBarLeading : Swift.Hashable {}
+extension AstraPayQrisSdk.TopAppBarTrailing : Swift.Equatable {}
+extension AstraPayQrisSdk.TopAppBarTrailing : Swift.Hashable {}
 extension AstraPayQrisSdk.CardMode : Swift.Equatable {}
 extension AstraPayQrisSdk.CardMode : Swift.Hashable {}
 extension AstraPayQrisSdk.CardStyle : Swift.Equatable {}
