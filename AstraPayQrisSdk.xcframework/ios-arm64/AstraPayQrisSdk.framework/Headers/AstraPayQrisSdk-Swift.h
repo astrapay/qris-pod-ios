@@ -370,14 +370,6 @@ SWIFT_CLASS("_TtC15AstraPayQrisSdk17ApRadioButtonCell")
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder SWIFT_UNAVAILABLE;
 @end
 
-
-SWIFT_CLASS("_TtC15AstraPayQrisSdk11ApTopAppBar")
-@interface ApTopAppBar : UIView
-- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder SWIFT_UNAVAILABLE;
-- (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
-- (void)layoutSubviews;
-@end
-
 typedef SWIFT_ENUM(NSInteger, BuildMode, open) {
   BuildModeSit = 0,
   BuildModeUat = 1,
@@ -479,6 +471,14 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) QrPartnerSer
 @property (nonatomic, weak) id <QRProtocolSdk> _Nullable delegate;
 - (void)getTransactionByIdWithTransactionId:(NSString * _Nonnull)transactionId;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_CLASS("_TtC15AstraPayQrisSdk15QrisApTopAppBar")
+@interface QrisApTopAppBar : UIView
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder SWIFT_UNAVAILABLE;
+- (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
+- (void)layoutSubviews;
 @end
 
 
