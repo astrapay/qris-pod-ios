@@ -430,6 +430,15 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, copy) NSString * _Nonnull REFR
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class) BOOL multiSourceOfFunds;)
 + (BOOL)multiSourceOfFunds SWIFT_WARN_UNUSED_RESULT;
 + (void)setMultiSourceOfFunds:(BOOL)value;
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class) BOOL isUserLinking;)
++ (BOOL)isUserLinking SWIFT_WARN_UNUSED_RESULT;
++ (void)setIsUserLinking:(BOOL)value;
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, copy) NSString * _Nonnull linkingAccountName;)
++ (NSString * _Nonnull)linkingAccountName SWIFT_WARN_UNUSED_RESULT;
++ (void)setLinkingAccountName:(NSString * _Nonnull)value;
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class) BOOL isInstantTopUpEnabled;)
++ (BOOL)isInstantTopUpEnabled SWIFT_WARN_UNUSED_RESULT;
++ (void)setIsInstantTopUpEnabled:(BOOL)value;
 + (void)setPaylaterAvailability;
 + (BOOL)isAppAstrapayWithBundleIdentifier:(NSString * _Nonnull)bundleIdentifier SWIFT_WARN_UNUSED_RESULT;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;

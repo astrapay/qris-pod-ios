@@ -42,6 +42,9 @@ import _SwiftConcurrencyShims
   @objc public static var isUserEligibleQrisCpm: Swift.Bool
   @objc public static var REFRESH_TOKEN: Swift.String
   @objc public static var multiSourceOfFunds: Swift.Bool
+  @objc public static var isUserLinking: Swift.Bool
+  @objc public static var linkingAccountName: Swift.String
+  @objc public static var isInstantTopUpEnabled: Swift.Bool
   @objc public static func setPaylaterAvailability()
   @objc public static func isAppAstrapay(bundleIdentifier: Swift.String) -> Swift.Bool
   @objc override dynamic public init()
