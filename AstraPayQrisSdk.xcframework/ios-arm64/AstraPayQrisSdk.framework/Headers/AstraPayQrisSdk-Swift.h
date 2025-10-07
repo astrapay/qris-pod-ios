@@ -343,6 +343,22 @@ SWIFT_CLASS("_TtC15AstraPayQrisSdk9ApDivider")
 @end
 
 
+SWIFT_CLASS("_TtC15AstraPayQrisSdk5ApNav")
+@interface ApNav : UIView
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder SWIFT_UNAVAILABLE;
+- (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
+@end
+
+
+
+
+SWIFT_CLASS("_TtC15AstraPayQrisSdk13ApNavItemView")
+@interface ApNavItemView : UIView
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder SWIFT_UNAVAILABLE;
+- (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
+@end
+
+
 SWIFT_CLASS("_TtC15AstraPayQrisSdk13ApRadioButton")
 @interface ApRadioButton : UIView
 - (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
@@ -394,6 +410,52 @@ SWIFT_CLASS("_TtC15AstraPayQrisSdk24KeyboardLayoutConstraint") SWIFT_AVAILABILIT
 
 
 
+SWIFT_CLASS("_TtC15AstraPayQrisSdk25NavItemCollectionViewCell")
+@interface NavItemCollectionViewCell : UICollectionViewCell
+- (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder SWIFT_UNAVAILABLE;
+@end
+
+
+SWIFT_CLASS("_TtC15AstraPayQrisSdk7NavView")
+@interface NavView : UIView
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder SWIFT_UNAVAILABLE;
+- (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
+@end
+
+@class UICollectionView;
+
+@interface NavView (SWIFT_EXTENSION(AstraPayQrisSdk)) <UICollectionViewDelegate>
+- (void)collectionView:(UICollectionView * _Nonnull)collectionView didSelectItemAtIndexPath:(NSIndexPath * _Nonnull)indexPath;
+@end
+
+
+@interface NavView (SWIFT_EXTENSION(AstraPayQrisSdk)) <UICollectionViewDataSource>
+- (NSInteger)collectionView:(UICollectionView * _Nonnull)collectionView numberOfItemsInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
+- (UICollectionViewCell * _Nonnull)collectionView:(UICollectionView * _Nonnull)collectionView cellForItemAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
+@end
+
+@class UICollectionViewLayout;
+
+@interface NavView (SWIFT_EXTENSION(AstraPayQrisSdk)) <UICollectionViewDelegateFlowLayout>
+- (CGSize)collectionView:(UICollectionView * _Nonnull)collectionView layout:(UICollectionViewLayout * _Nonnull)collectionViewLayout sizeForItemAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
+- (CGFloat)collectionView:(UICollectionView * _Nonnull)collectionView layout:(UICollectionViewLayout * _Nonnull)collectionViewLayout minimumLineSpacingForSectionAtIndex:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
+@end
+
+@class UIScrollView;
+
+SWIFT_CLASS("_TtC15AstraPayQrisSdk9PagedView")
+@interface PagedView : UIView <UICollectionViewDataSource, UICollectionViewDelegateFlowLayout>
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder SWIFT_UNAVAILABLE;
+- (NSInteger)collectionView:(UICollectionView * _Nonnull)collectionView numberOfItemsInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
+- (UICollectionViewCell * _Nonnull)collectionView:(UICollectionView * _Nonnull)collectionView cellForItemAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
+- (void)scrollViewDidEndDecelerating:(UIScrollView * _Nonnull)scrollView;
+- (CGSize)collectionView:(UICollectionView * _Nonnull)collectionView layout:(UICollectionViewLayout * _Nonnull)collectionViewLayout sizeForItemAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
+- (CGFloat)collectionView:(UICollectionView * _Nonnull)collectionView layout:(UICollectionViewLayout * _Nonnull)collectionViewLayout minimumLineSpacingForSectionAtIndex:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
+- (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
+@end
+
+
 
 SWIFT_CLASS("_TtC15AstraPayQrisSdk18QRConfigurationSdk")
 @interface QRConfigurationSdk : NSObject
@@ -415,6 +477,9 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class) BOOL isLoproRedeemVoucherAvail
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class) BOOL isPaylaterAvailable;)
 + (BOOL)isPaylaterAvailable SWIFT_WARN_UNUSED_RESULT;
 + (void)setIsPaylaterAvailable:(BOOL)value;
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class) BOOL isBusinessAccountAvailable;)
++ (BOOL)isBusinessAccountAvailable SWIFT_WARN_UNUSED_RESULT;
++ (void)setIsBusinessAccountAvailable:(BOOL)value;
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class) BOOL isSnap;)
 + (BOOL)isSnap SWIFT_WARN_UNUSED_RESULT;
 + (void)setIsSnap:(BOOL)value;

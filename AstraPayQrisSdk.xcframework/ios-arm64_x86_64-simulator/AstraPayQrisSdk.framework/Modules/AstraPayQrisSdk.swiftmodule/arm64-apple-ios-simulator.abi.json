@@ -979,6 +979,109 @@
           },
           {
             "kind": "Var",
+            "name": "isBusinessAccountAvailable",
+            "printedName": "isBusinessAccountAvailable",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@AstraPayQrisSdk@objc(cs)QRConfigurationSdk(cpy)isBusinessAccountAvailable",
+            "mangledName": "$s15AstraPayQrisSdk015QRConfigurationD0C26isBusinessAccountAvailableSbvpZ",
+            "moduleName": "AstraPayQrisSdk",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@AstraPayQrisSdk@objc(cs)QRConfigurationSdk(cm)isBusinessAccountAvailable",
+                "mangledName": "$s15AstraPayQrisSdk015QRConfigurationD0C26isBusinessAccountAvailableSbvgZ",
+                "moduleName": "AstraPayQrisSdk",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@AstraPayQrisSdk@objc(cs)QRConfigurationSdk(cm)setIsBusinessAccountAvailable:",
+                "mangledName": "$s15AstraPayQrisSdk015QRConfigurationD0C26isBusinessAccountAvailableSbvsZ",
+                "moduleName": "AstraPayQrisSdk",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15AstraPayQrisSdk015QRConfigurationD0C26isBusinessAccountAvailableSbvMZ",
+                "mangledName": "$s15AstraPayQrisSdk015QRConfigurationD0C26isBusinessAccountAvailableSbvMZ",
+                "moduleName": "AstraPayQrisSdk",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
             "name": "isSnap",
             "printedName": "isSnap",
             "children": [
@@ -18759,6 +18862,3776 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AstraPayQrisSdk"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AstraPayQrisSdk"
+      },
+      {
+        "kind": "Import",
+        "name": "SnapKit",
+        "printedName": "SnapKit",
+        "declKind": "Import",
+        "moduleName": "AstraPayQrisSdk"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "NavItemProtocol",
+        "printedName": "NavItemProtocol",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "onSelected",
+            "printedName": "onSelected(navStyle:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NavType",
+                "printedName": "AstraPayQrisSdk.NavType",
+                "usr": "s:15AstraPayQrisSdk7NavTypeO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15AstraPayQrisSdk15NavItemProtocolP10onSelected8navStyleyAA0E4TypeO_tF",
+            "mangledName": "$s15AstraPayQrisSdk15NavItemProtocolP10onSelected8navStyleyAA0E4TypeO_tF",
+            "moduleName": "AstraPayQrisSdk",
+            "genericSig": "<τ_0_0 where τ_0_0 : AstraPayQrisSdk.NavItemProtocol>",
+            "sugared_genericSig": "<Self where Self : AstraPayQrisSdk.NavItemProtocol>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onNotSelected",
+            "printedName": "onNotSelected(navStyle:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NavType",
+                "printedName": "AstraPayQrisSdk.NavType",
+                "usr": "s:15AstraPayQrisSdk7NavTypeO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15AstraPayQrisSdk15NavItemProtocolP13onNotSelected8navStyleyAA0E4TypeO_tF",
+            "mangledName": "$s15AstraPayQrisSdk15NavItemProtocolP13onNotSelected8navStyleyAA0E4TypeO_tF",
+            "moduleName": "AstraPayQrisSdk",
+            "genericSig": "<τ_0_0 where τ_0_0 : AstraPayQrisSdk.NavItemProtocol>",
+            "sugared_genericSig": "<Self where Self : AstraPayQrisSdk.NavItemProtocol>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:15AstraPayQrisSdk15NavItemProtocolP",
+        "mangledName": "$s15AstraPayQrisSdk15NavItemProtocolP",
+        "moduleName": "AstraPayQrisSdk",
+        "genericSig": "<τ_0_0 : UIKit.UIView>",
+        "sugared_genericSig": "<Self : UIKit.UIView>",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "NavItemCollectionViewCell",
+        "printedName": "NavItemCollectionViewCell",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "view",
+            "printedName": "view",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(any AstraPayQrisSdk.NavItemProtocol)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NavItemProtocol",
+                    "printedName": "any AstraPayQrisSdk.NavItemProtocol",
+                    "usr": "s:15AstraPayQrisSdk15NavItemProtocolP"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15AstraPayQrisSdk25NavItemCollectionViewCellC4viewAA0eF8Protocol_pSgvp",
+            "mangledName": "$s15AstraPayQrisSdk25NavItemCollectionViewCellC4viewAA0eF8Protocol_pSgvp",
+            "moduleName": "AstraPayQrisSdk",
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any AstraPayQrisSdk.NavItemProtocol)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NavItemProtocol",
+                        "printedName": "any AstraPayQrisSdk.NavItemProtocol",
+                        "usr": "s:15AstraPayQrisSdk15NavItemProtocolP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15AstraPayQrisSdk25NavItemCollectionViewCellC4viewAA0eF8Protocol_pSgvg",
+                "mangledName": "$s15AstraPayQrisSdk25NavItemCollectionViewCellC4viewAA0eF8Protocol_pSgvg",
+                "moduleName": "AstraPayQrisSdk",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any AstraPayQrisSdk.NavItemProtocol)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NavItemProtocol",
+                        "printedName": "any AstraPayQrisSdk.NavItemProtocol",
+                        "usr": "s:15AstraPayQrisSdk15NavItemProtocolP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15AstraPayQrisSdk25NavItemCollectionViewCellC4viewAA0eF8Protocol_pSgvs",
+                "mangledName": "$s15AstraPayQrisSdk25NavItemCollectionViewCellC4viewAA0eF8Protocol_pSgvs",
+                "moduleName": "AstraPayQrisSdk",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15AstraPayQrisSdk25NavItemCollectionViewCellC4viewAA0eF8Protocol_pSgvM",
+                "mangledName": "$s15AstraPayQrisSdk25NavItemCollectionViewCellC4viewAA0eF8Protocol_pSgvM",
+                "moduleName": "AstraPayQrisSdk",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@AstraPayQrisSdk@objc(cs)NavItemCollectionViewCell",
+        "mangledName": "$s15AstraPayQrisSdk25NavItemCollectionViewCellC",
+        "moduleName": "AstraPayQrisSdk",
+        "declAttributes": [
+          "Preconcurrency",
+          "Custom",
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)UICollectionViewCell",
+        "hasMissingDesignatedInitializers": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "UIKit.UICollectionViewCell",
+          "UIKit.UICollectionReusableView",
+          "UIKit.UIView",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ReactiveCompatible",
+            "printedName": "ReactiveCompatible",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "ReactiveBase",
+                "printedName": "ReactiveBase",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSObject",
+                    "printedName": "ObjectiveC.NSObject",
+                    "usr": "c:objc(cs)NSObject"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7RxSwift18ReactiveCompatibleP",
+            "mangledName": "$s7RxSwift18ReactiveCompatibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "__DefaultCustomPlaygroundQuickLookable",
+            "printedName": "__DefaultCustomPlaygroundQuickLookable",
+            "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
+            "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ConstraintRelatableTarget",
+            "printedName": "ConstraintRelatableTarget",
+            "usr": "s:7SnapKit25ConstraintRelatableTargetP",
+            "mangledName": "$s7SnapKit25ConstraintRelatableTargetP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "LayoutConstraintItem",
+            "printedName": "LayoutConstraintItem",
+            "usr": "s:7SnapKit20LayoutConstraintItemP",
+            "mangledName": "$s7SnapKit20LayoutConstraintItemP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AstraPayQrisSdk"
+      },
+      {
+        "kind": "Import",
+        "name": "SnapKit",
+        "printedName": "SnapKit",
+        "declKind": "Import",
+        "moduleName": "AstraPayQrisSdk"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "NavType",
+        "printedName": "NavType",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "whiteTab",
+            "printedName": "whiteTab",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AstraPayQrisSdk.NavType.Type) -> AstraPayQrisSdk.NavType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NavType",
+                    "printedName": "AstraPayQrisSdk.NavType",
+                    "usr": "s:15AstraPayQrisSdk7NavTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AstraPayQrisSdk.NavType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NavType",
+                        "printedName": "AstraPayQrisSdk.NavType",
+                        "usr": "s:15AstraPayQrisSdk7NavTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:15AstraPayQrisSdk7NavTypeO8whiteTabyA2CmF",
+            "mangledName": "$s15AstraPayQrisSdk7NavTypeO8whiteTabyA2CmF",
+            "moduleName": "AstraPayQrisSdk"
+          },
+          {
+            "kind": "Var",
+            "name": "blueTab",
+            "printedName": "blueTab",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AstraPayQrisSdk.NavType.Type) -> AstraPayQrisSdk.NavType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NavType",
+                    "printedName": "AstraPayQrisSdk.NavType",
+                    "usr": "s:15AstraPayQrisSdk7NavTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AstraPayQrisSdk.NavType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NavType",
+                        "printedName": "AstraPayQrisSdk.NavType",
+                        "usr": "s:15AstraPayQrisSdk7NavTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:15AstraPayQrisSdk7NavTypeO7blueTabyA2CmF",
+            "mangledName": "$s15AstraPayQrisSdk7NavTypeO7blueTabyA2CmF",
+            "moduleName": "AstraPayQrisSdk"
+          },
+          {
+            "kind": "Var",
+            "name": "pills",
+            "printedName": "pills",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AstraPayQrisSdk.NavType.Type) -> AstraPayQrisSdk.NavType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NavType",
+                    "printedName": "AstraPayQrisSdk.NavType",
+                    "usr": "s:15AstraPayQrisSdk7NavTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AstraPayQrisSdk.NavType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NavType",
+                        "printedName": "AstraPayQrisSdk.NavType",
+                        "usr": "s:15AstraPayQrisSdk7NavTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:15AstraPayQrisSdk7NavTypeO5pillsyA2CmF",
+            "mangledName": "$s15AstraPayQrisSdk7NavTypeO5pillsyA2CmF",
+            "moduleName": "AstraPayQrisSdk"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NavType",
+                "printedName": "AstraPayQrisSdk.NavType",
+                "usr": "s:15AstraPayQrisSdk7NavTypeO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NavType",
+                "printedName": "AstraPayQrisSdk.NavType",
+                "usr": "s:15AstraPayQrisSdk7NavTypeO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15AstraPayQrisSdk7NavTypeO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s15AstraPayQrisSdk7NavTypeO2eeoiySbAC_ACtFZ",
+            "moduleName": "AstraPayQrisSdk",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15AstraPayQrisSdk7NavTypeO9hashValueSivp",
+            "mangledName": "$s15AstraPayQrisSdk7NavTypeO9hashValueSivp",
+            "moduleName": "AstraPayQrisSdk",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15AstraPayQrisSdk7NavTypeO9hashValueSivg",
+                "mangledName": "$s15AstraPayQrisSdk7NavTypeO9hashValueSivg",
+                "moduleName": "AstraPayQrisSdk",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15AstraPayQrisSdk7NavTypeO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s15AstraPayQrisSdk7NavTypeO4hash4intoys6HasherVz_tF",
+            "moduleName": "AstraPayQrisSdk",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:15AstraPayQrisSdk7NavTypeO",
+        "mangledName": "$s15AstraPayQrisSdk7NavTypeO",
+        "moduleName": "AstraPayQrisSdk",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AstraPayQrisSdk"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AstraPayQrisSdk"
+      },
+      {
+        "kind": "Import",
+        "name": "SnapKit",
+        "printedName": "SnapKit",
+        "declKind": "Import",
+        "moduleName": "AstraPayQrisSdk"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ApNavItemView",
+        "printedName": "ApNavItemView",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "navLabel",
+            "printedName": "navLabel",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15AstraPayQrisSdk13ApNavItemViewC8navLabelSSvp",
+            "mangledName": "$s15AstraPayQrisSdk13ApNavItemViewC8navLabelSSvp",
+            "moduleName": "AstraPayQrisSdk",
+            "declAttributes": [
+              "Final",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15AstraPayQrisSdk13ApNavItemViewC8navLabelSSvg",
+                "mangledName": "$s15AstraPayQrisSdk13ApNavItemViewC8navLabelSSvg",
+                "moduleName": "AstraPayQrisSdk",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(navLabel:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ApNavItemView",
+                "printedName": "AstraPayQrisSdk.ApNavItemView",
+                "usr": "c:@M@AstraPayQrisSdk@objc(cs)ApNavItemView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:15AstraPayQrisSdk13ApNavItemViewC8navLabelACSS_tcfc",
+            "mangledName": "$s15AstraPayQrisSdk13ApNavItemViewC8navLabelACSS_tcfc",
+            "moduleName": "AstraPayQrisSdk",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "onSelected",
+            "printedName": "onSelected(navStyle:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NavType",
+                "printedName": "AstraPayQrisSdk.NavType",
+                "usr": "s:15AstraPayQrisSdk7NavTypeO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15AstraPayQrisSdk13ApNavItemViewC10onSelected8navStyleyAA0F4TypeO_tF",
+            "mangledName": "$s15AstraPayQrisSdk13ApNavItemViewC10onSelected8navStyleyAA0F4TypeO_tF",
+            "moduleName": "AstraPayQrisSdk",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onNotSelected",
+            "printedName": "onNotSelected(navStyle:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NavType",
+                "printedName": "AstraPayQrisSdk.NavType",
+                "usr": "s:15AstraPayQrisSdk7NavTypeO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15AstraPayQrisSdk13ApNavItemViewC13onNotSelected8navStyleyAA0F4TypeO_tF",
+            "mangledName": "$s15AstraPayQrisSdk13ApNavItemViewC13onNotSelected8navStyleyAA0F4TypeO_tF",
+            "moduleName": "AstraPayQrisSdk",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(frame:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ApNavItemView",
+                "printedName": "AstraPayQrisSdk.ApNavItemView",
+                "usr": "c:@M@AstraPayQrisSdk@objc(cs)ApNavItemView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGRect",
+                "printedName": "CoreFoundation.CGRect",
+                "usr": "c:@S@CGRect"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@AstraPayQrisSdk@objc(cs)ApNavItemView(im)initWithFrame:",
+            "mangledName": "$s15AstraPayQrisSdk13ApNavItemViewC5frameACSo6CGRectV_tcfc",
+            "moduleName": "AstraPayQrisSdk",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithFrame:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@AstraPayQrisSdk@objc(cs)ApNavItemView",
+        "mangledName": "$s15AstraPayQrisSdk13ApNavItemViewC",
+        "moduleName": "AstraPayQrisSdk",
+        "declAttributes": [
+          "Preconcurrency",
+          "Custom",
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)UIView",
+        "hasMissingDesignatedInitializers": true,
+        "superclassNames": [
+          "UIKit.UIView",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "NavItemProtocol",
+            "printedName": "NavItemProtocol",
+            "usr": "s:15AstraPayQrisSdk15NavItemProtocolP",
+            "mangledName": "$s15AstraPayQrisSdk15NavItemProtocolP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ReactiveCompatible",
+            "printedName": "ReactiveCompatible",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "ReactiveBase",
+                "printedName": "ReactiveBase",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSObject",
+                    "printedName": "ObjectiveC.NSObject",
+                    "usr": "c:objc(cs)NSObject"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7RxSwift18ReactiveCompatibleP",
+            "mangledName": "$s7RxSwift18ReactiveCompatibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "__DefaultCustomPlaygroundQuickLookable",
+            "printedName": "__DefaultCustomPlaygroundQuickLookable",
+            "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
+            "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ConstraintRelatableTarget",
+            "printedName": "ConstraintRelatableTarget",
+            "usr": "s:7SnapKit25ConstraintRelatableTargetP",
+            "mangledName": "$s7SnapKit25ConstraintRelatableTargetP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "LayoutConstraintItem",
+            "printedName": "LayoutConstraintItem",
+            "usr": "s:7SnapKit20LayoutConstraintItemP",
+            "mangledName": "$s7SnapKit20LayoutConstraintItemP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AstraPayQrisSdk"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AstraPayQrisSdk"
+      },
+      {
+        "kind": "Import",
+        "name": "SnapKit",
+        "printedName": "SnapKit",
+        "declKind": "Import",
+        "moduleName": "AstraPayQrisSdk"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AstraPayQrisSdk"
+      },
+      {
+        "kind": "Import",
+        "name": "SnapKit",
+        "printedName": "SnapKit",
+        "declKind": "Import",
+        "moduleName": "AstraPayQrisSdk"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PagedViewDelegate",
+        "printedName": "PagedViewDelegate",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "didMoveToPage",
+            "printedName": "didMoveToPage(index:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15AstraPayQrisSdk17PagedViewDelegateP13didMoveToPage5indexySi_tF",
+            "mangledName": "$s15AstraPayQrisSdk17PagedViewDelegateP13didMoveToPage5indexySi_tF",
+            "moduleName": "AstraPayQrisSdk",
+            "genericSig": "<τ_0_0 where τ_0_0 : AstraPayQrisSdk.PagedViewDelegate>",
+            "sugared_genericSig": "<Self where Self : AstraPayQrisSdk.PagedViewDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:15AstraPayQrisSdk17PagedViewDelegateP",
+        "mangledName": "$s15AstraPayQrisSdk17PagedViewDelegateP",
+        "moduleName": "AstraPayQrisSdk",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PagedView",
+        "printedName": "PagedView",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(pages:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PagedView",
+                "printedName": "AstraPayQrisSdk.PagedView",
+                "usr": "c:@M@AstraPayQrisSdk@objc(cs)PagedView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[UIKit.UIView]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIView",
+                    "printedName": "UIKit.UIView",
+                    "usr": "c:objc(cs)UIView"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:15AstraPayQrisSdk9PagedViewC5pagesACSaySo6UIViewCG_tcfc",
+            "mangledName": "$s15AstraPayQrisSdk9PagedViewC5pagesACSaySo6UIViewCG_tcfc",
+            "moduleName": "AstraPayQrisSdk",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "delegate",
+            "printedName": "delegate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WeakStorage",
+                "printedName": "(any AstraPayQrisSdk.PagedViewDelegate)?"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15AstraPayQrisSdk9PagedViewC8delegateAA0eF8Delegate_pSgvp",
+            "mangledName": "$s15AstraPayQrisSdk9PagedViewC8delegateAA0eF8Delegate_pSgvp",
+            "moduleName": "AstraPayQrisSdk",
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "ReferenceOwnership",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "ownership": 1,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any AstraPayQrisSdk.PagedViewDelegate)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PagedViewDelegate",
+                        "printedName": "any AstraPayQrisSdk.PagedViewDelegate",
+                        "usr": "s:15AstraPayQrisSdk17PagedViewDelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15AstraPayQrisSdk9PagedViewC8delegateAA0eF8Delegate_pSgvg",
+                "mangledName": "$s15AstraPayQrisSdk9PagedViewC8delegateAA0eF8Delegate_pSgvg",
+                "moduleName": "AstraPayQrisSdk",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any AstraPayQrisSdk.PagedViewDelegate)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PagedViewDelegate",
+                        "printedName": "any AstraPayQrisSdk.PagedViewDelegate",
+                        "usr": "s:15AstraPayQrisSdk17PagedViewDelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15AstraPayQrisSdk9PagedViewC8delegateAA0eF8Delegate_pSgvs",
+                "mangledName": "$s15AstraPayQrisSdk9PagedViewC8delegateAA0eF8Delegate_pSgvs",
+                "moduleName": "AstraPayQrisSdk",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15AstraPayQrisSdk9PagedViewC8delegateAA0eF8Delegate_pSgvM",
+                "mangledName": "$s15AstraPayQrisSdk9PagedViewC8delegateAA0eF8Delegate_pSgvM",
+                "moduleName": "AstraPayQrisSdk",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "pages",
+            "printedName": "pages",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[UIKit.UIView]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIView",
+                    "printedName": "UIKit.UIView",
+                    "usr": "c:objc(cs)UIView"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15AstraPayQrisSdk9PagedViewC5pagesSaySo6UIViewCGvp",
+            "mangledName": "$s15AstraPayQrisSdk9PagedViewC5pagesSaySo6UIViewCGvp",
+            "moduleName": "AstraPayQrisSdk",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[UIKit.UIView]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIView",
+                        "printedName": "UIKit.UIView",
+                        "usr": "c:objc(cs)UIView"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15AstraPayQrisSdk9PagedViewC5pagesSaySo6UIViewCGvg",
+                "mangledName": "$s15AstraPayQrisSdk9PagedViewC5pagesSaySo6UIViewCGvg",
+                "moduleName": "AstraPayQrisSdk",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[UIKit.UIView]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIView",
+                        "printedName": "UIKit.UIView",
+                        "usr": "c:objc(cs)UIView"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15AstraPayQrisSdk9PagedViewC5pagesSaySo6UIViewCGvs",
+                "mangledName": "$s15AstraPayQrisSdk9PagedViewC5pagesSaySo6UIViewCGvs",
+                "moduleName": "AstraPayQrisSdk",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15AstraPayQrisSdk9PagedViewC5pagesSaySo6UIViewCGvM",
+                "mangledName": "$s15AstraPayQrisSdk9PagedViewC5pagesSaySo6UIViewCGvM",
+                "moduleName": "AstraPayQrisSdk",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "collectionView",
+            "printedName": "collectionView",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UICollectionView",
+                "printedName": "UIKit.UICollectionView",
+                "usr": "c:objc(cs)UICollectionView"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15AstraPayQrisSdk9PagedViewC010collectionF0So012UICollectionF0Cvp",
+            "mangledName": "$s15AstraPayQrisSdk9PagedViewC010collectionF0So012UICollectionF0Cvp",
+            "moduleName": "AstraPayQrisSdk",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "Lazy",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UICollectionView",
+                    "printedName": "UIKit.UICollectionView",
+                    "usr": "c:objc(cs)UICollectionView"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15AstraPayQrisSdk9PagedViewC010collectionF0So012UICollectionF0Cvg",
+                "mangledName": "$s15AstraPayQrisSdk9PagedViewC010collectionF0So012UICollectionF0Cvg",
+                "moduleName": "AstraPayQrisSdk",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UICollectionView",
+                    "printedName": "UIKit.UICollectionView",
+                    "usr": "c:objc(cs)UICollectionView"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15AstraPayQrisSdk9PagedViewC010collectionF0So012UICollectionF0Cvs",
+                "mangledName": "$s15AstraPayQrisSdk9PagedViewC010collectionF0So012UICollectionF0Cvs",
+                "moduleName": "AstraPayQrisSdk",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15AstraPayQrisSdk9PagedViewC010collectionF0So012UICollectionF0CvM",
+                "mangledName": "$s15AstraPayQrisSdk9PagedViewC010collectionF0So012UICollectionF0CvM",
+                "moduleName": "AstraPayQrisSdk",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "collectionView",
+            "printedName": "collectionView(_:numberOfItemsInSection:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UICollectionView",
+                "printedName": "UIKit.UICollectionView",
+                "usr": "c:objc(cs)UICollectionView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AstraPayQrisSdk@objc(cs)PagedView(im)collectionView:numberOfItemsInSection:",
+            "mangledName": "$s15AstraPayQrisSdk9PagedViewC010collectionF0_22numberOfItemsInSectionSiSo012UICollectionF0C_SitF",
+            "moduleName": "AstraPayQrisSdk",
+            "objc_name": "collectionView:numberOfItemsInSection:",
+            "declAttributes": [
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "collectionView",
+            "printedName": "collectionView(_:cellForItemAt:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UICollectionViewCell",
+                "printedName": "UIKit.UICollectionViewCell",
+                "usr": "c:objc(cs)UICollectionViewCell"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UICollectionView",
+                "printedName": "UIKit.UICollectionView",
+                "usr": "c:objc(cs)UICollectionView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "IndexPath",
+                "printedName": "Foundation.IndexPath",
+                "usr": "s:10Foundation9IndexPathV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AstraPayQrisSdk@objc(cs)PagedView(im)collectionView:cellForItemAtIndexPath:",
+            "mangledName": "$s15AstraPayQrisSdk9PagedViewC010collectionF0_13cellForItemAtSo012UICollectionF4CellCSo0lF0C_10Foundation9IndexPathVtF",
+            "moduleName": "AstraPayQrisSdk",
+            "objc_name": "collectionView:cellForItemAtIndexPath:",
+            "declAttributes": [
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "moveToPage",
+            "printedName": "moveToPage(at:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15AstraPayQrisSdk9PagedViewC10moveToPage2atySi_tF",
+            "mangledName": "$s15AstraPayQrisSdk9PagedViewC10moveToPage2atySi_tF",
+            "moduleName": "AstraPayQrisSdk",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "scrollViewDidEndDecelerating",
+            "printedName": "scrollViewDidEndDecelerating(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIScrollView",
+                "printedName": "UIKit.UIScrollView",
+                "usr": "c:objc(cs)UIScrollView"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AstraPayQrisSdk@objc(cs)PagedView(im)scrollViewDidEndDecelerating:",
+            "mangledName": "$s15AstraPayQrisSdk9PagedViewC06scrollF18DidEndDeceleratingyySo08UIScrollF0CF",
+            "moduleName": "AstraPayQrisSdk",
+            "objc_name": "scrollViewDidEndDecelerating:",
+            "declAttributes": [
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "collectionView",
+            "printedName": "collectionView(_:layout:sizeForItemAt:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CGSize",
+                "printedName": "CoreFoundation.CGSize",
+                "usr": "c:@S@CGSize"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UICollectionView",
+                "printedName": "UIKit.UICollectionView",
+                "usr": "c:objc(cs)UICollectionView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UICollectionViewLayout",
+                "printedName": "UIKit.UICollectionViewLayout",
+                "usr": "c:objc(cs)UICollectionViewLayout"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "IndexPath",
+                "printedName": "Foundation.IndexPath",
+                "usr": "s:10Foundation9IndexPathV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AstraPayQrisSdk@objc(cs)PagedView(im)collectionView:layout:sizeForItemAtIndexPath:",
+            "mangledName": "$s15AstraPayQrisSdk9PagedViewC010collectionF0_6layout13sizeForItemAtSo6CGSizeVSo012UICollectionF0C_So0nF6LayoutC10Foundation9IndexPathVtF",
+            "moduleName": "AstraPayQrisSdk",
+            "objc_name": "collectionView:layout:sizeForItemAtIndexPath:",
+            "declAttributes": [
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "collectionView",
+            "printedName": "collectionView(_:layout:minimumLineSpacingForSectionAt:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UICollectionView",
+                "printedName": "UIKit.UICollectionView",
+                "usr": "c:objc(cs)UICollectionView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UICollectionViewLayout",
+                "printedName": "UIKit.UICollectionViewLayout",
+                "usr": "c:objc(cs)UICollectionViewLayout"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AstraPayQrisSdk@objc(cs)PagedView(im)collectionView:layout:minimumLineSpacingForSectionAtIndex:",
+            "mangledName": "$s15AstraPayQrisSdk9PagedViewC010collectionF0_6layout30minimumLineSpacingForSectionAt12CoreGraphics7CGFloatVSo012UICollectionF0C_So0rF6LayoutCSitF",
+            "moduleName": "AstraPayQrisSdk",
+            "objc_name": "collectionView:layout:minimumLineSpacingForSectionAtIndex:",
+            "declAttributes": [
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(frame:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PagedView",
+                "printedName": "AstraPayQrisSdk.PagedView",
+                "usr": "c:@M@AstraPayQrisSdk@objc(cs)PagedView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGRect",
+                "printedName": "CoreFoundation.CGRect",
+                "usr": "c:@S@CGRect"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@AstraPayQrisSdk@objc(cs)PagedView(im)initWithFrame:",
+            "mangledName": "$s15AstraPayQrisSdk9PagedViewC5frameACSo6CGRectV_tcfc",
+            "moduleName": "AstraPayQrisSdk",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithFrame:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@AstraPayQrisSdk@objc(cs)PagedView",
+        "mangledName": "$s15AstraPayQrisSdk9PagedViewC",
+        "moduleName": "AstraPayQrisSdk",
+        "declAttributes": [
+          "Preconcurrency",
+          "Custom",
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)UIView",
+        "hasMissingDesignatedInitializers": true,
+        "superclassNames": [
+          "UIKit.UIView",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ReactiveCompatible",
+            "printedName": "ReactiveCompatible",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "ReactiveBase",
+                "printedName": "ReactiveBase",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSObject",
+                    "printedName": "ObjectiveC.NSObject",
+                    "usr": "c:objc(cs)NSObject"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7RxSwift18ReactiveCompatibleP",
+            "mangledName": "$s7RxSwift18ReactiveCompatibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "__DefaultCustomPlaygroundQuickLookable",
+            "printedName": "__DefaultCustomPlaygroundQuickLookable",
+            "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
+            "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ConstraintRelatableTarget",
+            "printedName": "ConstraintRelatableTarget",
+            "usr": "s:7SnapKit25ConstraintRelatableTargetP",
+            "mangledName": "$s7SnapKit25ConstraintRelatableTargetP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "LayoutConstraintItem",
+            "printedName": "LayoutConstraintItem",
+            "usr": "s:7SnapKit20LayoutConstraintItemP",
+            "mangledName": "$s7SnapKit20LayoutConstraintItemP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AstraPayQrisSdk"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AstraPayQrisSdk"
+      },
+      {
+        "kind": "Import",
+        "name": "SnapKit",
+        "printedName": "SnapKit",
+        "declKind": "Import",
+        "moduleName": "AstraPayQrisSdk"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "NavView",
+        "printedName": "NavView",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "navStyle",
+            "printedName": "navStyle",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NavType",
+                "printedName": "AstraPayQrisSdk.NavType",
+                "usr": "s:15AstraPayQrisSdk7NavTypeO"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15AstraPayQrisSdk7NavViewC8navStyleAA0E4TypeOvp",
+            "mangledName": "$s15AstraPayQrisSdk7NavViewC8navStyleAA0E4TypeOvp",
+            "moduleName": "AstraPayQrisSdk",
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NavType",
+                    "printedName": "AstraPayQrisSdk.NavType",
+                    "usr": "s:15AstraPayQrisSdk7NavTypeO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15AstraPayQrisSdk7NavViewC8navStyleAA0E4TypeOvg",
+                "mangledName": "$s15AstraPayQrisSdk7NavViewC8navStyleAA0E4TypeOvg",
+                "moduleName": "AstraPayQrisSdk",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NavType",
+                    "printedName": "AstraPayQrisSdk.NavType",
+                    "usr": "s:15AstraPayQrisSdk7NavTypeO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15AstraPayQrisSdk7NavViewC8navStyleAA0E4TypeOvs",
+                "mangledName": "$s15AstraPayQrisSdk7NavViewC8navStyleAA0E4TypeOvs",
+                "moduleName": "AstraPayQrisSdk",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15AstraPayQrisSdk7NavViewC8navStyleAA0E4TypeOvM",
+                "mangledName": "$s15AstraPayQrisSdk7NavViewC8navStyleAA0E4TypeOvM",
+                "moduleName": "AstraPayQrisSdk",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "cornerRadius",
+            "printedName": "cornerRadius",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15AstraPayQrisSdk7NavViewC12cornerRadius14CoreFoundation7CGFloatVvp",
+            "mangledName": "$s15AstraPayQrisSdk7NavViewC12cornerRadius12CoreGraphics7CGFloatVvp",
+            "moduleName": "AstraPayQrisSdk",
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15AstraPayQrisSdk7NavViewC12cornerRadius14CoreFoundation7CGFloatVvg",
+                "mangledName": "$s15AstraPayQrisSdk7NavViewC12cornerRadius12CoreGraphics7CGFloatVvg",
+                "moduleName": "AstraPayQrisSdk",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15AstraPayQrisSdk7NavViewC12cornerRadius14CoreFoundation7CGFloatVvs",
+                "mangledName": "$s15AstraPayQrisSdk7NavViewC12cornerRadius12CoreGraphics7CGFloatVvs",
+                "moduleName": "AstraPayQrisSdk",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15AstraPayQrisSdk7NavViewC12cornerRadius14CoreFoundation7CGFloatVvM",
+                "mangledName": "$s15AstraPayQrisSdk7NavViewC12cornerRadius12CoreGraphics7CGFloatVvM",
+                "moduleName": "AstraPayQrisSdk",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "TypeDecl",
+            "name": "NavSizeConfiguration",
+            "printedName": "NavSizeConfiguration",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "fillEqually",
+                "printedName": "fillEqually",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(AstraPayQrisSdk.NavView.NavSizeConfiguration.Type) -> (CoreGraphics.CGFloat?, CoreGraphics.CGFloat?) -> AstraPayQrisSdk.NavView.NavSizeConfiguration",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(CoreGraphics.CGFloat?, CoreGraphics.CGFloat?) -> AstraPayQrisSdk.NavView.NavSizeConfiguration",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "NavSizeConfiguration",
+                            "printedName": "AstraPayQrisSdk.NavView.NavSizeConfiguration",
+                            "usr": "s:15AstraPayQrisSdk7NavViewC0E17SizeConfigurationO"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Tuple",
+                            "printedName": "(height: CoreGraphics.CGFloat?, spacing: CoreGraphics.CGFloat?)",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Optional",
+                                "printedName": "CoreGraphics.CGFloat?",
+                                "children": [
+                                  {
+                                    "kind": "TypeNominal",
+                                    "name": "CGFloat",
+                                    "printedName": "CoreGraphics.CGFloat",
+                                    "usr": "s:14CoreFoundation7CGFloatV"
+                                  }
+                                ],
+                                "usr": "s:Sq"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Optional",
+                                "printedName": "CoreGraphics.CGFloat?",
+                                "children": [
+                                  {
+                                    "kind": "TypeNominal",
+                                    "name": "CGFloat",
+                                    "printedName": "CoreGraphics.CGFloat",
+                                    "usr": "s:14CoreFoundation7CGFloatV"
+                                  }
+                                ],
+                                "usr": "s:Sq"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "AstraPayQrisSdk.NavView.NavSizeConfiguration.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "NavSizeConfiguration",
+                            "printedName": "AstraPayQrisSdk.NavView.NavSizeConfiguration",
+                            "usr": "s:15AstraPayQrisSdk7NavViewC0E17SizeConfigurationO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:15AstraPayQrisSdk7NavViewC0E17SizeConfigurationO11fillEquallyyAE14CoreFoundation7CGFloatVSg_AJtcAEmF",
+                "mangledName": "$s15AstraPayQrisSdk7NavViewC0E17SizeConfigurationO11fillEquallyyAE12CoreGraphics7CGFloatVSg_AJtcAEmF",
+                "moduleName": "AstraPayQrisSdk"
+              },
+              {
+                "kind": "Var",
+                "name": "fixed",
+                "printedName": "fixed",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(AstraPayQrisSdk.NavView.NavSizeConfiguration.Type) -> (CoreGraphics.CGFloat?, CoreGraphics.CGFloat?, CoreGraphics.CGFloat?) -> AstraPayQrisSdk.NavView.NavSizeConfiguration",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(CoreGraphics.CGFloat?, CoreGraphics.CGFloat?, CoreGraphics.CGFloat?) -> AstraPayQrisSdk.NavView.NavSizeConfiguration",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "NavSizeConfiguration",
+                            "printedName": "AstraPayQrisSdk.NavView.NavSizeConfiguration",
+                            "usr": "s:15AstraPayQrisSdk7NavViewC0E17SizeConfigurationO"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Tuple",
+                            "printedName": "(width: CoreGraphics.CGFloat?, height: CoreGraphics.CGFloat?, spacing: CoreGraphics.CGFloat?)",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Optional",
+                                "printedName": "CoreGraphics.CGFloat?",
+                                "children": [
+                                  {
+                                    "kind": "TypeNominal",
+                                    "name": "CGFloat",
+                                    "printedName": "CoreGraphics.CGFloat",
+                                    "usr": "s:14CoreFoundation7CGFloatV"
+                                  }
+                                ],
+                                "usr": "s:Sq"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Optional",
+                                "printedName": "CoreGraphics.CGFloat?",
+                                "children": [
+                                  {
+                                    "kind": "TypeNominal",
+                                    "name": "CGFloat",
+                                    "printedName": "CoreGraphics.CGFloat",
+                                    "usr": "s:14CoreFoundation7CGFloatV"
+                                  }
+                                ],
+                                "usr": "s:Sq"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Optional",
+                                "printedName": "CoreGraphics.CGFloat?",
+                                "children": [
+                                  {
+                                    "kind": "TypeNominal",
+                                    "name": "CGFloat",
+                                    "printedName": "CoreGraphics.CGFloat",
+                                    "usr": "s:14CoreFoundation7CGFloatV"
+                                  }
+                                ],
+                                "usr": "s:Sq"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "AstraPayQrisSdk.NavView.NavSizeConfiguration.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "NavSizeConfiguration",
+                            "printedName": "AstraPayQrisSdk.NavView.NavSizeConfiguration",
+                            "usr": "s:15AstraPayQrisSdk7NavViewC0E17SizeConfigurationO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:15AstraPayQrisSdk7NavViewC0E17SizeConfigurationO5fixedyAE14CoreFoundation7CGFloatVSg_A2JtcAEmF",
+                "mangledName": "$s15AstraPayQrisSdk7NavViewC0E17SizeConfigurationO5fixedyAE12CoreGraphics7CGFloatVSg_A2JtcAEmF",
+                "moduleName": "AstraPayQrisSdk"
+              },
+              {
+                "kind": "Var",
+                "name": "height",
+                "printedName": "height",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:15AstraPayQrisSdk7NavViewC0E17SizeConfigurationO6height14CoreFoundation7CGFloatVvp",
+                "mangledName": "$s15AstraPayQrisSdk7NavViewC0E17SizeConfigurationO6height12CoreGraphics7CGFloatVvp",
+                "moduleName": "AstraPayQrisSdk",
+                "declAttributes": [
+                  "AccessControl"
+                ],
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CGFloat",
+                        "printedName": "CoreGraphics.CGFloat",
+                        "usr": "s:14CoreFoundation7CGFloatV"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:15AstraPayQrisSdk7NavViewC0E17SizeConfigurationO6height14CoreFoundation7CGFloatVvg",
+                    "mangledName": "$s15AstraPayQrisSdk7NavViewC0E17SizeConfigurationO6height12CoreGraphics7CGFloatVvg",
+                    "moduleName": "AstraPayQrisSdk",
+                    "accessorKind": "get"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Enum",
+            "usr": "s:15AstraPayQrisSdk7NavViewC0E17SizeConfigurationO",
+            "mangledName": "$s15AstraPayQrisSdk7NavViewC0E17SizeConfigurationO",
+            "moduleName": "AstraPayQrisSdk",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(sizeConfiguration:tabs:style:cornerRadius:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NavView",
+                "printedName": "AstraPayQrisSdk.NavView",
+                "usr": "c:@M@AstraPayQrisSdk@objc(cs)NavView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NavSizeConfiguration",
+                "printedName": "AstraPayQrisSdk.NavView.NavSizeConfiguration",
+                "usr": "s:15AstraPayQrisSdk7NavViewC0E17SizeConfigurationO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[any AstraPayQrisSdk.NavItemProtocol]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NavItemProtocol",
+                    "printedName": "any AstraPayQrisSdk.NavItemProtocol",
+                    "usr": "s:15AstraPayQrisSdk15NavItemProtocolP"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NavType",
+                "printedName": "AstraPayQrisSdk.NavType",
+                "hasDefaultArg": true,
+                "usr": "s:15AstraPayQrisSdk7NavTypeO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "hasDefaultArg": true,
+                "usr": "s:14CoreFoundation7CGFloatV"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:15AstraPayQrisSdk7NavViewC17sizeConfiguration4tabs5style12cornerRadiusA2C0e4SizeH0O_SayAA0E12ItemProtocol_pGAA0E4TypeO14CoreFoundation7CGFloatVtcfc",
+            "mangledName": "$s15AstraPayQrisSdk7NavViewC17sizeConfiguration4tabs5style12cornerRadiusA2C0e4SizeH0O_SayAA0E12ItemProtocol_pGAA0E4TypeO12CoreGraphics7CGFloatVtcfc",
+            "moduleName": "AstraPayQrisSdk",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "sizeConfiguration",
+            "printedName": "sizeConfiguration",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NavSizeConfiguration",
+                "printedName": "AstraPayQrisSdk.NavView.NavSizeConfiguration",
+                "usr": "s:15AstraPayQrisSdk7NavViewC0E17SizeConfigurationO"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15AstraPayQrisSdk7NavViewC17sizeConfigurationAC0e4SizeH0Ovp",
+            "mangledName": "$s15AstraPayQrisSdk7NavViewC17sizeConfigurationAC0e4SizeH0Ovp",
+            "moduleName": "AstraPayQrisSdk",
+            "declAttributes": [
+              "Final",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NavSizeConfiguration",
+                    "printedName": "AstraPayQrisSdk.NavView.NavSizeConfiguration",
+                    "usr": "s:15AstraPayQrisSdk7NavViewC0E17SizeConfigurationO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15AstraPayQrisSdk7NavViewC17sizeConfigurationAC0e4SizeH0Ovg",
+                "mangledName": "$s15AstraPayQrisSdk7NavViewC17sizeConfigurationAC0e4SizeH0Ovg",
+                "moduleName": "AstraPayQrisSdk",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "tabs",
+            "printedName": "tabs",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[any AstraPayQrisSdk.NavItemProtocol]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NavItemProtocol",
+                    "printedName": "any AstraPayQrisSdk.NavItemProtocol",
+                    "usr": "s:15AstraPayQrisSdk15NavItemProtocolP"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15AstraPayQrisSdk7NavViewC4tabsSayAA0E12ItemProtocol_pGvp",
+            "mangledName": "$s15AstraPayQrisSdk7NavViewC4tabsSayAA0E12ItemProtocol_pGvp",
+            "moduleName": "AstraPayQrisSdk",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[any AstraPayQrisSdk.NavItemProtocol]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NavItemProtocol",
+                        "printedName": "any AstraPayQrisSdk.NavItemProtocol",
+                        "usr": "s:15AstraPayQrisSdk15NavItemProtocolP"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15AstraPayQrisSdk7NavViewC4tabsSayAA0E12ItemProtocol_pGvg",
+                "mangledName": "$s15AstraPayQrisSdk7NavViewC4tabsSayAA0E12ItemProtocol_pGvg",
+                "moduleName": "AstraPayQrisSdk",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[any AstraPayQrisSdk.NavItemProtocol]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NavItemProtocol",
+                        "printedName": "any AstraPayQrisSdk.NavItemProtocol",
+                        "usr": "s:15AstraPayQrisSdk15NavItemProtocolP"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15AstraPayQrisSdk7NavViewC4tabsSayAA0E12ItemProtocol_pGvs",
+                "mangledName": "$s15AstraPayQrisSdk7NavViewC4tabsSayAA0E12ItemProtocol_pGvs",
+                "moduleName": "AstraPayQrisSdk",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15AstraPayQrisSdk7NavViewC4tabsSayAA0E12ItemProtocol_pGvM",
+                "mangledName": "$s15AstraPayQrisSdk7NavViewC4tabsSayAA0E12ItemProtocol_pGvM",
+                "moduleName": "AstraPayQrisSdk",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "collectionView",
+            "printedName": "collectionView",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UICollectionView",
+                "printedName": "UIKit.UICollectionView",
+                "usr": "c:objc(cs)UICollectionView"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15AstraPayQrisSdk7NavViewC010collectionF0So012UICollectionF0Cvp",
+            "mangledName": "$s15AstraPayQrisSdk7NavViewC010collectionF0So012UICollectionF0Cvp",
+            "moduleName": "AstraPayQrisSdk",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "Lazy",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UICollectionView",
+                    "printedName": "UIKit.UICollectionView",
+                    "usr": "c:objc(cs)UICollectionView"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15AstraPayQrisSdk7NavViewC010collectionF0So012UICollectionF0Cvg",
+                "mangledName": "$s15AstraPayQrisSdk7NavViewC010collectionF0So012UICollectionF0Cvg",
+                "moduleName": "AstraPayQrisSdk",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UICollectionView",
+                    "printedName": "UIKit.UICollectionView",
+                    "usr": "c:objc(cs)UICollectionView"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15AstraPayQrisSdk7NavViewC010collectionF0So012UICollectionF0Cvs",
+                "mangledName": "$s15AstraPayQrisSdk7NavViewC010collectionF0So012UICollectionF0Cvs",
+                "moduleName": "AstraPayQrisSdk",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15AstraPayQrisSdk7NavViewC010collectionF0So012UICollectionF0CvM",
+                "mangledName": "$s15AstraPayQrisSdk7NavViewC010collectionF0So012UICollectionF0CvM",
+                "moduleName": "AstraPayQrisSdk",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "moveToTab",
+            "printedName": "moveToTab(at:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15AstraPayQrisSdk7NavViewC9moveToTab2atySi_tF",
+            "mangledName": "$s15AstraPayQrisSdk7NavViewC9moveToTab2atySi_tF",
+            "moduleName": "AstraPayQrisSdk",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(frame:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NavView",
+                "printedName": "AstraPayQrisSdk.NavView",
+                "usr": "c:@M@AstraPayQrisSdk@objc(cs)NavView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGRect",
+                "printedName": "CoreFoundation.CGRect",
+                "usr": "c:@S@CGRect"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@AstraPayQrisSdk@objc(cs)NavView(im)initWithFrame:",
+            "mangledName": "$s15AstraPayQrisSdk7NavViewC5frameACSo6CGRectV_tcfc",
+            "moduleName": "AstraPayQrisSdk",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithFrame:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "collectionView",
+            "printedName": "collectionView(_:layout:sizeForItemAt:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CGSize",
+                "printedName": "CoreFoundation.CGSize",
+                "usr": "c:@S@CGSize"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UICollectionView",
+                "printedName": "UIKit.UICollectionView",
+                "usr": "c:objc(cs)UICollectionView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UICollectionViewLayout",
+                "printedName": "UIKit.UICollectionViewLayout",
+                "usr": "c:objc(cs)UICollectionViewLayout"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "IndexPath",
+                "printedName": "Foundation.IndexPath",
+                "usr": "s:10Foundation9IndexPathV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@AstraPayQrisSdk@objc(cs)NavView(im)collectionView:layout:sizeForItemAtIndexPath:",
+            "mangledName": "$s15AstraPayQrisSdk7NavViewC010collectionF0_6layout13sizeForItemAtSo6CGSizeVSo012UICollectionF0C_So0nF6LayoutC10Foundation9IndexPathVtF",
+            "moduleName": "AstraPayQrisSdk",
+            "objc_name": "collectionView:layout:sizeForItemAtIndexPath:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "collectionView",
+            "printedName": "collectionView(_:layout:minimumLineSpacingForSectionAt:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UICollectionView",
+                "printedName": "UIKit.UICollectionView",
+                "usr": "c:objc(cs)UICollectionView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UICollectionViewLayout",
+                "printedName": "UIKit.UICollectionViewLayout",
+                "usr": "c:objc(cs)UICollectionViewLayout"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@AstraPayQrisSdk@objc(cs)NavView(im)collectionView:layout:minimumLineSpacingForSectionAtIndex:",
+            "mangledName": "$s15AstraPayQrisSdk7NavViewC010collectionF0_6layout30minimumLineSpacingForSectionAt12CoreGraphics7CGFloatVSo012UICollectionF0C_So0rF6LayoutCSitF",
+            "moduleName": "AstraPayQrisSdk",
+            "objc_name": "collectionView:layout:minimumLineSpacingForSectionAtIndex:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "collectionView",
+            "printedName": "collectionView(_:numberOfItemsInSection:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UICollectionView",
+                "printedName": "UIKit.UICollectionView",
+                "usr": "c:objc(cs)UICollectionView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@AstraPayQrisSdk@objc(cs)NavView(im)collectionView:numberOfItemsInSection:",
+            "mangledName": "$s15AstraPayQrisSdk7NavViewC010collectionF0_22numberOfItemsInSectionSiSo012UICollectionF0C_SitF",
+            "moduleName": "AstraPayQrisSdk",
+            "objc_name": "collectionView:numberOfItemsInSection:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "collectionView",
+            "printedName": "collectionView(_:cellForItemAt:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UICollectionViewCell",
+                "printedName": "UIKit.UICollectionViewCell",
+                "usr": "c:objc(cs)UICollectionViewCell"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UICollectionView",
+                "printedName": "UIKit.UICollectionView",
+                "usr": "c:objc(cs)UICollectionView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "IndexPath",
+                "printedName": "Foundation.IndexPath",
+                "usr": "s:10Foundation9IndexPathV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@AstraPayQrisSdk@objc(cs)NavView(im)collectionView:cellForItemAtIndexPath:",
+            "mangledName": "$s15AstraPayQrisSdk7NavViewC010collectionF0_13cellForItemAtSo012UICollectionF4CellCSo0lF0C_10Foundation9IndexPathVtF",
+            "moduleName": "AstraPayQrisSdk",
+            "objc_name": "collectionView:cellForItemAtIndexPath:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "collectionView",
+            "printedName": "collectionView(_:didSelectItemAt:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UICollectionView",
+                "printedName": "UIKit.UICollectionView",
+                "usr": "c:objc(cs)UICollectionView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "IndexPath",
+                "printedName": "Foundation.IndexPath",
+                "usr": "s:10Foundation9IndexPathV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@AstraPayQrisSdk@objc(cs)NavView(im)collectionView:didSelectItemAtIndexPath:",
+            "mangledName": "$s15AstraPayQrisSdk7NavViewC010collectionF0_15didSelectItemAtySo012UICollectionF0C_10Foundation9IndexPathVtF",
+            "moduleName": "AstraPayQrisSdk",
+            "objc_name": "collectionView:didSelectItemAtIndexPath:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@AstraPayQrisSdk@objc(cs)NavView",
+        "mangledName": "$s15AstraPayQrisSdk7NavViewC",
+        "moduleName": "AstraPayQrisSdk",
+        "declAttributes": [
+          "Preconcurrency",
+          "Custom",
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)UIView",
+        "hasMissingDesignatedInitializers": true,
+        "superclassNames": [
+          "UIKit.UIView",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ReactiveCompatible",
+            "printedName": "ReactiveCompatible",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "ReactiveBase",
+                "printedName": "ReactiveBase",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSObject",
+                    "printedName": "ObjectiveC.NSObject",
+                    "usr": "c:objc(cs)NSObject"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7RxSwift18ReactiveCompatibleP",
+            "mangledName": "$s7RxSwift18ReactiveCompatibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "__DefaultCustomPlaygroundQuickLookable",
+            "printedName": "__DefaultCustomPlaygroundQuickLookable",
+            "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
+            "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ConstraintRelatableTarget",
+            "printedName": "ConstraintRelatableTarget",
+            "usr": "s:7SnapKit25ConstraintRelatableTargetP",
+            "mangledName": "$s7SnapKit25ConstraintRelatableTargetP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "LayoutConstraintItem",
+            "printedName": "LayoutConstraintItem",
+            "usr": "s:7SnapKit20LayoutConstraintItemP",
+            "mangledName": "$s7SnapKit20LayoutConstraintItemP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AstraPayQrisSdk"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AstraPayQrisSdk"
+      },
+      {
+        "kind": "Import",
+        "name": "SnapKit",
+        "printedName": "SnapKit",
+        "declKind": "Import",
+        "moduleName": "AstraPayQrisSdk"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ApNavDelegate",
+        "printedName": "ApNavDelegate",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "didChangeTab",
+            "printedName": "didChangeTab(index:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15AstraPayQrisSdk13ApNavDelegateP12didChangeTab5indexySi_tF",
+            "mangledName": "$s15AstraPayQrisSdk13ApNavDelegateP12didChangeTab5indexySi_tF",
+            "moduleName": "AstraPayQrisSdk",
+            "genericSig": "<τ_0_0 where τ_0_0 : AstraPayQrisSdk.ApNavDelegate>",
+            "sugared_genericSig": "<Self where Self : AstraPayQrisSdk.ApNavDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:15AstraPayQrisSdk13ApNavDelegateP",
+        "mangledName": "$s15AstraPayQrisSdk13ApNavDelegateP",
+        "moduleName": "AstraPayQrisSdk",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ApNav",
+        "printedName": "ApNav",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "delegate",
+            "printedName": "delegate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(any AstraPayQrisSdk.ApNavDelegate)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ApNavDelegate",
+                    "printedName": "any AstraPayQrisSdk.ApNavDelegate",
+                    "usr": "s:15AstraPayQrisSdk13ApNavDelegateP"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15AstraPayQrisSdk5ApNavC8delegateAA0eF8Delegate_pSgvp",
+            "mangledName": "$s15AstraPayQrisSdk5ApNavC8delegateAA0eF8Delegate_pSgvp",
+            "moduleName": "AstraPayQrisSdk",
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any AstraPayQrisSdk.ApNavDelegate)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ApNavDelegate",
+                        "printedName": "any AstraPayQrisSdk.ApNavDelegate",
+                        "usr": "s:15AstraPayQrisSdk13ApNavDelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15AstraPayQrisSdk5ApNavC8delegateAA0eF8Delegate_pSgvg",
+                "mangledName": "$s15AstraPayQrisSdk5ApNavC8delegateAA0eF8Delegate_pSgvg",
+                "moduleName": "AstraPayQrisSdk",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any AstraPayQrisSdk.ApNavDelegate)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ApNavDelegate",
+                        "printedName": "any AstraPayQrisSdk.ApNavDelegate",
+                        "usr": "s:15AstraPayQrisSdk13ApNavDelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15AstraPayQrisSdk5ApNavC8delegateAA0eF8Delegate_pSgvs",
+                "mangledName": "$s15AstraPayQrisSdk5ApNavC8delegateAA0eF8Delegate_pSgvs",
+                "moduleName": "AstraPayQrisSdk",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15AstraPayQrisSdk5ApNavC8delegateAA0eF8Delegate_pSgvM",
+                "mangledName": "$s15AstraPayQrisSdk5ApNavC8delegateAA0eF8Delegate_pSgvM",
+                "moduleName": "AstraPayQrisSdk",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(navSizeConfiguration:navStyle:cornerRadius:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ApNav",
+                "printedName": "AstraPayQrisSdk.ApNav",
+                "usr": "c:@M@AstraPayQrisSdk@objc(cs)ApNav"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NavSizeConfiguration",
+                "printedName": "AstraPayQrisSdk.NavView.NavSizeConfiguration",
+                "hasDefaultArg": true,
+                "usr": "s:15AstraPayQrisSdk7NavViewC0E17SizeConfigurationO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NavType",
+                "printedName": "AstraPayQrisSdk.NavType",
+                "hasDefaultArg": true,
+                "usr": "s:15AstraPayQrisSdk7NavTypeO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "hasDefaultArg": true,
+                "usr": "s:14CoreFoundation7CGFloatV"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:15AstraPayQrisSdk5ApNavC20navSizeConfiguration0G5Style12cornerRadiusAcA0F4ViewC0fhI0O_AA0F4TypeO14CoreFoundation7CGFloatVtcfc",
+            "mangledName": "$s15AstraPayQrisSdk5ApNavC20navSizeConfiguration0G5Style12cornerRadiusAcA0F4ViewC0fhI0O_AA0F4TypeO12CoreGraphics7CGFloatVtcfc",
+            "moduleName": "AstraPayQrisSdk",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "sizeConfiguration",
+            "printedName": "sizeConfiguration",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NavSizeConfiguration",
+                "printedName": "AstraPayQrisSdk.NavView.NavSizeConfiguration",
+                "usr": "s:15AstraPayQrisSdk7NavViewC0E17SizeConfigurationO"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15AstraPayQrisSdk5ApNavC17sizeConfigurationAA0F4ViewC0f4SizeH0Ovp",
+            "mangledName": "$s15AstraPayQrisSdk5ApNavC17sizeConfigurationAA0F4ViewC0f4SizeH0Ovp",
+            "moduleName": "AstraPayQrisSdk",
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NavSizeConfiguration",
+                    "printedName": "AstraPayQrisSdk.NavView.NavSizeConfiguration",
+                    "usr": "s:15AstraPayQrisSdk7NavViewC0E17SizeConfigurationO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15AstraPayQrisSdk5ApNavC17sizeConfigurationAA0F4ViewC0f4SizeH0Ovg",
+                "mangledName": "$s15AstraPayQrisSdk5ApNavC17sizeConfigurationAA0F4ViewC0f4SizeH0Ovg",
+                "moduleName": "AstraPayQrisSdk",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NavSizeConfiguration",
+                    "printedName": "AstraPayQrisSdk.NavView.NavSizeConfiguration",
+                    "usr": "s:15AstraPayQrisSdk7NavViewC0E17SizeConfigurationO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15AstraPayQrisSdk5ApNavC17sizeConfigurationAA0F4ViewC0f4SizeH0Ovs",
+                "mangledName": "$s15AstraPayQrisSdk5ApNavC17sizeConfigurationAA0F4ViewC0f4SizeH0Ovs",
+                "moduleName": "AstraPayQrisSdk",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15AstraPayQrisSdk5ApNavC17sizeConfigurationAA0F4ViewC0f4SizeH0OvM",
+                "mangledName": "$s15AstraPayQrisSdk5ApNavC17sizeConfigurationAA0F4ViewC0f4SizeH0OvM",
+                "moduleName": "AstraPayQrisSdk",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "cornerRadius",
+            "printedName": "cornerRadius",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15AstraPayQrisSdk5ApNavC12cornerRadius14CoreFoundation7CGFloatVvp",
+            "mangledName": "$s15AstraPayQrisSdk5ApNavC12cornerRadius12CoreGraphics7CGFloatVvp",
+            "moduleName": "AstraPayQrisSdk",
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15AstraPayQrisSdk5ApNavC12cornerRadius14CoreFoundation7CGFloatVvg",
+                "mangledName": "$s15AstraPayQrisSdk5ApNavC12cornerRadius12CoreGraphics7CGFloatVvg",
+                "moduleName": "AstraPayQrisSdk",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15AstraPayQrisSdk5ApNavC12cornerRadius14CoreFoundation7CGFloatVvs",
+                "mangledName": "$s15AstraPayQrisSdk5ApNavC12cornerRadius12CoreGraphics7CGFloatVvs",
+                "moduleName": "AstraPayQrisSdk",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15AstraPayQrisSdk5ApNavC12cornerRadius14CoreFoundation7CGFloatVvM",
+                "mangledName": "$s15AstraPayQrisSdk5ApNavC12cornerRadius12CoreGraphics7CGFloatVvM",
+                "moduleName": "AstraPayQrisSdk",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "navView",
+            "printedName": "navView",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NavView",
+                "printedName": "AstraPayQrisSdk.NavView",
+                "usr": "c:@M@AstraPayQrisSdk@objc(cs)NavView"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15AstraPayQrisSdk5ApNavC7navViewAA0fH0Cvp",
+            "mangledName": "$s15AstraPayQrisSdk5ApNavC7navViewAA0fH0Cvp",
+            "moduleName": "AstraPayQrisSdk",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "Lazy",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NavView",
+                    "printedName": "AstraPayQrisSdk.NavView",
+                    "usr": "c:@M@AstraPayQrisSdk@objc(cs)NavView"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15AstraPayQrisSdk5ApNavC7navViewAA0fH0Cvg",
+                "mangledName": "$s15AstraPayQrisSdk5ApNavC7navViewAA0fH0Cvg",
+                "moduleName": "AstraPayQrisSdk",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NavView",
+                    "printedName": "AstraPayQrisSdk.NavView",
+                    "usr": "c:@M@AstraPayQrisSdk@objc(cs)NavView"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15AstraPayQrisSdk5ApNavC7navViewAA0fH0Cvs",
+                "mangledName": "$s15AstraPayQrisSdk5ApNavC7navViewAA0fH0Cvs",
+                "moduleName": "AstraPayQrisSdk",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15AstraPayQrisSdk5ApNavC7navViewAA0fH0CvM",
+                "mangledName": "$s15AstraPayQrisSdk5ApNavC7navViewAA0fH0CvM",
+                "moduleName": "AstraPayQrisSdk",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "pagedView",
+            "printedName": "pagedView",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PagedView",
+                "printedName": "AstraPayQrisSdk.PagedView",
+                "usr": "c:@M@AstraPayQrisSdk@objc(cs)PagedView"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15AstraPayQrisSdk5ApNavC9pagedViewAA05PagedH0Cvp",
+            "mangledName": "$s15AstraPayQrisSdk5ApNavC9pagedViewAA05PagedH0Cvp",
+            "moduleName": "AstraPayQrisSdk",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PagedView",
+                    "printedName": "AstraPayQrisSdk.PagedView",
+                    "usr": "c:@M@AstraPayQrisSdk@objc(cs)PagedView"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15AstraPayQrisSdk5ApNavC9pagedViewAA05PagedH0Cvg",
+                "mangledName": "$s15AstraPayQrisSdk5ApNavC9pagedViewAA05PagedH0Cvg",
+                "moduleName": "AstraPayQrisSdk",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "moveToTab",
+            "printedName": "moveToTab(at:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15AstraPayQrisSdk5ApNavC9moveToTab2atySi_tF",
+            "mangledName": "$s15AstraPayQrisSdk5ApNavC9moveToTab2atySi_tF",
+            "moduleName": "AstraPayQrisSdk",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(frame:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ApNav",
+                "printedName": "AstraPayQrisSdk.ApNav",
+                "usr": "c:@M@AstraPayQrisSdk@objc(cs)ApNav"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGRect",
+                "printedName": "CoreFoundation.CGRect",
+                "usr": "c:@S@CGRect"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@AstraPayQrisSdk@objc(cs)ApNav(im)initWithFrame:",
+            "mangledName": "$s15AstraPayQrisSdk5ApNavC5frameACSo6CGRectV_tcfc",
+            "moduleName": "AstraPayQrisSdk",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithFrame:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "didMoveToPage",
+            "printedName": "didMoveToPage(index:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15AstraPayQrisSdk5ApNavC13didMoveToPage5indexySi_tF",
+            "mangledName": "$s15AstraPayQrisSdk5ApNavC13didMoveToPage5indexySi_tF",
+            "moduleName": "AstraPayQrisSdk",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@AstraPayQrisSdk@objc(cs)ApNav",
+        "mangledName": "$s15AstraPayQrisSdk5ApNavC",
+        "moduleName": "AstraPayQrisSdk",
+        "declAttributes": [
+          "Preconcurrency",
+          "Custom",
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)UIView",
+        "hasMissingDesignatedInitializers": true,
+        "superclassNames": [
+          "UIKit.UIView",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ReactiveCompatible",
+            "printedName": "ReactiveCompatible",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "ReactiveBase",
+                "printedName": "ReactiveBase",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSObject",
+                    "printedName": "ObjectiveC.NSObject",
+                    "usr": "c:objc(cs)NSObject"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7RxSwift18ReactiveCompatibleP",
+            "mangledName": "$s7RxSwift18ReactiveCompatibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "__DefaultCustomPlaygroundQuickLookable",
+            "printedName": "__DefaultCustomPlaygroundQuickLookable",
+            "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
+            "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ConstraintRelatableTarget",
+            "printedName": "ConstraintRelatableTarget",
+            "usr": "s:7SnapKit25ConstraintRelatableTargetP",
+            "mangledName": "$s7SnapKit25ConstraintRelatableTargetP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "LayoutConstraintItem",
+            "printedName": "LayoutConstraintItem",
+            "usr": "s:7SnapKit20LayoutConstraintItemP",
+            "mangledName": "$s7SnapKit20LayoutConstraintItemP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "PagedViewDelegate",
+            "printedName": "PagedViewDelegate",
+            "usr": "s:15AstraPayQrisSdk17PagedViewDelegateP",
+            "mangledName": "$s15AstraPayQrisSdk17PagedViewDelegateP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -30268,77 +34141,84 @@
     {
       "filePath": "\/Users\/asep\/JOBS\/ASTRAPAY\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/Shared\/Configuration\/QRConfigurationSdk.swift",
       "kind": "BooleanLiteral",
-      "offset": 653,
+      "offset": 673,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/asep\/JOBS\/ASTRAPAY\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/Shared\/Configuration\/QRConfigurationSdk.swift",
+      "kind": "BooleanLiteral",
+      "offset": 722,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/asep\/JOBS\/ASTRAPAY\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/Shared\/Configuration\/QRConfigurationSdk.swift",
       "kind": "BooleanLiteral",
-      "offset": 702,
+      "offset": 771,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/asep\/JOBS\/ASTRAPAY\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/Shared\/Configuration\/QRConfigurationSdk.swift",
       "kind": "BooleanLiteral",
-      "offset": 766,
+      "offset": 835,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/asep\/JOBS\/ASTRAPAY\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/Shared\/Configuration\/QRConfigurationSdk.swift",
       "kind": "StringLiteral",
-      "offset": 816,
+      "offset": 885,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/asep\/JOBS\/ASTRAPAY\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/Shared\/Configuration\/QRConfigurationSdk.swift",
       "kind": "BooleanLiteral",
-      "offset": 874,
+      "offset": 943,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/asep\/JOBS\/ASTRAPAY\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/Shared\/Configuration\/QRConfigurationSdk.swift",
       "kind": "BooleanLiteral",
-      "offset": 927,
+      "offset": 996,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/asep\/JOBS\/ASTRAPAY\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/Shared\/Configuration\/QRConfigurationSdk.swift",
       "kind": "BooleanLiteral",
-      "offset": 981,
+      "offset": 1050,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/asep\/JOBS\/ASTRAPAY\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/Shared\/Configuration\/QRConfigurationSdk.swift",
       "kind": "StringLiteral",
-      "offset": 1028,
+      "offset": 1097,
       "length": 10,
       "value": "\"ASTRAPAY\""
     },
     {
       "filePath": "\/Users\/asep\/JOBS\/ASTRAPAY\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/Shared\/Configuration\/QRConfigurationSdk.swift",
       "kind": "BooleanLiteral",
-      "offset": 1089,
+      "offset": 1158,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/asep\/JOBS\/ASTRAPAY\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/Shared\/Configuration\/QRConfigurationSdk.swift",
       "kind": "StringLiteral",
-      "offset": 1152,
+      "offset": 1221,
       "length": 6,
       "value": "\"Kamu\""
     },
     {
       "filePath": "\/Users\/asep\/JOBS\/ASTRAPAY\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/Shared\/Configuration\/QRConfigurationSdk.swift",
       "kind": "BooleanLiteral",
-      "offset": 1217,
+      "offset": 1286,
       "length": 5,
       "value": "false"
     },
@@ -32060,7 +35940,14 @@
     {
       "filePath": "\/Users\/asep\/JOBS\/ASTRAPAY\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/ApplyVoucherSelection\/ApplyVoucherSelectionVc.swift",
       "kind": "StringLiteral",
-      "offset": 1237,
+      "offset": 324,
+      "length": 18,
+      "value": "\"BUSINESS_ACCOUNT\""
+    },
+    {
+      "filePath": "\/Users\/asep\/JOBS\/ASTRAPAY\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/ApplyVoucherSelection\/ApplyVoucherSelectionVc.swift",
+      "kind": "StringLiteral",
+      "offset": 1404,
       "length": 6,
       "value": "\"QRIS\""
     },
@@ -33998,15 +37885,22 @@
     },
     {
       "filePath": "\/Users\/asep\/JOBS\/ASTRAPAY\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/PaymentMethod\/PaymentMethodNewVm.swift",
+      "kind": "StringLiteral",
+      "offset": 305,
+      "length": 18,
+      "value": "\"BUSINESS_ACCOUNT\""
+    },
+    {
+      "filePath": "\/Users\/asep\/JOBS\/ASTRAPAY\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/PaymentMethod\/PaymentMethodNewVm.swift",
       "kind": "IntegerLiteral",
-      "offset": 408,
+      "offset": 510,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/asep\/JOBS\/ASTRAPAY\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/PaymentMethod\/PaymentMethodNewVm.swift",
       "kind": "IntegerLiteral",
-      "offset": 420,
+      "offset": 522,
       "length": 1,
       "value": "0"
     },
@@ -35602,56 +39496,70 @@
     {
       "filePath": "\/Users\/asep\/JOBS\/ASTRAPAY\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/Confirmation\/ConfirmationVm.swift",
       "kind": "StringLiteral",
-      "offset": 1685,
+      "offset": 1706,
+      "length": 18,
+      "value": "\"BUSINESS_ACCOUNT\""
+    },
+    {
+      "filePath": "\/Users\/asep\/JOBS\/ASTRAPAY\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/Confirmation\/ConfirmationVm.swift",
+      "kind": "StringLiteral",
+      "offset": 1767,
+      "length": 9,
+      "value": "\"VOUCHER\""
+    },
+    {
+      "filePath": "\/Users\/asep\/JOBS\/ASTRAPAY\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/Confirmation\/ConfirmationVm.swift",
+      "kind": "StringLiteral",
+      "offset": 1806,
       "length": 9,
       "value": "\"retryIn\""
     },
     {
       "filePath": "\/Users\/asep\/JOBS\/ASTRAPAY\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/Confirmation\/ConfirmationVm.swift",
       "kind": "StringLiteral",
-      "offset": 1727,
+      "offset": 1848,
       "length": 12,
       "value": "\"retryCount\""
     },
     {
       "filePath": "\/Users\/asep\/JOBS\/ASTRAPAY\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/Confirmation\/ConfirmationVm.swift",
       "kind": "IntegerLiteral",
-      "offset": 5965,
+      "offset": 6086,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/asep\/JOBS\/ASTRAPAY\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/Confirmation\/ConfirmationVm.swift",
       "kind": "IntegerLiteral",
-      "offset": 5994,
+      "offset": 6115,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/asep\/JOBS\/ASTRAPAY\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/Confirmation\/ConfirmationVm.swift",
       "kind": "IntegerLiteral",
-      "offset": 8411,
+      "offset": 8985,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/asep\/JOBS\/ASTRAPAY\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/Confirmation\/ConfirmationVm.swift",
       "kind": "FloatLiteral",
-      "offset": 15170,
+      "offset": 15744,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/asep\/JOBS\/ASTRAPAY\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/Confirmation\/ConfirmationVm.swift",
       "kind": "FloatLiteral",
-      "offset": 15196,
+      "offset": 15770,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/asep\/JOBS\/ASTRAPAY\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/Confirmation\/ConfirmationVm.swift",
       "kind": "FloatLiteral",
-      "offset": 15245,
+      "offset": 15819,
       "length": 3,
       "value": "0.0"
     },
@@ -36595,22 +40503,155 @@
     },
     {
       "filePath": "\/Users\/asep\/JOBS\/ASTRAPAY\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/PaymentMethod\/PaymentMethod.swift",
+      "kind": "StringLiteral",
+      "offset": 576,
+      "length": 18,
+      "value": "\"BUSINESS_ACCOUNT\""
+    },
+    {
+      "filePath": "\/Users\/asep\/JOBS\/ASTRAPAY\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/PaymentMethod\/PaymentMethod.swift",
       "kind": "IntegerLiteral",
-      "offset": 858,
+      "offset": 999,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/asep\/JOBS\/ASTRAPAY\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/PaymentMethod\/PaymentMethod.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1259,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/asep\/JOBS\/ASTRAPAY\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/PaymentMethod\/PaymentMethod.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1271,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/asep\/JOBS\/ASTRAPAY\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/PaymentMethod\/PaymentMethod.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1340,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/asep\/JOBS\/ASTRAPAY\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/PaymentMethod\/PaymentMethod.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1352,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/asep\/JOBS\/ASTRAPAY\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/PaymentMethod\/PaymentMethod.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1396,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/asep\/JOBS\/ASTRAPAY\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/PaymentMethod\/PaymentMethod.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1443,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/asep\/JOBS\/ASTRAPAY\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/PaymentMethod\/PaymentMethod.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1486,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/asep\/JOBS\/ASTRAPAY\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/PaymentMethod\/PaymentMethod.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1528,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/asep\/JOBS\/ASTRAPAY\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/PaymentMethod\/PaymentMethod.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1567,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/asep\/JOBS\/ASTRAPAY\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/PaymentMethod\/PaymentMethod.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1667,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/asep\/JOBS\/ASTRAPAY\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/PaymentMethod\/PaymentMethod.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1707,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/asep\/JOBS\/ASTRAPAY\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/PaymentMethod\/PaymentMethod.swift",
       "kind": "StringLiteral",
-      "offset": 994,
+      "offset": 1801,
       "length": 19,
       "value": "\"Metode Pembayaran\""
     },
     {
       "filePath": "\/Users\/asep\/JOBS\/ASTRAPAY\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/PaymentMethod\/PaymentMethod.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2014,
+      "length": 2,
+      "value": "60"
+    },
+    {
+      "filePath": "\/Users\/asep\/JOBS\/ASTRAPAY\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/PaymentMethod\/PaymentMethod.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2027,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/asep\/JOBS\/ASTRAPAY\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/PaymentMethod\/PaymentMethod.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2087,
+      "length": 2,
+      "value": "14"
+    },
+    {
+      "filePath": "\/Users\/asep\/JOBS\/ASTRAPAY\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/PaymentMethod\/PaymentMethod.swift",
       "kind": "StringLiteral",
-      "offset": 1227,
+      "offset": 2174,
+      "length": 10,
+      "value": "\"Personal\""
+    },
+    {
+      "filePath": "\/Users\/asep\/JOBS\/ASTRAPAY\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/PaymentMethod\/PaymentMethod.swift",
+      "kind": "StringLiteral",
+      "offset": 2223,
+      "length": 8,
+      "value": "\"Bisnis\""
+    },
+    {
+      "filePath": "\/Users\/asep\/JOBS\/ASTRAPAY\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/PaymentMethod\/PaymentMethod.swift",
+      "kind": "Array",
+      "offset": 2282,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/asep\/JOBS\/ASTRAPAY\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/PaymentMethod\/PaymentMethod.swift",
+      "kind": "StringLiteral",
+      "offset": 2446,
+      "length": 19,
+      "value": "\"PaymentMethodCard\""
+    },
+    {
+      "filePath": "\/Users\/asep\/JOBS\/ASTRAPAY\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/PaymentMethod\/PaymentMethod.swift",
+      "kind": "StringLiteral",
+      "offset": 2637,
       "length": 19,
       "value": "\"PaymentMethodCard\""
     },
@@ -37135,49 +41176,49 @@
     {
       "filePath": "\/Users\/asep\/JOBS\/ASTRAPAY\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/Confirmation\/ConfirmationView.swift",
       "kind": "StringLiteral",
-      "offset": 623,
+      "offset": 670,
       "length": 7,
       "value": "\"Bayar\""
     },
     {
       "filePath": "\/Users\/asep\/JOBS\/ASTRAPAY\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/Confirmation\/ConfirmationView.swift",
       "kind": "StringLiteral",
-      "offset": 1596,
+      "offset": 1643,
       "length": 3,
       "value": "\"-\""
     },
     {
       "filePath": "\/Users\/asep\/JOBS\/ASTRAPAY\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/Confirmation\/ConfirmationView.swift",
       "kind": "StringLiteral",
-      "offset": 1642,
+      "offset": 1689,
       "length": 13,
       "value": "\"Total Bayar\""
     },
     {
       "filePath": "\/Users\/asep\/JOBS\/ASTRAPAY\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/Confirmation\/ConfirmationView.swift",
       "kind": "StringLiteral",
-      "offset": 1807,
+      "offset": 1854,
       "length": 11,
       "value": "\"payButton\""
     },
     {
       "filePath": "\/Users\/asep\/JOBS\/ASTRAPAY\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/Confirmation\/ConfirmationView.swift",
       "kind": "StringLiteral",
-      "offset": 2120,
+      "offset": 2167,
       "length": 50,
       "value": "\"Pembayaran Tip akan menggunakan saldo\nAstraPay.\""
     },
     {
       "filePath": "\/Users\/asep\/JOBS\/ASTRAPAY\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/Confirmation\/ConfirmationView.swift",
       "kind": "StringLiteral",
-      "offset": 2196,
+      "offset": 2243,
       "length": 9,
       "value": "\"ic_info\""
     },
     {
       "filePath": "\/Users\/asep\/JOBS\/ASTRAPAY\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/Confirmation\/ConfirmationView.swift",
       "kind": "BooleanLiteral",
-      "offset": 2362,
+      "offset": 2409,
       "length": 4,
       "value": "true"
     },
@@ -39737,6 +43778,160 @@
       "value": "\"XCTestConfigurationFilePath\""
     },
     {
+      "filePath": "\/Users\/asep\/JOBS\/ASTRAPAY\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/Shared\/Component\/UI\/ApNav\/ApNavItemView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 711,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/asep\/JOBS\/ASTRAPAY\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/Shared\/Component\/UI\/ApNav\/ApNavItemView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 809,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/asep\/JOBS\/ASTRAPAY\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/Shared\/Component\/UI\/ApNav\/ApNavItemView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 854,
+      "length": 2,
+      "value": "14"
+    },
+    {
+      "filePath": "\/Users\/asep\/JOBS\/ASTRAPAY\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/Shared\/Component\/UI\/ApNav\/ApNavItemView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1084,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/asep\/JOBS\/ASTRAPAY\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/Shared\/Component\/UI\/ApNav\/ApNavItemView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1293,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/asep\/JOBS\/ASTRAPAY\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/Shared\/Component\/UI\/ApNav\/PagedView.swift",
+      "kind": "Array",
+      "offset": 280,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/asep\/JOBS\/ASTRAPAY\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/Shared\/Component\/UI\/ApNav\/PagedView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1029,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/asep\/JOBS\/ASTRAPAY\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/Shared\/Component\/UI\/ApNav\/PagedView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1076,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/asep\/JOBS\/ASTRAPAY\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/Shared\/Component\/UI\/ApNav\/PagedView.swift",
+      "kind": "StringLiteral",
+      "offset": 1170,
+      "length": 24,
+      "value": "\"PageCollectionViewCell\""
+    },
+    {
+      "filePath": "\/Users\/asep\/JOBS\/ASTRAPAY\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/Shared\/Component\/UI\/ApNav\/PagedView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1273,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/asep\/JOBS\/ASTRAPAY\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/Shared\/Component\/UI\/ApNav\/NavView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 245,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/asep\/JOBS\/ASTRAPAY\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/Shared\/Component\/UI\/ApNav\/NavView.swift",
+      "kind": "Array",
+      "offset": 848,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/asep\/JOBS\/ASTRAPAY\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/Shared\/Component\/UI\/ApNav\/NavView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 936,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/asep\/JOBS\/ASTRAPAY\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/Shared\/Component\/UI\/ApNav\/NavView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1717,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/asep\/JOBS\/ASTRAPAY\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/Shared\/Component\/UI\/ApNav\/NavView.swift",
+      "kind": "StringLiteral",
+      "offset": 2181,
+      "length": 23,
+      "value": "\"TabCollectionViewCell\""
+    },
+    {
+      "filePath": "\/Users\/asep\/JOBS\/ASTRAPAY\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/Shared\/Component\/UI\/ApNav\/NavView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2271,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/asep\/JOBS\/ASTRAPAY\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/Shared\/Component\/UI\/ApNav\/NavView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2345,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/asep\/JOBS\/ASTRAPAY\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/Shared\/Component\/UI\/ApNav\/ApNav.swift",
+      "kind": "IntegerLiteral",
+      "offset": 201,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/asep\/JOBS\/ASTRAPAY\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/Shared\/Component\/UI\/ApNav\/ApNav.swift",
+      "kind": "IntegerLiteral",
+      "offset": 445,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/asep\/JOBS\/ASTRAPAY\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/Shared\/Component\/UI\/ApNav\/ApNav.swift",
+      "kind": "IntegerLiteral",
+      "offset": 956,
+      "length": 3,
+      "value": "100"
+    },
+    {
+      "filePath": "\/Users\/asep\/JOBS\/ASTRAPAY\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/Shared\/Component\/UI\/ApNav\/ApNav.swift",
+      "kind": "IntegerLiteral",
+      "offset": 970,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/asep\/JOBS\/ASTRAPAY\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/Shared\/Component\/UI\/ApNav\/ApNav.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1012,
+      "length": 1,
+      "value": "0"
+    },
+    {
       "filePath": "\/Users\/asep\/JOBS\/ASTRAPAY\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/Helpers\/SkeletonView\/SkeletonViewCore\/Sources\/Internal\/Helpers\/AssociationPolicy.swift",
       "kind": "IntegerLiteral",
       "offset": 323,
@@ -39880,6 +44075,20 @@
       "filePath": "\/Users\/asep\/JOBS\/ASTRAPAY\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/PaymentMethod\/component\/PaymentMethodCardCellVm.swift",
       "kind": "StringLiteral",
       "offset": 906,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/asep\/JOBS\/ASTRAPAY\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/PaymentMethod\/component\/PaymentMethodCardCellVm.swift",
+      "kind": "StringLiteral",
+      "offset": 935,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/asep\/JOBS\/ASTRAPAY\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/PaymentMethod\/component\/PaymentMethodCardCellVm.swift",
+      "kind": "StringLiteral",
+      "offset": 3306,
       "length": 2,
       "value": "\"\""
     },
