@@ -37,6 +37,7 @@ import _SwiftConcurrencyShims
   @objc public static var isLoproVoucherAvailable: Swift.Bool
   @objc public static var isLoproRedeemVoucherAvailable: Swift.Bool
   @objc public static var isPaylaterAvailable: Swift.Bool
+  @objc public static var isBusinessAccountAvailable: Swift.Bool
   @objc public static var isSnap: Swift.Bool
   @objc public static var qrisCpm: Swift.Bool
   @objc public static var isUserEligibleQrisCpm: Swift.Bool
@@ -437,6 +438,109 @@ extension UIKit.UIView {
   @_Concurrency.MainActor @preconcurrency public func removeTapGestureRecognizer()
   @_Concurrency.MainActor @preconcurrency public func addQrisSdkTapGestureRecognizer(action: (() -> Swift.Void)?)
 }
+public protocol NavItemProtocol : UIKit.UIView {
+  func onSelected(navStyle: AstraPayQrisSdk.NavType)
+  func onNotSelected(navStyle: AstraPayQrisSdk.NavType)
+}
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @_Concurrency.MainActor @preconcurrency public class NavItemCollectionViewCell : UIKit.UICollectionViewCell {
+  @_Concurrency.MainActor @preconcurrency public var view: (any AstraPayQrisSdk.NavItemProtocol)? {
+    get
+    set
+  }
+  @objc deinit
+}
+public enum NavType {
+  case whiteTab
+  case blueTab
+  case pills
+  public static func == (a: AstraPayQrisSdk.NavType, b: AstraPayQrisSdk.NavType) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+@objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor @preconcurrency public class ApNavItemView : UIKit.UIView, AstraPayQrisSdk.NavItemProtocol {
+  @_Concurrency.MainActor @preconcurrency final public let navLabel: Swift.String
+  @_Concurrency.MainActor @preconcurrency public init(navLabel: Swift.String)
+  @_Concurrency.MainActor @preconcurrency public func onSelected(navStyle: AstraPayQrisSdk.NavType)
+  @_Concurrency.MainActor @preconcurrency public func onNotSelected(navStyle: AstraPayQrisSdk.NavType)
+  @objc deinit
+}
+public protocol PagedViewDelegate : AnyObject {
+  func didMoveToPage(index: Swift.Int)
+}
+@objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor @preconcurrency public class PagedView : UIKit.UIView, UIKit.UICollectionViewDelegateFlowLayout, UIKit.UICollectionViewDataSource {
+  @_Concurrency.MainActor @preconcurrency public init(pages: [UIKit.UIView] = [])
+  @_Concurrency.MainActor @preconcurrency weak public var delegate: (any AstraPayQrisSdk.PagedViewDelegate)?
+  @_Concurrency.MainActor @preconcurrency public var pages: [UIKit.UIView] {
+    get
+    set
+  }
+  @_Concurrency.MainActor @preconcurrency public var collectionView: UIKit.UICollectionView {
+    get
+    set
+  }
+  @_Concurrency.MainActor @preconcurrency @objc public func collectionView(_ collectionView: UIKit.UICollectionView, numberOfItemsInSection section: Swift.Int) -> Swift.Int
+  @_Concurrency.MainActor @preconcurrency @objc public func collectionView(_ collectionView: UIKit.UICollectionView, cellForItemAt indexPath: Foundation.IndexPath) -> UIKit.UICollectionViewCell
+  @_Concurrency.MainActor @preconcurrency public func moveToPage(at index: Swift.Int)
+  @_Concurrency.MainActor @preconcurrency @objc public func scrollViewDidEndDecelerating(_ scrollView: UIKit.UIScrollView)
+  @_Concurrency.MainActor @preconcurrency @objc public func collectionView(_ collectionView: UIKit.UICollectionView, layout collectionViewLayout: UIKit.UICollectionViewLayout, sizeForItemAt indexPath: Foundation.IndexPath) -> CoreFoundation.CGSize
+  @_Concurrency.MainActor @preconcurrency @objc public func collectionView(_ collectionView: UIKit.UICollectionView, layout collectionViewLayout: UIKit.UICollectionViewLayout, minimumLineSpacingForSectionAt section: Swift.Int) -> CoreFoundation.CGFloat
+  @objc deinit
+}
+@objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor @preconcurrency public class NavView : UIKit.UIView {
+  @_Concurrency.MainActor @preconcurrency public var navStyle: AstraPayQrisSdk.NavType
+  @_Concurrency.MainActor @preconcurrency public var cornerRadius: CoreFoundation.CGFloat
+  public enum NavSizeConfiguration {
+    case fillEqually(height: CoreFoundation.CGFloat? = nil, spacing: CoreFoundation.CGFloat? = nil)
+    case fixed(width: CoreFoundation.CGFloat? = nil, height: CoreFoundation.CGFloat? = nil, spacing: CoreFoundation.CGFloat? = nil)
+    public var height: CoreFoundation.CGFloat {
+      get
+    }
+  }
+  @_Concurrency.MainActor @preconcurrency public init(sizeConfiguration: AstraPayQrisSdk.NavView.NavSizeConfiguration, tabs: [any AstraPayQrisSdk.NavItemProtocol] = [], style: AstraPayQrisSdk.NavType = .whiteTab, cornerRadius: CoreFoundation.CGFloat = 0)
+  @_Concurrency.MainActor @preconcurrency final public let sizeConfiguration: AstraPayQrisSdk.NavView.NavSizeConfiguration
+  @_Concurrency.MainActor @preconcurrency public var tabs: [any AstraPayQrisSdk.NavItemProtocol] {
+    get
+    set
+  }
+  @_Concurrency.MainActor @preconcurrency public var collectionView: UIKit.UICollectionView {
+    get
+    set
+  }
+  @_Concurrency.MainActor @preconcurrency public func moveToTab(at index: Swift.Int)
+  @objc deinit
+}
+extension AstraPayQrisSdk.NavView : UIKit.UICollectionViewDelegateFlowLayout {
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func collectionView(_ collectionView: UIKit.UICollectionView, layout collectionViewLayout: UIKit.UICollectionViewLayout, sizeForItemAt indexPath: Foundation.IndexPath) -> CoreFoundation.CGSize
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func collectionView(_ collectionView: UIKit.UICollectionView, layout collectionViewLayout: UIKit.UICollectionViewLayout, minimumLineSpacingForSectionAt section: Swift.Int) -> CoreFoundation.CGFloat
+}
+extension AstraPayQrisSdk.NavView : UIKit.UICollectionViewDataSource {
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func collectionView(_ collectionView: UIKit.UICollectionView, numberOfItemsInSection section: Swift.Int) -> Swift.Int
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func collectionView(_ collectionView: UIKit.UICollectionView, cellForItemAt indexPath: Foundation.IndexPath) -> UIKit.UICollectionViewCell
+}
+extension AstraPayQrisSdk.NavView : UIKit.UICollectionViewDelegate {
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func collectionView(_ collectionView: UIKit.UICollectionView, didSelectItemAt indexPath: Foundation.IndexPath)
+}
+public protocol ApNavDelegate : AnyObject {
+  func didChangeTab(index: Swift.Int)
+}
+@objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor @preconcurrency public class ApNav : UIKit.UIView {
+  @_Concurrency.MainActor @preconcurrency public var delegate: (any AstraPayQrisSdk.ApNavDelegate)?
+  @_Concurrency.MainActor @preconcurrency public init(navSizeConfiguration: AstraPayQrisSdk.NavView.NavSizeConfiguration = .fillEqually(), navStyle: AstraPayQrisSdk.NavType = .whiteTab, cornerRadius: CoreFoundation.CGFloat = 0)
+  @_Concurrency.MainActor @preconcurrency public var sizeConfiguration: AstraPayQrisSdk.NavView.NavSizeConfiguration
+  @_Concurrency.MainActor @preconcurrency public var cornerRadius: CoreFoundation.CGFloat
+  @_Concurrency.MainActor @preconcurrency public var navView: AstraPayQrisSdk.NavView {
+    get
+    set
+  }
+  @_Concurrency.MainActor @preconcurrency final public let pagedView: AstraPayQrisSdk.PagedView
+  @_Concurrency.MainActor @preconcurrency public func moveToTab(at index: Swift.Int)
+  @objc deinit
+}
+extension AstraPayQrisSdk.ApNav : AstraPayQrisSdk.PagedViewDelegate {
+  @_Concurrency.MainActor @preconcurrency public func didMoveToPage(index: Swift.Int)
+}
 public enum QrisTopAppBarType {
   case white
   case blue
@@ -728,6 +832,8 @@ extension AstraPayQrisSdk.BadgeStyle : Swift.Equatable {}
 extension AstraPayQrisSdk.BadgeStyle : Swift.Hashable {}
 extension AstraPayQrisSdk.BadgeType : Swift.Equatable {}
 extension AstraPayQrisSdk.BadgeType : Swift.Hashable {}
+extension AstraPayQrisSdk.NavType : Swift.Equatable {}
+extension AstraPayQrisSdk.NavType : Swift.Hashable {}
 extension AstraPayQrisSdk.QrisTopAppBarType : Swift.Equatable {}
 extension AstraPayQrisSdk.QrisTopAppBarType : Swift.Hashable {}
 extension AstraPayQrisSdk.QrisTopAppBarLeading : Swift.Equatable {}
