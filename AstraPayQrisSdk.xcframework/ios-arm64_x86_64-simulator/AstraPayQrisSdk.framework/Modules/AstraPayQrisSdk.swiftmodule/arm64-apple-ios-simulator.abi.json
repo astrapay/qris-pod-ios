@@ -43612,14 +43612,14 @@
     {
       "filePath": "\/Users\/asep\/JOBS\/ASTRAPAY\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/ApplyVoucherList\/Component\/ApplyVoucherItemCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 3283,
+      "offset": 3239,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/asep\/JOBS\/ASTRAPAY\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/ApplyVoucherList\/Component\/ApplyVoucherItemCell.swift",
       "kind": "StringLiteral",
-      "offset": 3306,
+      "offset": 3262,
       "length": 6,
       "value": "\"Info\""
     },
