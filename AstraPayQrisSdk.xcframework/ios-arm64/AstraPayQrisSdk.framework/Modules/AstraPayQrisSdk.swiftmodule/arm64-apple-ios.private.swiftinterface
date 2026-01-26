@@ -1,7 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.0.3 effective-5.10 (swiftlang-6.0.3.1.10 clang-1600.0.30.1)
-// swift-module-flags: -target arm64-apple-ios11.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name AstraPayQrisSdk
-// swift-module-flags-ignorable: -no-verify-emitted-module-interface
+// swift-compiler-version: Apple Swift version 6.2.1 effective-5.10 (swiftlang-6.2.1.4.8 clang-1700.4.4.1)
+// swift-module-flags: -target arm64-apple-ios26.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name AstraPayQrisSdk
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2.1
 import AVFoundation
 import AVKit
 @_exported import AstraPayQrisSdk
@@ -24,7 +24,9 @@ import _SwiftConcurrencyShims
   case sit = 0
   case uat = 1
   case prod = 2
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.Int)
+  #endif
   public typealias RawValue = Swift.Int
   public var rawValue: Swift.Int {
     get
@@ -150,7 +152,9 @@ public protocol ApOtpDatasource {
   @objc public var discountAmount: Swift.String?
   @objc public var merchantId: Swift.String?
   @objc public var transactionId: Swift.String?
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc public init(transactionAt: Swift.String? = nil, status: Swift.String? = nil, transactionNumber: Swift.String? = nil, referenceNumber: Swift.String? = nil, merchantName: Swift.String? = nil, merchantCity: Swift.String? = nil, amount: Swift.String? = nil, totalAmount: Swift.String? = nil, discountAmount: Swift.String? = nil, merchantId: Swift.String? = nil, transactionId: Swift.String? = nil)
+  #endif
   @objc deinit
 }
 @objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @_Concurrency.MainActor @preconcurrency public class ApDivider : UIKit.UIView {
@@ -197,7 +201,9 @@ public enum QrisTransactionResultEnum : Swift.String {
   case PROCESSING
   case VOID
   case REJECTED
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.String)
+  #endif
   public typealias RawValue = Swift.String
   public var rawValue: Swift.String {
     get
@@ -210,7 +216,9 @@ public enum AuthenticationClaim : Swift.String, Swift.Codable {
   case FORGOT_PIN
   case EKYC
   case BANK_TRANSFER
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.String)
+  #endif
   public typealias RawValue = Swift.String
   public var rawValue: Swift.String {
     get
@@ -220,7 +228,9 @@ public enum OtpMechanism : Swift.String, Swift.Codable {
   case EMAIL
   case SMS
   case WHATSAPP
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.String)
+  #endif
   public typealias RawValue = Swift.String
   public var rawValue: Swift.String {
     get
@@ -434,9 +444,13 @@ public enum BadgeType {
 }
 extension UIKit.UIView {
   @_Concurrency.MainActor @preconcurrency public func applySpecificRoundCorners(corners: UIKit.UIRectCorner, radius: CoreFoundation.CGFloat)
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency public func addTapGestureListener(action: (() -> Swift.Void)?)
+  #endif
   @_Concurrency.MainActor @preconcurrency public func removeTapGestureRecognizer()
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency public func addQrisSdkTapGestureRecognizer(action: (() -> Swift.Void)?)
+  #endif
 }
 public protocol NavItemProtocol : UIKit.UIView {
   func onSelected(navStyle: AstraPayQrisSdk.NavType)
@@ -651,7 +665,9 @@ public enum CardTrailing : Swift.String {
   case checkbox
   case singleDetail
   case doubleDetail
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.String)
+  #endif
   public typealias RawValue = Swift.String
   public var rawValue: Swift.String {
     get
@@ -764,7 +780,9 @@ public struct ApCheckBoxParentViewData : Swift.Codable {
   @_Concurrency.MainActor @preconcurrency public func addMultipleCheckboxes(childs: [AstraPayQrisSdk.ApCheckBoxParentViewData], type: AstraPayQrisSdk.CheckboxType = .square)
   @_Concurrency.MainActor @preconcurrency public func setGroupLabel(_ text: Swift.String)
   @_Concurrency.MainActor @preconcurrency public func getParentCheckboxValue() -> Swift.Bool
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency public func getChildCheckboxValue(_ index: Swift.Int) -> Swift.Bool?
+  #endif
   @objc deinit
 }
 @objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @_Concurrency.MainActor @preconcurrency public class ApCheckbox : UIKit.UIView {

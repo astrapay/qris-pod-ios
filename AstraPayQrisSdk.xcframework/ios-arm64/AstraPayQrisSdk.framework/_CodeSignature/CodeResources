@@ -6,7 +6,7 @@
 	<dict>
 		<key>Alamofire.bundle/Info.plist</key>
 		<data>
-		5w8yfBs3PkeERUQGqvKkORfsGys=
+		3F8DfLDgEbANB/wwTArpM3Zbdm8=
 		</data>
 		<key>Alamofire.bundle/PrivacyInfo.xcprivacy</key>
 		<data>
@@ -14,11 +14,11 @@
 		</data>
 		<key>Assets.car</key>
 		<data>
-		UmwnYz0ezPtRFY2lRNtof3oF+qk=
+		BxFS6GafUUwROI9NesBtsTVQ+Us=
 		</data>
 		<key>Headers/AstraPayQrisSdk-Swift.h</key>
 		<data>
-		3Ld17I63nlbJJwP/tfyAr8aak3U=
+		7WgpFcCAwTlxPLLIwLXG+m13s5M=
 		</data>
 		<key>Headers/AstraPayQrisSdk.h</key>
 		<data>
@@ -26,7 +26,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		G3Bk27LXRlkmuE7pDEYG/Njr+28=
+		K8DKB+ANgk4rBjvHYwN6HbINjVo=
 		</data>
 		<key>Inter-Black.ttf</key>
 		<data>
@@ -70,23 +70,23 @@
 		</data>
 		<key>Modules/AstraPayQrisSdk.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		8rNakBg8ZU72jtww45JKbg2M9ZM=
+		rX9hE9t2L5s2fH+g4HKnmY78r/U=
 		</data>
 		<key>Modules/AstraPayQrisSdk.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		+TcuBO5rjZofL7PQTFPgXS1vncE=
+		n1CIcBC1RzJ1iDXcm9asUQpXJSU=
 		</data>
 		<key>Modules/AstraPayQrisSdk.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		fHc9vjbQQYcE5h1zGlhOavYebgg=
+		4+CggphYRlg00WpdWYQPjKzCdj0=
 		</data>
 		<key>Modules/AstraPayQrisSdk.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		+TcuBO5rjZofL7PQTFPgXS1vncE=
+		n1CIcBC1RzJ1iDXcm9asUQpXJSU=
 		</data>
 		<key>Modules/AstraPayQrisSdk.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		/sOzfPjIA8A6doBq0pYl1uncTLs=
+		hTeV3LLcHW9+A/+EeKj1QaVU6Z8=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -96,13 +96,9 @@
 		<data>
 		3QGWgLH+TyBKn3j2LRbyOMQWtIA=
 		</data>
-		<key>ToastView.nib/objects-14.0+.nib</key>
+		<key>ToastView.nib</key>
 		<data>
 		5GRQElFVS1nZKuyinY2ojyHFHLA=
-		</data>
-		<key>ToastView.nib/runtime.nib</key>
-		<data>
-		4rOfe3uQnwrXs6MF+PFHVtGmArs=
 		</data>
 		<key>failedLottie.json</key>
 		<data>
@@ -139,7 +135,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			WlL1vB4MaqiYCtoN8tDVj6OtfVLh3AiCDRiIjK8ZgPI=
+			q5NdCfXMljlapm6Iorwe5Xpy71Qxp7EVi2iasNKhvjs=
 			</data>
 		</dict>
 		<key>Alamofire.bundle/PrivacyInfo.xcprivacy</key>
@@ -153,14 +149,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			me/bNQlYxZktgjIeI8VH3/JRY1XcxfJ1kF0iV/NJjgQ=
+			ttDB58AMnCHZlhbQQTiQsAU03i7gF9eyh2hN0yi3ysM=
 			</data>
 		</dict>
 		<key>Headers/AstraPayQrisSdk-Swift.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			r8Aa14VAxOpcLNOuF7roiBB5x05iI0B1E5TQ3O3CkpM=
+			fR3BjPbhnD/eCU4BfRQtOH23SyZPZipIqfJSK/WCeS4=
 			</data>
 		</dict>
 		<key>Headers/AstraPayQrisSdk.h</key>
@@ -244,35 +240,35 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ku/rnjGizhj752F0Dx8gK1rd+AkvWB/uKOREVylUQTc=
+			LHrGK9dJ1SPzyJwFjgjYv5eiN+SSFAspcOhT4E50NC8=
 			</data>
 		</dict>
 		<key>Modules/AstraPayQrisSdk.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			rS6OsDc9FYo6DdLboGk9q1G+YgRVHux4dqJHpv61el4=
+			jFonkMGawCt793BoVvj3Kmf9Y0zXHuTfrwPYB4auzuk=
 			</data>
 		</dict>
 		<key>Modules/AstraPayQrisSdk.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			4D9CfyUHd1oR09b+wDqv/98tsMmNDjl3lndlVV1zhXE=
+			wr0kpx99MtOVCaA4ypCh6fvK/s1kPWBd1/4SF+3uNPE=
 			</data>
 		</dict>
 		<key>Modules/AstraPayQrisSdk.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			rS6OsDc9FYo6DdLboGk9q1G+YgRVHux4dqJHpv61el4=
+			jFonkMGawCt793BoVvj3Kmf9Y0zXHuTfrwPYB4auzuk=
 			</data>
 		</dict>
 		<key>Modules/AstraPayQrisSdk.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			fneOIvHLI2swFucOve8tLo9DwduPXfSSffHm6RqcEek=
+			Y26jExCYYNR5sBZOLVapwmRQbv7TRaP+huR8Wx32aw0=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -289,18 +285,11 @@
 			CKfU6Dm/TB+sCBJo3vtBxZttef9zgQuGkGZb87Fs7CQ=
 			</data>
 		</dict>
-		<key>ToastView.nib/objects-14.0+.nib</key>
+		<key>ToastView.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			zZNKpmmbKILhMekp+2Nx5ueaw05ZNC9Xz6usUH+0v5g=
-			</data>
-		</dict>
-		<key>ToastView.nib/runtime.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			3joxO3VbEZQuKL+wgvPzlAZonHNFjTphzPCFIdu7iE0=
 			</data>
 		</dict>
 		<key>failedLottie.json</key>
