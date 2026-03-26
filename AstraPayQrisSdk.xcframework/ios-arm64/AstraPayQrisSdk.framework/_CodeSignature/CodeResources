@@ -18,7 +18,7 @@
 		</data>
 		<key>Headers/AstraPayQrisSdk-Swift.h</key>
 		<data>
-		7WgpFcCAwTlxPLLIwLXG+m13s5M=
+		QxKw6RNQnsDMSNrsvApCNtpRgQQ=
 		</data>
 		<key>Headers/AstraPayQrisSdk.h</key>
 		<data>
@@ -70,11 +70,11 @@
 		</data>
 		<key>Modules/AstraPayQrisSdk.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		wSpBfcxOOcojO3Q/5vsXFxrFji4=
+		ldbqcaV5VjMCh6utq5ZflF0UAIA=
 		</data>
 		<key>Modules/AstraPayQrisSdk.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		oq5v49jaxyA/sKy6+ioR/qiiSa4=
+		rZCuEKWkMjI5DfzTF+YarkbIkrU=
 		</data>
 		<key>Modules/AstraPayQrisSdk.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -82,11 +82,11 @@
 		</data>
 		<key>Modules/AstraPayQrisSdk.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		oq5v49jaxyA/sKy6+ioR/qiiSa4=
+		rZCuEKWkMjI5DfzTF+YarkbIkrU=
 		</data>
 		<key>Modules/AstraPayQrisSdk.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		aOykNE1iz6HiwcgaVZFE3kZq+n0=
+		FkGZBMJmO6l3lQK8E2t/3IBITCQ=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -160,7 +160,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			fR3BjPbhnD/eCU4BfRQtOH23SyZPZipIqfJSK/WCeS4=
+			UexsUEI8iPth7UzOWEPCralut+f0EK1qYseD0WIBKOQ=
 			</data>
 		</dict>
 		<key>Headers/AstraPayQrisSdk.h</key>
@@ -244,14 +244,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			MKJd4gKHh7itIUlNnqWeSPogke2d+PJXZ6Lc8XeXgZg=
+			plXkmbszlNmpSRuX2x2sgbPyrQG3CUL9wmX1EuGwPYQ=
 			</data>
 		</dict>
 		<key>Modules/AstraPayQrisSdk.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			TBUnx5WMyQAoLUmEhD1sRtcleMw307xknUE3mVDfEKc=
+			FkByfYWarGJYfY9VEiTlQ987KufnjKLTUX1vp+dMQRI=
 			</data>
 		</dict>
 		<key>Modules/AstraPayQrisSdk.swiftmodule/arm64-apple-ios.swiftdoc</key>
@@ -265,14 +265,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			TBUnx5WMyQAoLUmEhD1sRtcleMw307xknUE3mVDfEKc=
+			FkByfYWarGJYfY9VEiTlQ987KufnjKLTUX1vp+dMQRI=
 			</data>
 		</dict>
 		<key>Modules/AstraPayQrisSdk.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			XwSlLv9S5jPZmkipdS1QZNKBFoMbz572qr+MT7ANwKY=
+			vUMDTNog/B1WcLB5F8BaNYqv2qujBlp95OSmGHLH+H4=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

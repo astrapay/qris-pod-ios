@@ -6992,9 +6992,126 @@
             ]
           },
           {
+            "kind": "Var",
+            "name": "action",
+            "printedName": "action",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@AstraPayQrisSdk@objc(cs)QrisTransactionHistorySummary(py)action",
+            "mangledName": "$s15AstraPayQrisSdk0C25TransactionHistorySummaryC6actionSSSgvp",
+            "moduleName": "AstraPayQrisSdk",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@AstraPayQrisSdk@objc(cs)QrisTransactionHistorySummary(im)action",
+                "mangledName": "$s15AstraPayQrisSdk0C25TransactionHistorySummaryC6actionSSSgvg",
+                "moduleName": "AstraPayQrisSdk",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@AstraPayQrisSdk@objc(cs)QrisTransactionHistorySummary(im)setAction:",
+                "mangledName": "$s15AstraPayQrisSdk0C25TransactionHistorySummaryC6actionSSSgvs",
+                "moduleName": "AstraPayQrisSdk",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15AstraPayQrisSdk0C25TransactionHistorySummaryC6actionSSSgvM",
+                "mangledName": "$s15AstraPayQrisSdk0C25TransactionHistorySummaryC6actionSSSgvM",
+                "moduleName": "AstraPayQrisSdk",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(transactionAt:status:transactionNumber:referenceNumber:merchantName:merchantCity:amount:totalAmount:discountAmount:merchantId:transactionId:)",
+            "printedName": "init(transactionAt:status:transactionNumber:referenceNumber:merchantName:merchantCity:amount:totalAmount:discountAmount:merchantId:transactionId:action:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -7166,13 +7283,28 @@
                 ],
                 "hasDefaultArg": true,
                 "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Constructor",
-            "usr": "c:@M@AstraPayQrisSdk@objc(cs)QrisTransactionHistorySummary(im)initWithTransactionAt:status:transactionNumber:referenceNumber:merchantName:merchantCity:amount:totalAmount:discountAmount:merchantId:transactionId:",
-            "mangledName": "$s15AstraPayQrisSdk0C25TransactionHistorySummaryC13transactionAt6status0H6Number09referenceK012merchantName0M4City6amount11totalAmount08discountR00M2Id0hT0ACSSSg_A10Otcfc",
+            "usr": "c:@M@AstraPayQrisSdk@objc(cs)QrisTransactionHistorySummary(im)initWithTransactionAt:status:transactionNumber:referenceNumber:merchantName:merchantCity:amount:totalAmount:discountAmount:merchantId:transactionId:action:",
+            "mangledName": "$s15AstraPayQrisSdk0C25TransactionHistorySummaryC13transactionAt6status0H6Number09referenceK012merchantName0M4City6amount11totalAmount08discountR00M2Id0hT06actionACSSSg_A11Ptcfc",
             "moduleName": "AstraPayQrisSdk",
-            "objc_name": "initWithTransactionAt:status:transactionNumber:referenceNumber:merchantName:merchantCity:amount:totalAmount:discountAmount:merchantId:transactionId:",
+            "objc_name": "initWithTransactionAt:status:transactionNumber:referenceNumber:merchantName:merchantCity:amount:totalAmount:discountAmount:merchantId:transactionId:action:",
             "declAttributes": [
               "AccessControl",
               "ObjC"
@@ -36604,14 +36736,14 @@
     {
       "filePath": "\/Users\/indocyber\/Documents\/Aprila\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/TransactionDetail\/QrisTransactiondetailVc.swift",
       "kind": "StringLiteral",
-      "offset": 845,
+      "offset": 900,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/indocyber\/Documents\/Aprila\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/TransactionDetail\/QrisTransactiondetailVc.swift",
       "kind": "IntegerLiteral",
-      "offset": 876,
+      "offset": 931,
       "length": 1,
       "value": "0"
     },
@@ -38508,49 +38640,49 @@
     {
       "filePath": "\/Users\/indocyber\/Documents\/Aprila\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/TransactionDetail\/Component\/ApPaymentProofCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 491,
+      "offset": 369,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/indocyber\/Documents\/Aprila\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/TransactionDetail\/Component\/ApPaymentProofCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 531,
+      "offset": 409,
       "length": 2,
       "value": "24"
     },
     {
       "filePath": "\/Users\/indocyber\/Documents\/Aprila\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/TransactionDetail\/Component\/ApPaymentProofCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 573,
+      "offset": 451,
       "length": 2,
       "value": "24"
     },
     {
       "filePath": "\/Users\/indocyber\/Documents\/Aprila\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/TransactionDetail\/Component\/ApPaymentProofCell.swift",
       "kind": "StringLiteral",
-      "offset": 614,
+      "offset": 492,
       "length": 12,
       "value": "\"Ambil Foto\""
     },
     {
       "filePath": "\/Users\/indocyber\/Documents\/Aprila\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/TransactionDetail\/Component\/ApPaymentProofCell.swift",
       "kind": "StringLiteral",
-      "offset": 1017,
-      "length": 18,
-      "value": "\"ap_sdk_ic_camera\""
+      "offset": 839,
+      "length": 11,
+      "value": "\"ic_camera\""
     },
     {
       "filePath": "\/Users\/indocyber\/Documents\/Aprila\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/TransactionDetail\/Component\/ApPaymentProofCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 1270,
-      "length": 5,
-      "value": "false"
+      "offset": 1085,
+      "length": 4,
+      "value": "true"
     },
     {
       "filePath": "\/Users\/indocyber\/Documents\/Aprila\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/TransactionDetail\/Component\/ApPaymentProofCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 1440,
+      "offset": 1254,
       "length": 2,
       "value": "24"
     },
@@ -40020,98 +40152,105 @@
     {
       "filePath": "\/Users\/indocyber\/Documents\/Aprila\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/TransactionResult\/QrisTransactionResultView.swift",
       "kind": "StringLiteral",
-      "offset": 1129,
+      "offset": 886,
+      "length": 57,
+      "value": "\"Tambahkan bukti bayar berupa struk, nota, atau invoice.\""
+    },
+    {
+      "filePath": "\/Users\/indocyber\/Documents\/Aprila\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/TransactionResult\/QrisTransactionResultView.swift",
+      "kind": "StringLiteral",
+      "offset": 1351,
       "length": 20,
       "value": "\"Transaksi Berhasil\""
     },
     {
       "filePath": "\/Users\/indocyber\/Documents\/Aprila\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/TransactionResult\/QrisTransactionResultView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1180,
+      "offset": 1402,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/indocyber\/Documents\/Aprila\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/TransactionResult\/QrisTransactionResultView.swift",
       "kind": "StringLiteral",
-      "offset": 1380,
+      "offset": 1602,
       "length": 11,
       "value": "\"Rp569.000\""
     },
     {
       "filePath": "\/Users\/indocyber\/Documents\/Aprila\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/TransactionResult\/QrisTransactionResultView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1422,
+      "offset": 1644,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/indocyber\/Documents\/Aprila\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/TransactionResult\/QrisTransactionResultView.swift",
       "kind": "StringLiteral",
-      "offset": 1726,
+      "offset": 1948,
       "length": 20,
       "value": "\"Transaksi sebesar \""
     },
     {
       "filePath": "\/Users\/indocyber\/Documents\/Aprila\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/TransactionResult\/QrisTransactionResultView.swift",
       "kind": "StringLiteral",
-      "offset": 1766,
+      "offset": 1988,
       "length": 12,
       "value": "\"Rp569.000 \""
     },
     {
       "filePath": "\/Users\/indocyber\/Documents\/Aprila\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/TransactionResult\/QrisTransactionResultView.swift",
       "kind": "StringLiteral",
-      "offset": 1800,
+      "offset": 2022,
       "length": 43,
       "value": "\"menggunakan saldo AstraPay telah berhasil\""
     },
     {
       "filePath": "\/Users\/indocyber\/Documents\/Aprila\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/TransactionResult\/QrisTransactionResultView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1875,
+      "offset": 2097,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/indocyber\/Documents\/Aprila\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/TransactionResult\/QrisTransactionResultView.swift",
       "kind": "StringLiteral",
-      "offset": 2123,
+      "offset": 2345,
       "length": 20,
       "value": "\"Kembali ke Beranda\""
     },
     {
       "filePath": "\/Users\/indocyber\/Documents\/Aprila\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/TransactionResult\/QrisTransactionResultView.swift",
       "kind": "StringLiteral",
-      "offset": 2157,
+      "offset": 2379,
       "length": 22,
       "value": "\"Cek Detail Transaksi\""
     },
     {
       "filePath": "\/Users\/indocyber\/Documents\/Aprila\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/TransactionResult\/QrisTransactionResultView.swift",
       "kind": "StringLiteral",
-      "offset": 2543,
+      "offset": 2765,
       "length": 24,
       "value": "\"Bantuan dan Pertanyaan\""
     },
     {
       "filePath": "\/Users\/indocyber\/Documents\/Aprila\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/TransactionResult\/QrisTransactionResultView.swift",
       "kind": "StringLiteral",
-      "offset": 2777,
+      "offset": 2999,
       "length": 36,
       "value": "\"support@kredivo.com\n0804-1-573348\""
     },
     {
       "filePath": "\/Users\/indocyber\/Documents\/Aprila\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/TransactionResult\/QrisTransactionResultView.swift",
       "kind": "IntegerLiteral",
-      "offset": 2844,
+      "offset": 3066,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/indocyber\/Documents\/Aprila\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/TransactionResult\/QrisTransactionResultView.swift",
       "kind": "StringLiteral",
-      "offset": 8654,
+      "offset": 9299,
       "length": 5,
       "value": "\"MPM\""
     },
@@ -41147,301 +41286,294 @@
     {
       "filePath": "\/Users\/indocyber\/Documents\/Aprila\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/TransactionDetail\/QrisTransactiondetailView.swift",
       "kind": "StringLiteral",
-      "offset": 525,
+      "offset": 561,
       "length": 10,
       "value": "\"ic_share\""
     },
     {
       "filePath": "\/Users\/indocyber\/Documents\/Aprila\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/TransactionDetail\/QrisTransactiondetailView.swift",
       "kind": "StringLiteral",
-      "offset": 569,
+      "offset": 605,
       "length": 18,
       "value": "\"Detail Transaksi\""
     },
     {
       "filePath": "\/Users\/indocyber\/Documents\/Aprila\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/TransactionDetail\/QrisTransactiondetailView.swift",
       "kind": "StringLiteral",
-      "offset": 619,
+      "offset": 655,
       "length": 18,
       "value": "\"icon_pay_scan_qr\""
     },
     {
       "filePath": "\/Users\/indocyber\/Documents\/Aprila\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/TransactionDetail\/QrisTransactiondetailView.swift",
       "kind": "StringLiteral",
-      "offset": 669,
+      "offset": 705,
       "length": 13,
       "value": "\"ic_copy_det\""
     },
     {
       "filePath": "\/Users\/indocyber\/Documents\/Aprila\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/TransactionDetail\/QrisTransactiondetailView.swift",
       "kind": "StringLiteral",
-      "offset": 719,
+      "offset": 755,
       "length": 10,
       "value": "\"Berhasil\""
     },
     {
       "filePath": "\/Users\/indocyber\/Documents\/Aprila\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/TransactionDetail\/QrisTransactiondetailView.swift",
       "kind": "StringLiteral",
-      "offset": 765,
+      "offset": 801,
       "length": 14,
       "value": "\"Dikembalikan\""
     },
     {
       "filePath": "\/Users\/indocyber\/Documents\/Aprila\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/TransactionDetail\/QrisTransactiondetailView.swift",
       "kind": "StringLiteral",
-      "offset": 815,
+      "offset": 851,
       "length": 7,
       "value": "\"Gagal\""
     },
     {
       "filePath": "\/Users\/indocyber\/Documents\/Aprila\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/TransactionDetail\/QrisTransactiondetailView.swift",
       "kind": "StringLiteral",
-      "offset": 859,
+      "offset": 895,
       "length": 14,
       "value": "\"Dalam Proses\""
     },
     {
       "filePath": "\/Users\/indocyber\/Documents\/Aprila\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/TransactionDetail\/QrisTransactiondetailView.swift",
       "kind": "StringLiteral",
-      "offset": 923,
-      "length": 44,
-      "value": "\"Bukti bayar sudah ditambahkan. Lihat Bukti\""
-    },
-    {
-      "filePath": "\/Users\/indocyber\/Documents\/Aprila\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/TransactionDetail\/QrisTransactiondetailView.swift",
-      "kind": "StringLiteral",
-      "offset": 1020,
+      "offset": 962,
       "length": 57,
       "value": "\"Tambahkan bukti bayar berupa struk, nota, atau invoice.\""
     },
     {
       "filePath": "\/Users\/indocyber\/Documents\/Aprila\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/TransactionDetail\/QrisTransactiondetailView.swift",
       "kind": "BooleanLiteral",
-      "offset": 1176,
+      "offset": 1118,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/indocyber\/Documents\/Aprila\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/TransactionDetail\/QrisTransactiondetailView.swift",
       "kind": "BooleanLiteral",
-      "offset": 1713,
+      "offset": 1655,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/indocyber\/Documents\/Aprila\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/TransactionDetail\/QrisTransactiondetailView.swift",
       "kind": "StringLiteral",
-      "offset": 2295,
+      "offset": 2237,
       "length": 3,
       "value": "\"-\""
     },
     {
       "filePath": "\/Users\/indocyber\/Documents\/Aprila\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/TransactionDetail\/QrisTransactiondetailView.swift",
       "kind": "StringLiteral",
-      "offset": 2646,
+      "offset": 2588,
       "length": 3,
       "value": "\"-\""
     },
     {
       "filePath": "\/Users\/indocyber\/Documents\/Aprila\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/TransactionDetail\/QrisTransactiondetailView.swift",
       "kind": "IntegerLiteral",
-      "offset": 2882,
+      "offset": 2824,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/indocyber\/Documents\/Aprila\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/TransactionDetail\/QrisTransactiondetailView.swift",
       "kind": "StringLiteral",
-      "offset": 3075,
+      "offset": 3017,
       "length": 3,
       "value": "\"-\""
     },
     {
       "filePath": "\/Users\/indocyber\/Documents\/Aprila\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/TransactionDetail\/QrisTransactiondetailView.swift",
       "kind": "StringLiteral",
-      "offset": 3562,
+      "offset": 3504,
       "length": 29,
       "value": "\"Cek Cara Tukar Kode Voucher\""
     },
     {
       "filePath": "\/Users\/indocyber\/Documents\/Aprila\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/TransactionDetail\/QrisTransactiondetailView.swift",
       "kind": "BooleanLiteral",
-      "offset": 3749,
+      "offset": 3691,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/indocyber\/Documents\/Aprila\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/TransactionDetail\/QrisTransactiondetailView.swift",
       "kind": "StringLiteral",
-      "offset": 4056,
+      "offset": 3998,
       "length": 8,
       "value": "\"Status\""
     },
     {
       "filePath": "\/Users\/indocyber\/Documents\/Aprila\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/TransactionDetail\/QrisTransactiondetailView.swift",
       "kind": "StringLiteral",
-      "offset": 4239,
+      "offset": 4181,
       "length": 10,
       "value": "\"Berhasil\""
     },
     {
       "filePath": "\/Users\/indocyber\/Documents\/Aprila\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/TransactionDetail\/QrisTransactiondetailView.swift",
       "kind": "StringLiteral",
-      "offset": 4446,
+      "offset": 4388,
       "length": 19,
       "value": "\"Metode Pembayaran\""
     },
     {
       "filePath": "\/Users\/indocyber\/Documents\/Aprila\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/TransactionDetail\/QrisTransactiondetailView.swift",
       "kind": "IntegerLiteral",
-      "offset": 4705,
+      "offset": 4647,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/indocyber\/Documents\/Aprila\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/TransactionDetail\/QrisTransactiondetailView.swift",
       "kind": "FloatLiteral",
-      "offset": 4863,
+      "offset": 4805,
       "length": 3,
       "value": "0.2"
     },
     {
       "filePath": "\/Users\/indocyber\/Documents\/Aprila\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/TransactionDetail\/QrisTransactiondetailView.swift",
       "kind": "IntegerLiteral",
-      "offset": 5359,
+      "offset": 5301,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/indocyber\/Documents\/Aprila\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/TransactionDetail\/QrisTransactiondetailView.swift",
       "kind": "StringLiteral",
-      "offset": 5636,
+      "offset": 5578,
       "length": 7,
       "value": "\"Total\""
     },
     {
       "filePath": "\/Users\/indocyber\/Documents\/Aprila\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/TransactionDetail\/QrisTransactiondetailView.swift",
       "kind": "StringLiteral",
-      "offset": 5796,
+      "offset": 5738,
       "length": 3,
       "value": "\"-\""
     },
     {
       "filePath": "\/Users\/indocyber\/Documents\/Aprila\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/TransactionDetail\/QrisTransactiondetailView.swift",
       "kind": "BooleanLiteral",
-      "offset": 6027,
+      "offset": 5969,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/indocyber\/Documents\/Aprila\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/TransactionDetail\/QrisTransactiondetailView.swift",
       "kind": "StringLiteral",
-      "offset": 6169,
+      "offset": 6111,
       "length": 23,
       "value": "\"PT Astra Digital Arta\""
     },
     {
       "filePath": "\/Users\/indocyber\/Documents\/Aprila\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/TransactionDetail\/QrisTransactiondetailView.swift",
       "kind": "StringLiteral",
-      "offset": 6203,
+      "offset": 6145,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/indocyber\/Documents\/Aprila\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/TransactionDetail\/QrisTransactiondetailView.swift",
       "kind": "StringLiteral",
-      "offset": 6395,
+      "offset": 6337,
       "length": 28,
       "value": "\"NPWP: 85.080.953.4-016.000\""
     },
     {
       "filePath": "\/Users\/indocyber\/Documents\/Aprila\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/TransactionDetail\/QrisTransactiondetailView.swift",
       "kind": "StringLiteral",
-      "offset": 6434,
+      "offset": 6376,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/indocyber\/Documents\/Aprila\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/TransactionDetail\/QrisTransactiondetailView.swift",
       "kind": "StringLiteral",
-      "offset": 6626,
+      "offset": 6568,
       "length": 68,
       "value": "\"Menara Astra Lt. 56 Jl. Jendral Sudirman Kav 5- 6, Karet Tengsin, \""
     },
     {
       "filePath": "\/Users\/indocyber\/Documents\/Aprila\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/TransactionDetail\/QrisTransactiondetailView.swift",
       "kind": "StringLiteral",
-      "offset": 6705,
+      "offset": 6647,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/indocyber\/Documents\/Aprila\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/TransactionDetail\/QrisTransactiondetailView.swift",
       "kind": "StringLiteral",
-      "offset": 6897,
+      "offset": 6839,
       "length": 58,
       "value": "\"Tanah Abang, Kota Adm. Jakarta Pusat, DKI Jakarta, 10220\""
     },
     {
       "filePath": "\/Users\/indocyber\/Documents\/Aprila\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/TransactionDetail\/QrisTransactiondetailView.swift",
       "kind": "StringLiteral",
-      "offset": 6966,
+      "offset": 6908,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/indocyber\/Documents\/Aprila\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/TransactionDetail\/QrisTransactiondetailView.swift",
       "kind": "IntegerLiteral",
-      "offset": 7051,
+      "offset": 6993,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/indocyber\/Documents\/Aprila\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/TransactionDetail\/QrisTransactiondetailView.swift",
       "kind": "StringLiteral",
-      "offset": 7262,
+      "offset": 7204,
       "length": 9,
       "value": "\"Refresh\""
     },
     {
       "filePath": "\/Users\/indocyber\/Documents\/Aprila\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/TransactionDetail\/QrisTransactiondetailView.swift",
       "kind": "BooleanLiteral",
-      "offset": 7324,
+      "offset": 7266,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/indocyber\/Documents\/Aprila\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/TransactionDetail\/QrisTransactiondetailView.swift",
       "kind": "StringLiteral",
-      "offset": 7381,
+      "offset": 7323,
       "length": 7,
       "value": "\"Tutup\""
     },
     {
       "filePath": "\/Users\/indocyber\/Documents\/Aprila\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/TransactionDetail\/QrisTransactiondetailView.swift",
       "kind": "BooleanLiteral",
-      "offset": 7443,
+      "offset": 7385,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/indocyber\/Documents\/Aprila\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/TransactionDetail\/QrisTransactiondetailView.swift",
       "kind": "BooleanLiteral",
-      "offset": 7478,
+      "offset": 7420,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/indocyber\/Documents\/Aprila\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/TransactionDetail\/QrisTransactiondetailView.swift",
       "kind": "Array",
-      "offset": 7580,
+      "offset": 7522,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/indocyber\/Documents\/Aprila\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/TransactionDetail\/QrisTransactiondetailView.swift",
       "kind": "Array",
-      "offset": 7638,
+      "offset": 7580,
       "length": 2,
       "value": "[]"
     },
