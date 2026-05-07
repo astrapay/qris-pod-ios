@@ -86,7 +86,7 @@
 		</data>
 		<key>Modules/AstraPayQrisSdk.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		sd45Idfag98S1pmDukQY6STJPiE=
+		GfDSSz0oYMlVz+2ZkVSgBbkrIZc=
 		</data>
 		<key>Modules/AstraPayQrisSdk.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -106,7 +106,7 @@
 		</data>
 		<key>Modules/AstraPayQrisSdk.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		VxwD36+OmhDcHHNley8U59UHWvM=
+		/Ru37F0JIBrYF5LLTc0i5y2tPKo=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -292,7 +292,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			NeOkup++MwcUixv5tlKP47GskUL1VvHjK35fqNeAVwc=
+			WO/ID2yhsclQPMqerHPGZNBhyu5FSrCvQKYVGYgb9X0=
 			</data>
 		</dict>
 		<key>Modules/AstraPayQrisSdk.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
@@ -327,7 +327,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			uuSDB8Or0Tfk9T/wVkGvR9exLFttcC5tDWWlr0uzXMM=
+			2GIthGAe9T2YHwKxA/f6iKLIwzpIPNymrB7us56NpbM=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
