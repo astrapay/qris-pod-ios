@@ -39356,104 +39356,104 @@
       "filePath": "\/Users\/indocyber\/Documents\/Aprila\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/Confirmation\/ConfirmationVc.swift",
       "kind": "StringLiteral",
       "offset": 2267,
-      "length": 26,
-      "value": "\"Hubungi Customer Service\""
+      "length": 23,
+      "value": "\"Hubungi Customer Care\""
     },
     {
       "filePath": "\/Users\/indocyber\/Documents\/Aprila\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/Confirmation\/ConfirmationVc.swift",
       "kind": "StringLiteral",
-      "offset": 2334,
+      "offset": 2331,
       "length": 17,
       "value": "\"Upgrade Account\""
     },
     {
       "filePath": "\/Users\/indocyber\/Documents\/Aprila\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/Confirmation\/ConfirmationVc.swift",
       "kind": "StringLiteral",
-      "offset": 2401,
+      "offset": 2398,
       "length": 5,
       "value": "\"Oke\""
     },
     {
       "filePath": "\/Users\/indocyber\/Documents\/Aprila\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/Confirmation\/ConfirmationVc.swift",
       "kind": "StringLiteral",
-      "offset": 2444,
+      "offset": 2441,
       "length": 24,
       "value": "\"astrapay:\/\/kyc\/UPGRADE\""
     },
     {
       "filePath": "\/Users\/indocyber\/Documents\/Aprila\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/Confirmation\/ConfirmationVc.swift",
       "kind": "StringLiteral",
-      "offset": 2508,
+      "offset": 2505,
       "length": 25,
       "value": "\"QrisScannerVcIdentifier\""
     },
     {
       "filePath": "\/Users\/indocyber\/Documents\/Aprila\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/Confirmation\/ConfirmationVc.swift",
       "kind": "StringLiteral",
-      "offset": 2585,
+      "offset": 2582,
       "length": 31,
       "value": "\"loproApplyVoucherSuccessToast\""
     },
     {
       "filePath": "\/Users\/indocyber\/Documents\/Aprila\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/Confirmation\/ConfirmationVc.swift",
       "kind": "StringLiteral",
-      "offset": 2664,
+      "offset": 2661,
       "length": 29,
       "value": "\"astrapay:\/\/paylater\/KREDIVO\""
     },
     {
       "filePath": "\/Users\/indocyber\/Documents\/Aprila\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/Confirmation\/ConfirmationVc.swift",
       "kind": "StringLiteral",
-      "offset": 2753,
+      "offset": 2750,
       "length": 45,
       "value": "\"Saldo AstraPay Tidak Cukup untuk\nBayar Tip\""
     },
     {
       "filePath": "\/Users\/indocyber\/Documents\/Aprila\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/Confirmation\/ConfirmationVc.swift",
       "kind": "StringLiteral",
-      "offset": 2851,
+      "offset": 2848,
       "length": 100,
       "value": "\"Tip hanya bisa dibayar dengan saldo AstraPay. Silakan ubah nominal tip sesuai saldo yang tersedia.\""
     },
     {
       "filePath": "\/Users\/indocyber\/Documents\/Aprila\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/Confirmation\/ConfirmationVc.swift",
       "kind": "StringLiteral",
-      "offset": 3008,
+      "offset": 3005,
       "length": 18,
       "value": "\"Ubah Nominal Tip\""
     },
     {
       "filePath": "\/Users\/indocyber\/Documents\/Aprila\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/Confirmation\/ConfirmationVc.swift",
       "kind": "StringLiteral",
-      "offset": 3080,
+      "offset": 3077,
       "length": 33,
       "value": "\"instantTopupConfirmationSuccess\""
     },
     {
       "filePath": "\/Users\/indocyber\/Documents\/Aprila\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/Confirmation\/ConfirmationVc.swift",
       "kind": "StringLiteral",
-      "offset": 3149,
+      "offset": 3146,
       "length": 30,
       "value": "\"https:\/\/www.astrapay.com\/faq\""
     },
     {
       "filePath": "\/Users\/indocyber\/Documents\/Aprila\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/Confirmation\/ConfirmationVc.swift",
       "kind": "IntegerLiteral",
-      "offset": 4503,
+      "offset": 4500,
       "length": 5,
       "value": "10000"
     },
     {
       "filePath": "\/Users\/indocyber\/Documents\/Aprila\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/Confirmation\/ConfirmationVc.swift",
       "kind": "BooleanLiteral",
-      "offset": 4582,
+      "offset": 4579,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/indocyber\/Documents\/Aprila\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/Confirmation\/ConfirmationVc.swift",
       "kind": "BooleanLiteral",
-      "offset": 4624,
+      "offset": 4621,
       "length": 5,
       "value": "false"
     },
@@ -46272,27 +46272,27 @@
       "filePath": "\/Users\/indocyber\/Documents\/Aprila\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/InstantTopUp\/InstantTopUpVc.swift",
       "kind": "StringLiteral",
       "offset": 771,
-      "length": 26,
-      "value": "\"Hubungi Customer Service\""
+      "length": 23,
+      "value": "\"Hubungi Customer Care\""
     },
     {
       "filePath": "\/Users\/indocyber\/Documents\/Aprila\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/InstantTopUp\/InstantTopUpVc.swift",
       "kind": "StringLiteral",
-      "offset": 838,
+      "offset": 835,
       "length": 17,
       "value": "\"Upgrade Account\""
     },
     {
       "filePath": "\/Users\/indocyber\/Documents\/Aprila\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/InstantTopUp\/InstantTopUpVc.swift",
       "kind": "StringLiteral",
-      "offset": 905,
+      "offset": 902,
       "length": 5,
       "value": "\"Oke\""
     },
     {
       "filePath": "\/Users\/indocyber\/Documents\/Aprila\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/InstantTopUp\/InstantTopUpVc.swift",
       "kind": "StringLiteral",
-      "offset": 948,
+      "offset": 945,
       "length": 24,
       "value": "\"astrapay:\/\/kyc\/UPGRADE\""
     },
@@ -46923,69 +46923,69 @@
       "filePath": "\/Users\/indocyber\/Documents\/Aprila\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/InstantTopUp\/InstantTopUpVm.swift",
       "kind": "StringLiteral",
       "offset": 741,
-      "length": 52,
-      "value": "\"Saldo Bank Saqu kamu tidak mencukupi untuk top up.\""
+      "length": 73,
+      "value": "\"Silakan tambah dana Bank Saqu kamu atau top up menggunakan metode lain.\""
     },
     {
       "filePath": "\/Users\/indocyber\/Documents\/Aprila\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/InstantTopUp\/InstantTopUpVm.swift",
       "kind": "StringLiteral",
-      "offset": 854,
+      "offset": 875,
       "length": 29,
       "value": "\"Top Up dari Bank Saqu Gagal\""
     },
     {
       "filePath": "\/Users\/indocyber\/Documents\/Aprila\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/InstantTopUp\/InstantTopUpVm.swift",
       "kind": "StringLiteral",
-      "offset": 946,
-      "length": 128,
-      "value": "\"Ada kendala saat menarik dana dari Bank Saqu. Jika saldo Bank kamu terpotong, hubungi Customer Service AstraPay untuk bantuan.\""
+      "offset": 967,
+      "length": 125,
+      "value": "\"Ada kendala saat menarik dana dari Bank Saqu. Jika saldo Bank kamu terpotong, hubungi Customer Care AstraPay untuk bantuan.\""
     },
     {
       "filePath": "\/Users\/indocyber\/Documents\/Aprila\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/InstantTopUp\/InstantTopUpVm.swift",
       "kind": "StringLiteral",
-      "offset": 1140,
+      "offset": 1158,
       "length": 22,
       "value": "\"Saldo Melebihi Batas\""
     },
     {
       "filePath": "\/Users\/indocyber\/Documents\/Aprila\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/InstantTopUp\/InstantTopUpVm.swift",
       "kind": "StringLiteral",
-      "offset": 1230,
-      "length": 109,
-      "value": "\"Saldo akun kamu sudah mencapai batas maksimum. Gunakan saldo terlebih dahulu untuk bisa menerima dana lagi.\""
+      "offset": 1248,
+      "length": 52,
+      "value": "\"Saldo akun kamu sudah mencapai batas maksimum 20jt\""
     },
     {
       "filePath": "\/Users\/indocyber\/Documents\/Aprila\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/InstantTopUp\/InstantTopUpVm.swift",
       "kind": "StringLiteral",
-      "offset": 1414,
-      "length": 101,
-      "value": "\"Saldo akun kamu sudah mencapai batas maksimum. Upgrade akunmu ke Preferred atau gunakan saldo dulu.\""
+      "offset": 1375,
+      "length": 111,
+      "value": "\"Saldo akun kamu sudah mencapai batas maksimum 2jt. Upgrade akunmu ke Preferred untuk bisa menerima dana lagi.\""
     },
     {
       "filePath": "\/Users\/indocyber\/Documents\/Aprila\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/InstantTopUp\/InstantTopUpVm.swift",
       "kind": "StringLiteral",
-      "offset": 1581,
+      "offset": 1552,
       "length": 26,
       "value": "\"illustration_limitAmount\""
     },
     {
       "filePath": "\/Users\/indocyber\/Documents\/Aprila\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/InstantTopUp\/InstantTopUpVm.swift",
       "kind": "StringLiteral",
-      "offset": 1668,
+      "offset": 1639,
       "length": 24,
       "value": "\"Limit Bulanan Tercapai\""
     },
     {
       "filePath": "\/Users\/indocyber\/Documents\/Aprila\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/InstantTopUp\/InstantTopUpVm.swift",
       "kind": "StringLiteral",
-      "offset": 1755,
+      "offset": 1726,
       "length": 79,
       "value": "\"Kamu sudah mencapai limit transaksi bulanan. Coba lagi pada bulan berikutnya.\""
     },
     {
       "filePath": "\/Users\/indocyber\/Documents\/Aprila\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/InstantTopUp\/InstantTopUpVm.swift",
       "kind": "StringLiteral",
-      "offset": 1904,
+      "offset": 1875,
       "length": 128,
       "value": "\"Kamu sudah mencapai limit transaksi bulanan. Untuk melanjutkan, upgrade akunmu ke Preferred atau tunggu pada bulan berikutnya.\""
     },
@@ -47168,13 +47168,13 @@
       "filePath": "\/Users\/indocyber\/Documents\/Aprila\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/InstantTopUp\/component\/cscontact\/CsContactDlgSheetView.swift",
       "kind": "StringLiteral",
       "offset": 894,
-      "length": 18,
-      "value": "\"Customer Service\""
+      "length": 15,
+      "value": "\"Customer Care\""
     },
     {
       "filePath": "\/Users\/indocyber\/Documents\/Aprila\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/InstantTopUp\/component\/cscontact\/CsContactDlgSheetView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1468,
+      "offset": 1465,
       "length": 2,
       "value": "16"
     },
