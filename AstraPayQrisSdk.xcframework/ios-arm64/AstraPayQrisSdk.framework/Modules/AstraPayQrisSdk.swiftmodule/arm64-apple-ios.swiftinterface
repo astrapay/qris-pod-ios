@@ -49,6 +49,8 @@ import _SwiftConcurrencyShims
   @objc public static var linkingAccountName: Swift.String
   @objc public static var isInstantTopUpEnabled: Swift.Bool
   @objc public static var whatsappLink: Swift.String
+  @objc public static var tapButton: Swift.Bool
+  @objc public static var requestBalanceButton: Swift.Bool
   @objc public static func setPaylaterAvailability()
   @objc public static func isAppAstrapay(bundleIdentifier: Swift.String) -> Swift.Bool
   @objc override dynamic public init()

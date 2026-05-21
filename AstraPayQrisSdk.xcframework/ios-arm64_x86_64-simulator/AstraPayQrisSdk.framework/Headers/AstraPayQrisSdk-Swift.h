@@ -478,6 +478,12 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class) BOOL isInstantTopUpEnabled;)
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class, copy) NSString * _Nonnull whatsappLink;)
 + (NSString * _Nonnull)whatsappLink SWIFT_WARN_UNUSED_RESULT;
 + (void)setWhatsappLink:(NSString * _Nonnull)value;
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class) BOOL tapButton;)
++ (BOOL)tapButton SWIFT_WARN_UNUSED_RESULT;
++ (void)setTapButton:(BOOL)value;
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class) BOOL requestBalanceButton;)
++ (BOOL)requestBalanceButton SWIFT_WARN_UNUSED_RESULT;
++ (void)setRequestBalanceButton:(BOOL)value;
 + (void)setPaylaterAvailability;
 + (BOOL)isAppAstrapayWithBundleIdentifier:(NSString * _Nonnull)bundleIdentifier SWIFT_WARN_UNUSED_RESULT;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
