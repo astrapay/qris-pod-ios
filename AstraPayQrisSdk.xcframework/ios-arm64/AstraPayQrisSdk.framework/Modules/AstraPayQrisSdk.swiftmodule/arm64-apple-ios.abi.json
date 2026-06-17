@@ -47710,7 +47710,7 @@
       "kind": "StringLiteral",
       "offset": 221,
       "length": 16,
-      "value": "\"Minta Transfer\""
+      "value": "\"Transfer Saldo\""
     },
     {
       "filePath": "\/Users\/asep\/JOBS\/ASTRAPAY\/qris-sdk-ios\/AstraPayQrisSdk\/Sources\/UI\/QrisTransferGenerator\/QrisTransferGeneratorVc.swift",
