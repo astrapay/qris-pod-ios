@@ -1,7 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.0.3 effective-5.10 (swiftlang-6.0.3.1.10 clang-1600.0.30.1)
-// swift-module-flags: -target arm64-apple-ios11.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name AstraPayQrisSdk
-// swift-module-flags-ignorable: -no-verify-emitted-module-interface
+// swift-compiler-version: Apple Swift version 6.3.1 effective-5.10 (swiftlang-6.3.1.1.2 clang-2100.0.123.102)
+// swift-module-flags: -target arm64-apple-ios11.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name AstraPayQrisSdk
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.3.1
 import AVFoundation
 import AVKit
 @_exported import AstraPayQrisSdk
@@ -41,11 +41,15 @@ import _SwiftConcurrencyShims
   @objc public static var isSnap: Swift.Bool
   @objc public static var qrisCpm: Swift.Bool
   @objc public static var isUserEligibleQrisCpm: Swift.Bool
+  @objc public static var isUserEligibleMpmTransfer: Swift.Bool
   @objc public static var REFRESH_TOKEN: Swift.String
   @objc public static var multiSourceOfFunds: Swift.Bool
   @objc public static var isUserLinking: Swift.Bool
   @objc public static var linkingAccountName: Swift.String
   @objc public static var isInstantTopUpEnabled: Swift.Bool
+  @objc public static var whatsappLink: Swift.String
+  @objc public static var tapButton: Swift.Bool
+  @objc public static var requestBalanceButton: Swift.Bool
   @objc public static func setPaylaterAvailability()
   @objc public static func isAppAstrapay(bundleIdentifier: Swift.String) -> Swift.Bool
   @objc override dynamic public init()
@@ -150,7 +154,8 @@ public protocol ApOtpDatasource {
   @objc public var discountAmount: Swift.String?
   @objc public var merchantId: Swift.String?
   @objc public var transactionId: Swift.String?
-  @objc public init(transactionAt: Swift.String? = nil, status: Swift.String? = nil, transactionNumber: Swift.String? = nil, referenceNumber: Swift.String? = nil, merchantName: Swift.String? = nil, merchantCity: Swift.String? = nil, amount: Swift.String? = nil, totalAmount: Swift.String? = nil, discountAmount: Swift.String? = nil, merchantId: Swift.String? = nil, transactionId: Swift.String? = nil)
+  @objc public var action: Swift.String?
+  @objc public init(transactionAt: Swift.String? = nil, status: Swift.String? = nil, transactionNumber: Swift.String? = nil, referenceNumber: Swift.String? = nil, merchantName: Swift.String? = nil, merchantCity: Swift.String? = nil, amount: Swift.String? = nil, totalAmount: Swift.String? = nil, discountAmount: Swift.String? = nil, merchantId: Swift.String? = nil, transactionId: Swift.String? = nil, action: Swift.String? = nil)
   @objc deinit
 }
 @objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @_Concurrency.MainActor @preconcurrency public class ApDivider : UIKit.UIView {

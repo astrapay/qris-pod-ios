@@ -7,5 +7,4 @@ framework module AstraPayQrisSdk {
 
 module AstraPayQrisSdk.Swift {
   header "AstraPayQrisSdk-Swift.h"
-  requires objc
 }
