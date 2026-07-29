@@ -460,6 +460,9 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class) BOOL qrisCpm;)
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class) BOOL isUserEligibleQrisCpm;)
 + (BOOL)isUserEligibleQrisCpm SWIFT_WARN_UNUSED_RESULT;
 + (void)setIsUserEligibleQrisCpm:(BOOL)value;
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class) BOOL isUserEligibleMpmTransfer;)
++ (BOOL)isUserEligibleMpmTransfer SWIFT_WARN_UNUSED_RESULT;
++ (void)setIsUserEligibleMpmTransfer:(BOOL)value;
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class, copy) NSString * _Nonnull REFRESH_TOKEN;)
 + (NSString * _Nonnull)REFRESH_TOKEN SWIFT_WARN_UNUSED_RESULT;
 + (void)setREFRESH_TOKEN:(NSString * _Nonnull)value;
